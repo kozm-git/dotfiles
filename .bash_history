@@ -1,4 +1,3 @@
-bashrc
 bash
 cd Scripts
 ls
@@ -998,3 +997,4 @@ ls
 bash
 cd /usr/local/bin
 ls
+systemctl poweroff
