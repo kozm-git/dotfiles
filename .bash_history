@@ -1,27 +1,5 @@
 ls
 vim gitbare
-clear
-./gitbare
-vim ./gitbare
-cd ~/.ssh
-ls
-vim key
-vim key.pub
-vim known_hosts 
-vim key
-cd ~/Scripts
-ls
-./sshkey
-cd ~/.ssh
-ls
-cat id_rsa.pub
-cd .ssh
-ls
-cat id_rsa.pub
-cd ~Scripts
-cd ~/Scripts
-ls
-vim gitbare
 ./gitbare
 clear
 ./gitbare
@@ -998,3 +976,25 @@ clear
 i3config
 vim tryfile
 ls
+cd Scripts
+ls
+cl Downloads/
+cl git
+cl ..
+clear
+ls
+cl ..
+cl Programming
+ls
+cl clang
+cl java
+cl ..
+cl java
+cl python
+cd Scripts
+ls
+cd Programmning
+uname -a
+uname -r
+clear
+htop
