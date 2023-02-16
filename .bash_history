@@ -1,27 +1,3 @@
-cd dotfiles
-ls
-ls -a
-cl .config
-cl ..
-clear
-cd ..
-rm -rf dotfiles
-ls
-cd ..
-clear
-git log
-config log
-clear
-cd .ssh
-ls
-ssh-keygen -t rsa -b 2048 -C "mc@kennedyonipa@gmail.com"
-ls
-key
-vim key
-ls
-vim key.pub
-clear
-cd ..
 cd Scripts
 ls
 vim sshkey
@@ -997,4 +973,28 @@ ls
 cl
 rm .bashrc 
 cl
+clear
+cd Downloads
+ls
+cd iso-images/
+ls
+cl
+cl .. 
+cl zipped
+cd ~/Backups/dotfiles
+ls
+cl
+cd ..
+cd dotfiles
+ls
+ls -a
+cd ..
+cd Backups
+ls
+cd scripts
+ls
+vim dotfiles-backup.sh 
+clear
+cl
+./dotfiles-backup.sh 
 clear
