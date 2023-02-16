@@ -1,8 +1,3 @@
-ls
-vim gitbare
-./gitbare
-clear
-./gitbare
 clear
 bashrc
 ./gitbare
@@ -998,3 +993,8 @@ uname -a
 uname -r
 clear
 htop
+cd Backups/scripts/
+ls
+./startvnc.sh 
+systemctl suspend
+light70
