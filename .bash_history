@@ -1,38 +1,3 @@
-vim gitbare
-./gitbare
-clear
-./gitbare
-vim gitbare
-./gitbare
-clear
-history
-clear
-./gitbare
-clear
-vim gitbrae
-vim gitbare
-./gitbare
-vim gitbare
-./gitbare
-vim gitbare
-clear
-./gitbare
-clear
-./gitbare
-vim gitbare
-./gitbare
-clear
-cd Scripts
-ls
-./gitbare
-clear
-bashrc
-cd Scripts
-./gitbare
-clear
-cd dotfiles
-ls
-config pull --set-upstream git@github.com:kozm-git/dotfiles.git main
 bashrc
 bash
 cd Scripts
@@ -998,3 +963,38 @@ cd ..
 cl .avns
 cl Eternum-0.5-pc/
 ./Eternum.sh 
+cd /usr/local/bin
+ls
+$PATH
+ls
+cd /usr/local/bin
+ls
+cd /home/mc/Downloads/.avns/Eternum-0.5-pc/
+cp Eternum.sh /usr/local/bin/eternum
+cp -f Eternum.sh /usr/local/bin/eternum
+cp --help
+clear
+sudo cp Eternum.sh /usr/local/bin
+ls
+cd /usr/local/
+cd bin
+ls
+rm eternum 
+sudo rm eternum
+ls
+rm Eternum.sh 
+rm -rf Eternum.sh 
+sudo rm -rf Eternum.sh 
+cd ~/Downloads/.avns/Eternum-0.5-pc/
+ls
+ln -s Eternum.sh /usr/local/bin/eternum
+sudo ln -s Eternum.sh /usr/local/bin/eternum
+clear
+sudo ln -s Eternum.sh /usr/local/bin/eternum
+clear
+cl
+chmod +x Eternum.sh
+ls
+bash
+cd /usr/local/bin
+ls
