@@ -1,12 +1,3 @@
-cd Scripts
-ls
-vim sshkey
-ls
-chmod +x sshkey
-ls
-./sshhkey
-./sshkey
-cd Scripts
 ls
 vim gitbare
 clear
@@ -998,3 +989,12 @@ clear
 cl
 ./dotfiles-backup.sh 
 clear
+cd Backups/
+cd scripts/
+ls
+vim dotfiles-backup.sh 
+vim scripts-backup.sh 
+clear
+i3config
+vim tryfile
+ls
