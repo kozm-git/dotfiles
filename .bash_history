@@ -1,11 +1,3 @@
-clear
-bashrc
-./gitbare
-clear
-vim gitbare
-clear
-./gitbare
-vim gitbare 
 ./gitbare
 vim gitbare
 systemctl hibernate
@@ -998,3 +990,11 @@ ls
 ./startvnc.sh 
 systemctl suspend
 light70
+cd Scripts
+ls
+cd Backups/scripts
+ls
+vim dotfiles-backup.sh 
+cd ..
+cl dotfiles/
+clear
