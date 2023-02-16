@@ -68,7 +68,7 @@ exec_always --no-startup-id geary
 #exec --no-startup-id onlyoffice
 #exec --no-startup-id virtualbox
 exec_always --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute bash ~/Backups/scripts/scripts-backup.sh'
-#exec_always --no-startup-id gnome-terminal
+exec_always --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute bash ~/Backups/scripts/dotfiles-backup.sh'
  # to workspaces
 #exec --no-startup-id i3-msg 'workspace $ws8; layout splitv exec gnome-terminal --execute ytfzf -m; exec gnome-terminal --execute cava; workspace $ws1'
 #exec --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute htop glances; workspace $ws1'
