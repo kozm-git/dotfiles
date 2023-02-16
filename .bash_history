@@ -1,28 +1,3 @@
-./gitbare
-vim gitbare
-systemctl hibernate
-sr nomachine
-uname
-whoami
-cl Scripts
-it brave
-clear
-cd Scritps
-cd Scripts
-ls
-vim for
-vim gitbare 
-ls
-vim for
-chmod +x for
-./for
-vim for
-./for
-clear
-ls
-vim gitbare
-clear
-./gitbare
 vim gitbare
 ./gitbare
 clear
@@ -998,3 +973,28 @@ vim dotfiles-backup.sh
 cd ..
 cl dotfiles/
 clear
+alsa --help
+alsa
+alsamixer
+alsamixer --help
+alsamixer
+alsamixer --device=HDA NVidia
+alsamixer --device=HDANVidia
+alsamixer --card=1
+alsamixer --card=1 force-unload
+it alsa
+pulseaudio --help
+man pulseaudio 
+cd Backups/sc
+cd Backups/scripts/
+ls
+vim headphone-out.sh 
+pactl --help
+cd Downloads
+ls
+cd iso-images/
+ls
+cd ..
+cl .avns
+cl Eternum-0.5-pc/
+./Eternum.sh 
