@@ -1,18 +1,4 @@
 clear
-vim dotfiles 
-clear
-./dotfiles
-vim dotfiles
-./dotfiles
-clear
-cd /usr
-ls
-sr remote
-ssh
-systemctl status
-sudo ufw allow ssh
-sudo ufw status
-clear
 sudo systemctl status sshd
 sudo systemctl start sshd
 sudo systemctl status sshd
@@ -998,3 +984,17 @@ ls
 cl
 cd ~
 ls
+cp *.sh Backups/scripts
+cd Backups/scripts/
+ls
+rm *.sh
+ls
+cl
+clear
+cd ~
+vim scripts-backup.sh 
+i3config
+clear
+vim dotfiles-backup.sh 
+vim scripts-backup.sh 
+clear
