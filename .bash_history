@@ -1,21 +1,3 @@
-cd .config
-cd i3
-ls
-vim mint-config
-vim mint-config 
-clear
-cd ~/gitbare
-cd ~/dotfiles
-ls
-cd ~/Scripts
-ls
-mv gitbare dotfiles
-ls
-vim dotfiles
-clear
-./dotfiles
-vim dotfiles
-./dotfiles
 clear
 vim dotfiles 
 clear
@@ -998,3 +980,21 @@ ls
 vim ofpackit.sh 
 clear
 eopkg history
+cd Backups/scripts
+ls
+vim ofpackit
+vim ofpackit.sh
+clear
+vim dotfiles-backup.sh 
+vim scripts-backup.sh 
+clear
+sr thunderbird
+it thunderbird
+clear
+cd Backups/scripts
+ls
+mv *.sh ~
+ls
+cl
+cd ~
+ls
