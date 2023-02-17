@@ -1,9 +1,3 @@
-bash
-cd Scripts
-ls
-./gitbare
-vim gitbare
-clear
 ./gitbare
 vim gitbare
 ./gitbare
@@ -998,3 +992,9 @@ bash
 cd /usr/local/bin
 ls
 systemctl poweroff
+i3config
+clear
+cd .config/i3
+ls
+vim mint-config
+clear
