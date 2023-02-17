@@ -1,78 +1,3 @@
-clear
-ip a
-sudo systemctl status sshd
-ip a
-update
-up
-cd /usr/local/man
-cd /usr/local
-ls
-cd /usr/local/bin
-ls
-sr tightvncserver
-cd Downloads/installers
-ls
-cl vnc_unixsrc/
-cat README
-clear
-cl 
-./vncinstall
-./vncinstall /usr/local/bin /usr/local/man
-sudo ./vncinstall /usr/local/bin /usr/local/man
-vncserver
-ls
-cd /usr/local/bin
-ls
-cd ..
-ls
-vncserver
-sudo rm vncserver
-cd bin
-ls
-sudo rm vncserver 
-cd ~/Downloads/installers/vnc_unixsrc/
-ls
-./vncserver
-./vncserver.init
-./vncserver.init status
-./vncserver start
-cd Xvnc/
-ls
-cd ..
-cl
-clear
-cd ..
-cl 
-rm -rf vnc_unixsrc/
-ls
-ip a
-sudo ufw status 
-sudo ufw disable
-vnc passwd
-vnc
-vncpasswd
-clear
-vncpasswd --hel
-vncpasswd --help
-vncpasswd 
-cl
-cl .vnc
-vim passwd 
-clear
-cd ~/Scripts
-ls
-vim startvnc
-clear
-ls
-vim startvnc
-clear
-bashrc
-lightoff
-bash
-xrandr -q
-xrandr --output HDMI-0 --off
-xrandr --output HDMI-0 --auto
-bashrc
 bash
 ls
 cd Scripts
@@ -997,4 +922,79 @@ clear
 i3config
 clear
 cl
+clear
+cd /usr/local/bin
+ls
+rm eternum
+sudo rm eternum
+clear
+ls
+cl
+cd Downloads/apps
+ls
+cd ti
+cd trilium-linux-x64/
+ls
+sudo ln trilium /usr/local/bin
+cp trilium /usr/local/bin
+sudo cp trilium /usr/local/bin
+clear
+cd Downloads/apps
+ls
+cl trilium-linux-x64/
+cd /usr/local/bin
+ls
+cl
+trilium
+./trilium
+rm trilium 
+sudo rm trilium 
+clear
+cd ~/Downloads/aps
+cd ~/Downloads/appss
+cd ~/Downloads/apps
+clear
+ls
+cl trilium-linux-x64/
+sudo ln -s trilium /usr/local/bin/trilium
+clear
+cd /usr/local/bi
+cd /usr/local/bin
+ls
+mv trilium /usr/bin
+sudo mv trilium /usr/bin
+ln -help
+ln --h
+clear
+cd /usr/bin
+ls | grep trilium
+sudo rm trilium 
+clear
+systemctl hibernate
+sr joplin
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+vim rmfjoplin.sh
+cd .local
+ls
+cd hsare
+cd share/
+ls
+cd applications
+ls
+rm wiznote.desktop
+rm trilium-notes.desktop
+clear
+cd ~/.joplin/
+ls
+cd ..
+cl
+cd .config
+ls
+cd joplin-desktop/
+ls
+cd ~/.local
+cd ~/.local/share/applications
+ls
+rm brave-efmjfjelnicpmdcmfikempdhlmainjcb-Default.desktop 
+vim userapp-Firefox-5R1LY1.desktop 
 clear
