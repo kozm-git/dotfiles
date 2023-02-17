@@ -80,7 +80,7 @@ exec_always --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execu
 bindsym Mod4+Return exec --no-startup-id i3-sensible-terminal
 bindsym Mod4+Shift+Return exec --no-startup-id gnome-terminal --execute ranger
 bindsym Mod4+Shift+f exec --no-startup-id nemo
-bindsym Mod4+w exec --no-startup-id ~/Backups/scripts/qute.sh 
+bindsym Mod4+w exec --no-startup-id ~/qute.sh 
 bindsym Mod4+Shift+y exec --no-startup-id firefox --new-window https://www.youtube.com
 bindsym Mod4+y splitv; exec --no-startup-id gnome-terminal --execute cava; exec --no-startup-id gnome-terminal --execute ytfzf
 bindsym Mod4+c exec gcolor3
