@@ -1,50 +1,3 @@
-bash
-ls
-cd Scripts
-ls
-vim dotfiles
-clear
-vim dotfiles
-cl
-ls
-vim sshkey
-vim startvnc 
-htop
-cl Downloads
-cl dotfiles-backup
-clear
-cd ..
-cl
-rm -rf dotfiles-backup/
-ls
-cl zipped
-mv nomachine_8.3.1_1_x86_64.tar.gz /usr
-sudo mv nomachine_8.3.1_1_x86_64.tar.gz /usr
-clear
-cl
-cl /usr
-cl ..
-cl usr
-clear
-cl
-sudo tar zxvf nomachine_8.3.1_1_x86_64.tar.gz
-cl
-less README-NOMACHINE 
-sudo rm -rf NX README-NOMACHINE 
-ls
-mv nomachine_8.3.1_1_x86_64.tar.gz ~/Downloads/zipped
-sudo mv nomachine_8.3.1_1_x86_64.tar.gz ~/Downloads/zipped
-l
-ls
-cl ~/Downloads
-cl zipped
-mv nomachine_8.3.1_1_x86_64.tar.gz ~/Downloads/installers/
-cl ~/Downloads/installers/
-sudo tar zxvf nomachine_8.3.1_1_x86_64.tar.gz
-sudo NX_INSTALL_PREFIX=~/Downloads/apps   ~/Downloads/installers/NX/nxserver --install
-cl
-sudo rm -rf nomachine_8.3.1_1_x86_64.tar.gz README-NOMACHINE NX
-ls
 cl
 cl ..
 cl .avns
@@ -998,3 +951,50 @@ ls
 rm brave-efmjfjelnicpmdcmfikempdhlmainjcb-Default.desktop 
 vim userapp-Firefox-5R1LY1.desktop 
 clear
+cd Downloads/
+ls
+cd apps
+cd trilium-linux-x64/
+ls
+cl
+cd ~
+lks
+ls
+cl
+vim dotfiles-backup.sh 
+vim scripts-backup.sh 
+chmod +x rmfjoplin.sh 
+systemctl hibernate
+cd ~/.joplin/
+ls
+cd ~/.local
+ls
+cd share/applications
+ls
+vim appimagekit-joplin.desktop 
+cd .local
+ls
+cd bin
+ls
+cl ..
+cl libi
+cl lib
+cl ..
+cl share
+cl flatpak/
+cl repo
+cl ..
+cl db
+cl ..
+cd .local
+ls
+cl share
+cl flatpk
+cl flatpak
+cl repo
+cl ..
+$XDG_DATA_DIRS
+cd /usr/bin
+lks
+ls
+$PATH
