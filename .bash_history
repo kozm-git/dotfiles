@@ -1,10 +1,3 @@
-./gitbare
-vim gitbare
-./gitbare
-clear
-vim gitbare 
-cd .config/i3 
-cl
 cd .config
 cd i3
 ls
@@ -998,3 +991,10 @@ cd .config/i3
 ls
 vim mint-config
 clear
+sudo rmf teamviewer
+rmf teamviewer
+cd Backups/scripts
+ls
+vim ofpackit.sh 
+clear
+eopkg history
