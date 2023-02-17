@@ -1,8 +1,4 @@
 clear
-sudo systemctl status sshd
-sudo systemctl start sshd
-sudo systemctl status sshd
-clear
 ip a
 sudo systemctl status sshd
 ip a
@@ -997,4 +993,8 @@ i3config
 clear
 vim dotfiles-backup.sh 
 vim scripts-backup.sh 
+clear
+i3config
+clear
+cl
 clear
