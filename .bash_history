@@ -1,1000 +1,429 @@
+git clone https://github.com/kozm-git/scripts.git
+sudo eopkg up
+eopkg ls | grep wc
+eopkg list-installed | grep wc
+eopkg list-installed | wc
+clear
+nautilus
+eopkg list-installed | grep -themes
+eopkg list-installed | grep -theme
+eopkg list-installed | grep theme
+eopkg history
+eopkg list-installed | grep libreoffice
+eopkg --h
+eopkg sr hexchat
+eopkg sr libreoffice
+clear
+eopkg sr libreoffice
+eopkg sr onboard
+onboard
+eopkg sr screenshot
+gnome-screenshot
+ls
+cd downloads
+cd Pictures/
+ls
+lightscreen
+screenfetch
+spectacle
+gnome-screenshot-gui
+clear
+rm *
+ls
+sudo eopkg rmf gnome-screenshot
+sudo eopkg rmf --purge gnome-screenshot
+eopkg sr image-viewer
+eopkg sr gnome
+eopkg sr viewnoir
+eopkg sr eye
+sudo eopkg it flatpak xdg-desktop-portal-gtk
+sudo eopkg it pavucontrol
+gedit solus-gnome-setup
+l;s
+ls
+gedit solus-gnome-setup.sh
+flatpak install
+flatpak install --help
+clear
+eopkg sr pycharm
+eopkg sr pycharm-ce
+eopkg sr git
+gedit solus-gnome-flatpak.sh
+sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/programming/gitkraken/pspec.xml
+sudo eopkg it gitkraken*.eopkg; sudo rm gitkraken*.eopkg
+clear
+ssh
+sudo eopkg it gscan2pdf
+gscan2pdf 
+sudo eopkg rmfgscan2pdf 
+sudo eopkg rmf --purge gscan2pdf 
+clear
+ls
+cd Downloads
+ls
+cd ..
+git clone https://github.com/kozm-git/scripts.git
+ls
+chmod +x solus-gnome-setup.sh 
+chmod +x solus-gnome-flatpak.shsh 
+chmod +x solus-gnome-flatpak.sh
+sudo eopkg it git
+git clone https://github.com/kozm-git/scripts.git
+ls
+mkdir My_Repo
+ls
+mv My_Repo/ My_Repos
+ls
+mv My_Repos/ Repos
+ls
+mv scripts Repos
+ls
+cd Repos
+ls
+cd scripts
+ls
+cd ..
+rm -rf scripts
+ls
+cd ..
+clear
+ls
+cat solus-gnome-flatpak.sh 
+cat solus-gnome-setup.sh 
+nano solus-gnome-setup.sh
+nano solus-gnome-
+nano solus-gnome-setup.sh 
+eopkg sr teams
+eopkg sr lamp-server
+eopkg sr lamp
+nano solus-gnome-flatpak.sh 
+eopkg sr openjdk
+nano solus-gnome-setup.sh 
+eopkg list-installed | grep office
+nano solus-gnome-setup.sh 
+git clone https://github.com/realmazharhussain/gdm-settings.git
+clear
+ls
+cd gdm-settings
+ls
+./build_and_run.sh 
+vim build_and_run.sh 
+nano build_and_run.sh 
+ls
+cd appimage/
+ls
+./build.sh 
+cd ..
+ls
+sudo ./build_and_run.sh 
+git clone https://github.com/realmazharhussain/gdm-settings/releases/tag/v2.1.git
+clear
+nano solus-gnome-setup.sh 
+cd Repos/ && git clone https://github.com/kozm-git/scripts.git
+ls
+cd scripts
+ls
+chmod +x solus-gnome-flatpak.sh rmfjoplin.sh solus-gnome-setup.sh 
+ls
+scripts=back
+nano scripts-backup.sh 
+./scripts-backup.sh 
+clear
+ls
+nano sshkey.sh 
+cp --help
+ls
+cd Repos
+ls
+git clone https://github.com/kozm-git/dotfiles
+ls
+cd dotfiles
+ls
+ls -al
 cl
-cl ..
-cl .avns
-cl Eternum-0.5-pc/
-./Eternum.sh 
-sr vnc
-it tigervnc
-it gtk-vnc
-gtk-vnc
-tigervnc
-vn
-vnc
-tigervnc man
-man vnc
-man tigervnc
-flt
-fltk
-sr tigervnc
-vncserver
-vncserver -list
-tiger
-tigerv
-tigervnc
-Xvnc
-vncconfig
-vncsession
-vncsession mc
-vncsession mc 0
-vncviewer
-systemctl vncserver
-systemctl status vncserver
-systemctl status vncservice
-systemctl status vnc
-systemctl status tigervnc
-vnc
-Xvnc --help
-Xvnc start
-sudo systemctl status xvnc
+cd ..
+ls
+cd dotfiles/
+ls
+ls -a
+nano .bashrc
+cd ~
+lks
+s
+nano .bashrc
+bash
+cd Rpos
+cd Repos
+ls
+cd scripts
+ls
+nano dotfiles-backup.sh 
+git add .
+ls
+nano solus-gnome-setup.sh 
+cd Repos/scripts/
+ls
+nano startvnc.sh 
+x0vnc-server
 x0vncserver
-x0vncserver -display=:0 -PasswordFile=/home/mc/.vnc/passwd
-light0
-systemctl poweroff
-cd SCripts
-cd Scripts
-ls
-chmod +x startvnc
-ls
-vim startvnc 
-clear
-./startvnc
-clear
-mv dotfiles backup-dotfiles
-ls
-bashrc
-cd backup-dotfiles/
-ls
-vim HEAD
-vim ORIG_HEAD 
-vim config
-clear
-config add -u
-bash
-config add -u
-config commit
-git push --set-upstream git@github.com:kozm-git/dotfiles.git main
-clear
-cd Desktop
-ls
-cl
+cd Repos/scripts/
+nano startvnc.sh 
+nano solus-gnome-setup.sh 
+jobs
+ping
+ping google.com
+ping
+ping google.com
+gnome-terminal
+nautilus
+jobs
+fg && gnome-terminal
+jobs
+nautilus
+fg && gnome-terminal
+nano echo
+chmod +x echo
+./echo
+jobs
+fg && gnome-terminal
+nano solus-gnome-setup
+nano solus-gnome-setup.sh 
+sr libreoffice
+eopkg list-installed | grep libreoffice
+cp --help
+mkdir test
 ls
 cd ..
-ls
-cd dotfiles
-ls
-vim description 
-clear
-cd ~/Desktop
-touch hellooo
-rm hellooo
-ls
-cd ..
-cd Scripts
-ls
-nano backup-scripts 
-systemctl start sshd
-cl Desktop
-clear
-ls
-cl
-clear
-cd ~/Scripts
-ls
-vim dotfiles
-clear
-./dotfiles
-clear
-./dotfiles
-clear
-i3config
-clear
-mkdir config file
-ls
-rmdir config file
-ls
-mkdir "FOLDER HOME"
-ls
-cd 'FOLDER HOME'/
-ls
-cd ..
-rmdir 'FOLDER HOME'/
-ls
-mv backup-dotfiles/ GIT_DOTFILES
-ls
-cd Scripts
-ls
-mv python-setup ~/Downloads/installers/
-ls
-cl ..
-mv Scripts My_Scripts
-ls
-clear
-mkdir GIT_SCRIPTS
-ls
-cd My_Scripts
-ls
-i3config
-clear
-cl Scripts
-cl My_Scripts/
-./backup-scripts
-git branch -m main
-bashrc
-git config --global init.defaultBranch main
-bashrc
-bash
-config branch -m main
-git push --set-upstream git@github.com:kozm-git/scripts.git main
-cd ~/GIT_SCRIPTS/
-git push --set-upstream git@github.com:kozm-git/scripts.git main
-config pull --no-rebase --set-upstream git@github.com:kozm-git/scripts.git main
-config pull --rebase --set-upstream git@github.com:kozm-git/scripts.git main
-git push --set-upstream git@github.com:kozm-git/scripts.git main
-cl Scripts
-cl python-scripts/
-cl ..
-mv python-scripts/ python-setup
-ls
-vim gitbare
-clear
-cl
-vim dotfiles
-mv dotfiles backup-dotfiles
-ls
-cat backup-dotfiles 
-cat backup-dotfiles > backup-scripts
-ls
-chmod +x backup-scripts
-ls
-clear
-vim backup-scripts 
-ls
-cl 
-bashrc
-vim backup-dotfiles
-ls
-vim backup-scripts
-vim hosthttp 
-cd Scripts
-vim screencast 
-clear
-vim screencast 
-clear
-cl
-cd
-cl
-cl Scripts
-cl My_Scripts
-clear
-cl
-cl ..
-cd Scripts
-cd My_Scripts/
-ls
-vim backup-scripts
-vim backup-
-vim backup-scripts
-ls
-history
-bashrc
-clear
-cd .config
-ls
-i3conifg
-i3config
-cat backup-scripts.sh >> backup-dotfiles.sh
-ls
-vim backup-dotfiles.sh 
-clear
-mv git-backup.sh gitbackup.sh
-ls
-./gitbackup.sh 
-git push --set-upstream git@github.com:kozm-git/scripts.git main
-cd GIT_SCRIPTS
-ls
-git push --set-upstream git@github.com:kozm-git/scripts.git main
-clear
-vim gitbackup.sh 
-clear
-./gitbackup.sh 
-vim gitbackup.sh 
-vim gitbackup
-vim gitbackup.sh 
-clear
-./gitbackup.sh 
-vim gitbackup.sh 
-clear
-./gitbackup.sh 
-vim gitbackup.sh 
-clear
-./gitbackup.sh
-vim gitbackup.sh 
-./gitbackup.sh 
-vim gitbackup
-vim gitbackup.sh 
-./gitbackup.sh 
-vim gitbackup.sh 
-./gitbackup.sh
-clear
-cd ~
-cl
-vim ofpackit.sh
-clear
-i3config
-cd .config
-ls
-cd ..
-sudo rm -rf GIT_DOTFILES/ GIT_SCRIPTS/
-clear
-vim gitbackup.sh
-clear
-ls
-ls -a
-cl
-vim bashrc
-vim .bashrc
-bash
-cd .config/i3
-ls
-vim config
-clear
-vim mint-config
-vim mint-config 
-clear
-cd ..
-ls
-cl
-vim picom.conf
-clear
-picom
-clear
-cd qutebrowser
-ls
-mkdir bookmarks
-cd bookmarks/
-ls
-vim urls
-clear
-ls
-cd ..
-vim config.py
-clear
-vim quickmarks
-clear
-cd ~
-vim .gtkrc-2.0
-clear
-vim vimrc
-mv vimrc .vimrc
-cl
-vim gitbackup.sh
-cat .bash_history 
-ls
-chmod +x ofpackit.sh
-ls
-i3config
-bash
-mkdir empty
-ls
-cd empty
-git init
-ls
-ls -al
-cd ..
-rm -rf .git
-ls
-cl
-clear
-vim bashscript.sh
-chmod +x bashscript.sh 
-./bashscript.sh 
-clear
-git 
-git init
-ls
-cl -a
-cl
-cd Backups/scripts
-ls
-cl
-clear
-git init
-ls
-cl
-git add audio-capture.sh
-ls
-git commit -m "Added sndcpy shell script"
-git branch -M main
-git remote add origin git@github.com:kozm-git/scripts.git
-git push -u origin main
-cat bashscript.sh 
-clear
-rm bashscript.sh 
-ls
-cl 
-git add cvlc.sh 
-git commit -a
-git push -u origin main
-clear
-git pul
-git pull
-clear
-cl
-vim cam.sh
-clear
-git add *
-ls
-chmod +x cam.sh
-git commit -u
-git reset HEAD *
-ls
-git commit -u
-clear
-ls
-cl
-clear
-cl
-git add cam.sh
-git commit -u
-git push origin main
-clear
-cd ..
-cd Backups
-ls
-cd ..
-mv Scripts Backups
-ls
-cd Backups
-ls
-cd .
-d ..
-cd ..
-rm gitbackup.sh~ 
-cl Backups
-cl Scripts
-cl ..
-mv Scripts scripts
-ls
-cl scripts
-mv audio-capture.sh audiocast.sh
-git commit -u
-git commit -a
-git push origin main
-git add audiocast.sh
-git commit -m "Added sndcpy shell script"
-git push origin main
-clear
-cd ~/.config/i3
-ls
-rm mint-config~
-cd scripts/
-ls
-mv lock.sh ~/Backups/scripts
-ls
-cd ..
-cd ~/Backups/scripts/
-ls
-chmod +x lock.sh
-cl
-ln -s lock.sh ~/.config/i3/scripts
-cd ~/.config/i3/scripts
-ls
-cd ~/Backups/scripts
-ls
-cl
-clear
-cl
-git add fehbg.sh
-git commit -m "Added feh shell script"
-git add fstrim.sh
-git commit -m "Added fstrim shell script"
-git add gitbackup.sh
-git commit -m "Added bare git repository backup shell script"
-git add headphone-out.sh
-git commit -m "Added change audio source to headphones script"
-git add hosthttp.sh 
-git commit -m "Added hosting http server using python script"
-git add lineout.sh
-git commit -m "Added change audio source to lineout script"
-git add lock.sh 
-git commit -m "Added i3 lockscreen configuration shell script"
-git add maintainance.sh
-git commit -m "Added system cleanup/maintainance shell script"
-git add mystatus.sh
-git commit -m "Added i3status titlebar shell script"
-git add ofpackit.sh 
-git commit -m "Added official packages install shell script"
-git add qute.sh
-git commit -m "Added gpu-accelerated qutebrowser shell script"
-git add screencast.sh 
-git commit -m "Added screencast using scrcpy shell script"
-git add sshkey.sh
-git commit -m "Added sss key generator shell script"
-cl
-git add startvnc.sh 
-git commit -m "Added x0vncserver shell script"
-git add variables.sh
-git commit -m "Added variables shell script"
-git add virtmanager-setup.sh 
-git commit -m "Added virt-manager setup shell script"
-git add watchtemp.sh 
-git commit -m "Added temp monitor shell script"
-git push origin main
-vim ofpackit.sh 
-git push origin main
-git commit -u
-git add -u
-git commit -u
-git add variables.sh
-git commit 
-git push origin main
-clear
-i3config
-clear
-cd Backups
+touch this
 ls
 cd scripts
 ls
-git add -u
-vim gitbackup.sh 
-clear
-i3config
+mv test ~/Repos
 ls
-cd Backups
+cd ..
+ls
+mv this test
+ls
+cd test
+ls
+mv this ~/Repos
+ls
+cd ..
+ls
+cp this test
+ls
+cp this test
+ls
+cp this test
+cd test
+ls
+nano this 
+cd ..
+cp this test
+cd test
+ls
+nano this
+rm this
+cd ..
+rm test
+rmdir test
+ls
+rm this
+cl
+clear
+nano
+cd Repos
+ls
+cd ..
+ls
+cat echo
+clear
+rm echo
+ls
+cd Repos
 ls
 cd scripts
 ls
-git pull
-ls
-cd ..
-ls
-mkdir repo
-ls
-cl repo
-git init
-git remote add origin git@github.com:kozm-git/scripts.git
-git pull
-cl
-git branch -M
-git branch -M main
-git remote add origin git@github.com:kozm-git/scripts.git
-ls
-git pull
-ls
-cl
-clear
-cd ..
-rm -rf repo
-ls
-cd scripts
-ls
-git pull
-git push
-vim qute.sh
-git add -u
-git commit -u
-git push
-vim scripts-backup.sh
-cl
-chmod +x scripts-backup.sh 
-ls
-./scripts-backup.sh 
-git add scripts-backup.sh
-git commit -m "Added backup script for this repo"
-git pull
-git push
-:wq
-clear
-cd ls
-ls
-cl
-vim scripts-backup.sh 
-clear
-./scripts-backup.sh 
-vim scripts-backup.sh 
-clear
-./scripts-backup.sh 
-clear
-cd Backups/scripts
-ls
-touch new file
-vim new
-ls
-git add new file
-git commit -mm "Added" "Commited"
-git commit -m "Added" "Commited"
-git commit -m "Added" -m "Config"
-git push
-git rm new
-git commit
-git push
-git add new
-cl
-git rm file
-git commit -m "Deleted file"
-git push
-clar
-clear
-cl
-touch x y z
-ls
-git add x y z
-git commit -m "add x"
-git commit -m "add y"
-git reset --soft HEAD~1
-git commit
-git push
-clear
-git rm x y z
-git commit -a
-git push
-clear
-sudo systemctl sleep
-sudo systemctl suspend
-cd Backups/
-cd scripts/
-ls
-./startvnc.sh 
-cd Backups
-ls
-cd scripts
-ls
-vim startvnc.sh 
-systemctl status shsd
-systemctl status sshd
-./startvnc.sh 
-history
-thunar
-nemo
-clear
-bash
-arp -a
-sr arp
-it arp-scan
-arp -
-arp-scan
-sudo arp-scan
-arp-scan --help
-arp-scan -v
-arp-scan -V
-sudo arp-scan -V
-clear
-cd Backups/scripts/
-ls
-vim ofpackit.sh 
-vim scripts-backup.sh 
-./scripts-backup.sh 
-systemctl status sshd
-systemctl start sshd
-19
-ssh mc@192.168.1.9
-cd Scripts
-ls
-cd Backups/scripts/
-./startvnc.sh 
-xrandr --help
-xrandr -s 1920x1080
-ls
-i3config
-clear
-alias
-screenoff
-screenon
-xrandr -v
-xrandr -V
-xrandr --help
-xrandr listmonitors
-xrandr --listmonitors
-xrandr --display
-cd Backups/scripts/
-ls
-vim startvnc.sh 
-clear
-cd Downloads
-cd .avns
-ls
-cd Eternum-0.5-pc/
-ls
-./Eternum.sh 
-systemctl poweroff
-rmf arp-scan
-clear
-cd Scripts
-cd Backups/scripts/
-ls
-vim ofpackit.sh 
-clear
-ls
-cd Backups/
-cd scripts/
-ls
-cd emp
-cd ..
-cd empty/
-ls
-ls -al
-cd ..
-rm -rf empty
-ls
-i3config
-cd Backups/scripts
-ls
-./scripts-backup.sh 
-vim scripts-backup.sh 
-cd .config/i3/config
-cd .config/i3
-ls
-cp config ~
-ls
-cd ~
-ls
-rm config
-ls
-clear
-cd ~/Backup/scripts
-cd ~/Backups/scripts
-ls
-cl
-vim baregit-backup.sh 
-clear
-cd Backups
-ls
-cd scripts
-ls
-cl
-vim dotfiles-backup.sh
-cd ..
-mkdir dotfiles
-ls
-cd dotfiles
-git clone git@github.com:kozm-git/dotfiles.git
-ls -a
-cd dotfiles
-ls
-ls -a
-git branch -M main
-ls
-mv dotfiles Backups
-cd ..
-mv dotfiles dots
-mv dots ~/Backups
-ls
-ls -a
-cd ..
-ls
-rm -rf dotfiles
-mv dots dotfiles
-ls
-cd scripts
-ls
-chmod +x dotfiles-backup.sh 
-ls
-vim scripts-backup.sh 
-cl
-./scripts-backup.sh 
-vim scripts-backup.sh 
-clear
-cd .config/qutebrowser
-ls
-cd bookmarks
-ls
-cd ~
-ls
-cp .bashrc Downloads
-ls
-cd Downloads
-ls
-cl
-rm .bashrc 
-cl
-clear
-cd Downloads
-ls
-cd iso-images/
-ls
-cl
-cl .. 
-cl zipped
-cd ~/Backups/dotfiles
-ls
-cl
-cd ..
-cd dotfiles
-ls
-ls -a
-cd ..
-cd Backups
-ls
-cd scripts
-ls
-vim dotfiles-backup.sh 
-clear
-cl
-./dotfiles-backup.sh 
-clear
-cd Backups/
-cd scripts/
-ls
-vim dotfiles-backup.sh 
-vim scripts-backup.sh 
-clear
-i3config
-vim tryfile
-ls
-cd Scripts
-ls
-cl Downloads/
-cl git
-cl ..
-clear
-ls
-cl ..
-cl Programming
-ls
-cl clang
-cl java
-cl ..
-cl java
-cl python
-cd Scripts
-ls
-cd Programmning
-uname -a
-uname -r
-clear
-htop
-cd Backups/scripts/
-ls
-./startvnc.sh 
-systemctl suspend
-light70
-cd Scripts
-ls
-cd Backups/scripts
-ls
-vim dotfiles-backup.sh 
-cd ..
-cl dotfiles/
-clear
-alsa --help
-alsa
-alsamixer
-alsamixer --help
-alsamixer
-alsamixer --device=HDA NVidia
-alsamixer --device=HDANVidia
-alsamixer --card=1
-alsamixer --card=1 force-unload
-it alsa
-pulseaudio --help
-man pulseaudio 
-cd Backups/sc
-cd Backups/scripts/
-ls
-vim headphone-out.sh 
-pactl --help
-cd Downloads
-ls
-cd iso-images/
-ls
-cd ..
-cl .avns
-cl Eternum-0.5-pc/
-./Eternum.sh 
-cd /usr/local/bin
-ls
-$PATH
-ls
-cd /usr/local/bin
-ls
-cd /home/mc/Downloads/.avns/Eternum-0.5-pc/
-cp Eternum.sh /usr/local/bin/eternum
-cp -f Eternum.sh /usr/local/bin/eternum
+nano solus-gnome-setup.sh 
+nano scripts-backup.sh 
 cp --help
 clear
-sudo cp Eternum.sh /usr/local/bin
+cp ~/solus-gnome-setup.sh ~/solus-gnome-flatpak.sh -t ~/Repos/scripts
 ls
-cd /usr/local/
-cd bin
+nano solus-gnome-setup.sh 
+nano scripts-backup.sh 
+git push
+nano scripts-backup.sh 
+./scripts-backup.sh 
+git config user.email "kennedyonipa@gmail.com"
+./scripts-backup.sh 
 ls
-rm eternum 
-sudo rm eternum
-ls
-rm Eternum.sh 
-rm -rf Eternum.sh 
-sudo rm -rf Eternum.sh 
-cd ~/Downloads/.avns/Eternum-0.5-pc/
-ls
-ln -s Eternum.sh /usr/local/bin/eternum
-sudo ln -s Eternum.sh /usr/local/bin/eternum
 clear
-sudo ln -s Eternum.sh /usr/local/bin/eternum
-clear
-cl
-chmod +x Eternum.sh
+clipit
+clip
+clipboard
 ls
-bash
-cd /usr/local/bin
-ls
-systemctl poweroff
-i3config
-clear
-cd .config/i3
-ls
-vim mint-config
-clear
-sudo rmf teamviewer
-rmf teamviewer
-cd Backups/scripts
-ls
-vim ofpackit.sh 
-clear
-eopkg history
-cd Backups/scripts
-ls
-vim ofpackit
-vim ofpackit.sh
-clear
-vim dotfiles-backup.sh 
-vim scripts-backup.sh 
-clear
-sr thunderbird
-it thunderbird
-clear
-cd Backups/scripts
-ls
-mv *.sh ~
-ls
-cl
-cd ~
-ls
-cp *.sh Backups/scripts
-cd Backups/scripts/
-ls
-rm *.sh
-ls
-cl
-clear
-cd ~
-vim scripts-backup.sh 
-i3config
-clear
-vim dotfiles-backup.sh 
-vim scripts-backup.sh 
-clear
-i3config
-clear
-cl
-clear
-cd /usr/local/bin
-ls
-rm eternum
-sudo rm eternum
 clear
 ls
-cl
-cd Downloads/apps
+neofetch
 ls
-cd ti
-cd trilium-linux-x64/
-ls
-sudo ln trilium /usr/local/bin
-cp trilium /usr/local/bin
-sudo cp trilium /usr/local/bin
 clear
-cd Downloads/apps
+cd Repos
 ls
-cl trilium-linux-x64/
-cd /usr/local/bin
+cd dotfiles/
 ls
-cl
-trilium
-./trilium
-rm trilium 
-sudo rm trilium 
+cd Repos
+ls
+cd dotfiles/
+ls
+cl 
 clear
-cd ~/Downloads/aps
-cd ~/Downloads/appss
-cd ~/Downloads/apps
+cl ..
+cl scripts
+nano dotfiles-backup.sh 
+git config user.email "kennedyonipa@gmail.com"
 clear
-ls
-cl trilium-linux-x64/
-sudo ln -s trilium /usr/local/bin/trilium
-clear
-cd /usr/local/bi
-cd /usr/local/bin
-ls
-mv trilium /usr/bin
-sudo mv trilium /usr/bin
-ln -help
-ln --h
-clear
-cd /usr/bin
-ls | grep trilium
-sudo rm trilium 
-clear
-systemctl hibernate
-sr joplin
-wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
-vim rmfjoplin.sh
-cd .local
-ls
-cd hsare
-cd share/
-ls
-cd applications
-ls
-rm wiznote.desktop
-rm trilium-notes.desktop
-clear
-cd ~/.joplin/
+./dotfiles-backup.sh 
+echo "git config user.name "Kozm""
+echo "git config user.name \"Kozm"\"
+echo "git config user.name \"Kozm"\" >> dotfiles-backup.sh scripts-backup.sh 
+nano scripts-backup.sh 
+nano dotfiles-backup.sh 
+nano scripts-backup.sh 
+./scripts-backup.sh 
+nano
+cd Repos/scripts/
+./scripts-backup.sh 
 ls
 cd ..
-cl
-cd .config
-ls
-cd joplin-desktop/
-ls
-cd ~/.local
-cd ~/.local/share/applications
-ls
-rm brave-efmjfjelnicpmdcmfikempdhlmainjcb-Default.desktop 
-vim userapp-Firefox-5R1LY1.desktop 
-clear
-cd Downloads/
-ls
-cd apps
-cd trilium-linux-x64/
-ls
-cl
+cl 
 cd ~
-lks
+git clone https://github.com/kozm-git/scripts.git
+cd scripts
 ls
-cl
+git add *
+ls
+cd ~/Repos/scripts/
+cp *.sh ~/scripts
+ls
+cd ~/scripts
+ls
+cd ~/Repos
+ls
+cd scripts
+ls
+cd ..
+rm -rf scripts
+ls
+cd ..
+mv ~/scripts ~/Repos
+ls
+cd ~/Repos/scripts
+ls
+git add .
+ls
+git config user.name "Kennedy Onipa"
+nano scripts-backup.sh 
+./scripts-backup.sh 
+git config user.email "kennedyonipa@gmail.com"
+./scripts-backup.sh 
+clear
+ls
+nano git-access-token.txt 
+eopkg history
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup timeshift vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+fg; sudo eopkg rmf libreoffice-common; sudo eopkg it libreoffice-draw openjdk-17 filezilla grsync burp; systemctl poweroff
+burp
+burp --help
+rmf burp
+it -c systemdevel
+it -c system-devel
+cd ~/Scripts
+ls
+cd Repos
+cd ..
+mv git-access-token.txt Repos
+ls
+cd Repos
+cd scripts/
+ls
+nano solus-gnome-setup.sh 
+./scripts-backup.sh 
+clear
+cd Repos
+ls
+nano git-access-token.txt 
+cd ..
+ls
+cat git-access-token.txt 
+sr chrome
+eopkg list-installed | grep chrome-gnome-shell
+cd Repos
+ls
+cd scripts
+ls
+nano solus-gnome-setup.sh 
+./scripts-backup.sh 
+cd ..
+nano git-access-token.txt 
+cd Repos/dotfiles
+ls
+clear
+cd ..
+cd scripts/
+ls
+./scripts-backup.sh 
+dotfiles-backup.sh 
+./dotfiles-backup.sh 
+cd ..
+cd dotfiles/
+git config user.email "kennedyonipa@gmail.com"
+git add .
+ls
+cl ..
+cl scripts/
+./dotfiles-backup.sh 
+cl ..
+cl git-access-token.txt 
+nano git-access-token.txt 
+systemctl --help
+clear
+cd Repos/
+ls
+cd scripts/
+ls
+vim
+nano dotfiles-backup.sh 
+nano solus-gnome-setup.sh 
+cd ~
+clear
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
+sudo eopkg install libreoffice-draw burp openjdk-17 filezilla gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers linux-lts-headers codeblocks thonny meld openssh-server gnome-screenshot 
+alias
+neofetch
+htop
+ls
+cd Repos
+ls
+cd scripts
+ls
+vim solus-gnome-setup.sh 
+vim .vimrc
+clear
+cd Repos/
+cd scripts
+ls
 vim dotfiles-backup.sh 
-vim scripts-backup.sh 
-chmod +x rmfjoplin.sh 
-systemctl hibernate
-cd ~/.joplin/
+./dotfiles-backup.sh 
+vim dotfiles-backup.sh 
 ls
-cd ~/.local
-ls
-cd share/applications
-ls
-vim appimagekit-joplin.desktop 
-cd .local
-ls
-cd bin
-ls
+cl ,,
 cl ..
-cl libi
-cl lib
-cl ..
-cl share
-cl flatpak/
-cl repo
-cl ..
-cl db
-cl ..
-cd .local
-ls
-cl share
-cl flatpk
-cl flatpak
-cl repo
-cl ..
-$XDG_DATA_DIRS
-cd /usr/bin
-lks
-ls
-$PATH
+cl dotfiles/
+vim .vimrc 
+virt-manager
+it virt-manager
