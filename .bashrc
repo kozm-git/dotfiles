@@ -28,13 +28,13 @@ alias screenoff='xrandr --output HDMI-0 --off'
 alias screenon='xrandr --output HDMI-0 --auto'
 
 cl() {
-	directory=$1
-	null=""
-	if [ "$directory" == "$null" ]; then
-		cd "$(pwd)" && ls -al;
-	else
-		cd "$@" && ls -al;
-	fi
+    directory=$1
+    null=""
+    if [ "$directory" == "$null" ]; then
+        cd "$(pwd)" && ls -al;
+    else
+        cd "$@" && ls -al;
+    fi
 }
 
 #DATE=$(date -I)
