@@ -537,3 +537,49 @@ cl ..
 vim git-access-token.txt 
 cl ..
 vim git-access-token.txt 
+cd Repos
+ls
+cl scripts
+./scripts-backup.sh 
+./dotfiles-backup.sh 
+clear
+cl ..
+vim git-access-token.txt 
+cd Repos
+ls
+cd scripts
+ls
+./screencast.sh 
+it scrcpy
+./solus-gnome-setup.sh 
+vim solus-gnome-setup.sh 
+./scripts-backup.sh 
+./screencast.sh 
+vim screencast.sh 
+./screencast.sh 
+cl
+clear
+grepit nano
+clear
+grepit nano
+ls
+vim grepit.sh 
+cl ~
+vim .bashrc
+bash
+grepit nano
+alias
+cd .
+cd ..
+ls
+cd mc
+cd Repos
+cd scripts
+ls
+cl ~
+vim .bashrc
+clear
+bash
+cd ~
+bashrc
+bash
