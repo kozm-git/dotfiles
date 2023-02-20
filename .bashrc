@@ -17,6 +17,7 @@ alias up='sudo eopkg up'
 alias it='sudo eopkg install'
 alias sr='eopkg search'
 alias rmf='sudo eopkg autoremove --purge'
+alias grepit='./Repos/scripts/grepit.sh'
 # brightness control
 alias light100='xrandr --output HDMI-0 --brightness 1'
 alias light90='xrandr --output HDMI-0 --brightness 0.9'
