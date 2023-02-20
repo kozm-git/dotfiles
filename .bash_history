@@ -487,3 +487,53 @@ fstrim
 clkear
 clear
 fstrim
+cl
+cd Repos
+ls
+cd scripts
+ls
+./scripts-backup.sh 
+./dotfiles-backup.sh 
+clear
+l
+ls
+vim fstrim.sh 
+./fstrim.sh 
+vim fstrim.sh 
+clear
+cd ..
+ls
+vim git-access-token.txt 
+clear
+jobs
+pid
+process
+ls
+ls jobs
+ls pid
+ls pi
+clear
+cl
+clear
+cl /var/lib
+cl libvirt/
+cl images
+cl ..
+cl filesystems/
+cl ..
+cl qemu
+cl ..
+killall picom
+killall clipit 
+clear
+eopkg history
+cl Repos
+cl scripts
+vim solus-gnome-setup.sh 
+clear
+./scripts-backup.sh 
+clear
+cl ..
+vim git-access-token.txt 
+cl ..
+vim git-access-token.txt 
