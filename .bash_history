@@ -427,3 +427,63 @@ cl dotfiles/
 vim .vimrc 
 virt-manager
 it virt-manager
+cl ..
+vim git-access-token.txt 
+cl Repos/scripts/
+vim dotfiles-backup.sh 
+./dotfiles-backup.sh 
+vim dotfiles-backup.sh 
+cl
+cl ..
+cl ~
+cl .vimdata/
+cl backup/
+cl ..
+cl swap/
+cl undo
+cl ..
+cl undo 
+cl ..
+cl Repos/scripts
+vim dotfiles-backup.sh 
+./dotfiles-backup.sh 
+clear
+cl ..
+killall clipit 
+clear
+clipit --help
+clipit -c
+nautilus-dropbox
+nautilus
+killall solus-sc
+clear
+cd Repos
+ls
+cd scripts
+ls
+./virtmanager-setup.sh 
+./virtmanager-setup.sh mc
+clipit -c
+clipit --help
+clipit --clipboard
+ls
+cd Desktop
+cl 
+cl ..
+cl Downloads
+cl ..
+clear
+xampp
+clear
+xampp
+cd ..opt
+cd opt
+cd /oprt
+lampp
+cd /opt
+cd /
+cd opt
+fstrim
+clkear
+clear
+fstrim
