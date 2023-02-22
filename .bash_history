@@ -583,3 +583,70 @@ bash
 cd ~
 bashrc
 bash
+eopkg list-installed | grep chrome-gnome-shell
+cd Scripts
+ls
+cd Repos
+cd script
+cl scripts
+vim grepit.sh
+chmod +x grepit.sh 
+./scripts-backup.sh 
+ls
+./scripts-backup.sh 
+./dotfiles-backup.sh 
+cd ..
+vim git-access-token.txt 
+rmf vorta
+rmf borg
+eopkg history
+update
+up
+clear
+eopkg list-installed | grep wc -l
+eopkg list-installed | grep wc
+clear
+rmf gitkraken
+clear
+exiit
+ncdu
+cd /
+sudo ncdu
+systemd --failed
+systemctl --failed
+journalctl -p 3 -b
+clear
+cd /var
+cd log
+ls
+nautilus
+htop
+cl Reops
+cl Repos
+cl scripts
+vim solus-gnome-setup.sh 
+cl
+cl Desktop
+;s
+vim packages
+mv packages packages.txt
+clear
+meld
+vim Repos/scripts/solus-gnome-setup.sh 
+light6-0
+light80
+clear
+it firefox
+firefox
+brave-browser --help
+brave-browser --app=https://www.messenger.com/
+man brave-browser 
+brave-browser help
+brave-browser --h
+deja-dup --help
+deja-dup --help-gapplication 
+deja-dup --help-all
+deja-dup --backup
+grsync --help
+rsync
+rsync --help
