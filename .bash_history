@@ -650,3 +650,23 @@ deja-dup --backup
 grsync --help
 rsync
 rsync --help
+ncdu
+flatpak list
+flatpak run com.github.IsmaelMartinez.teams_for_linux 
+sr gnome-shell
+sr -theme
+sr theme
+sr nordic
+sr dracula
+it ant-dracula-gtk-theme
+sr gnome-themes-extra
+it gnome-themes-extra
+cd .
+cd /
+sudo ncdu
+htop
+joplin
+sr joplin 
+cd Repos/scripts
+ls
+vim solus-gnome-setup.sh 
