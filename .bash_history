@@ -1,4 +1,3 @@
-cd dotfiles/
 cp --help
 ll
 laksjhdfasdlkfjh
@@ -498,3 +497,4 @@ bash
 v Repos/dotfiles/solus/.config/i3/conf
 v Repos/dotfiles/solus/.config/i3/config
 v .config/i3/config
+xrandr --output HDMI-0 --brightness 0.8
