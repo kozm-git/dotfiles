@@ -1,50 +1,3 @@
-cd Joplin
-cd joplin-desktop/
-cd ..
-cd .joplin/
-sudo ln -S Joplin.AppImage /usr/bin
-sudo ln -s Joplin.AppImage /usr/bin
-cd /usr/bin
-ll
-rm Joplin.AppImage 
-sudo rm Joplin.AppImage 
-clear
-exit
-cd .joplin/
-ll
-./Joplin.AppImage 
-./Joplin.AppImage 
-cd /usr/local/bin
-cd ..
-clear
-exi
-exiit
-echo $PATH
-cd ~/.joplin/
-ll
-sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
-vim .config/i3/picom.conf 
-cd .ssh
-ll
-vim known_hosts 
-clear
-exit
-vim .bashrc
-bash
-ranger
-whereis flatpak
-cd .config
-cd Joplin
-cd joplin-desktop/
-cd .joplin/
-sudo ln -S Joplin.AppImage /usr/bin
-sudo ln -s Joplin.AppImage /usr/bin
-cd /usr/bin
-rm Joplin.AppImage 
-sudo rm Joplin.AppImage 
-exit
-cd .joplin/
-./Joplin.AppImage 
 ./Joplin.AppImage 
 cd /usr/local/bin
 exi
@@ -498,3 +451,50 @@ cd Repos/dotfiles/
 cd solus
 cd .config
 ll
+cd .bashrc
+vim .bashrc
+mkdir .config
+cd .config
+touch file
+cd dotfiles
+mv --help
+cd scripts
+exit
+vim Repos/scripts/dotfiles-backup.sh 
+cd Repos/scripts/
+cd dotfiles/
+cd mint
+cl .config
+cd i3
+cl
+cd ..
+cd scripts/
+ll
+./dotfiles-backup.sh 
+clear
+vim dotfiles-backup.sh 
+cd Repos/scripts/
+cd dotfiles/
+cl .config
+cl
+cd scripts/
+./dotfiles-backup.sh 
+vim dotfiles-backup.sh 
+cd Repos/dotfiles
+git rm *
+cd ..
+git rm -r mint
+git commit -u
+clear
+mkdir mint
+cd mint
+mkdir .config
+cd .config/
+mkdir i3
+cd i3
+l
+ll
+vim config
+git add config
+git commit -m "mint-i3 configuration"
+git push
