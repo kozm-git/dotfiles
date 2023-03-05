@@ -1,4 +1,3 @@
-echo $PATH
 cd ~/.joplin/
 sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
 vim .config/i3/picom.conf 
@@ -498,3 +497,4 @@ cd Repos/scripts
 ll
 ./dotfiles-backup.sh 
 alacritty --help
+read
