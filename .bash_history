@@ -1,6 +1,3 @@
-cd Repos
-mkdir scripts
-cd scripts
 git init
 git branch -M main
 git remote add origin git@github.com:kozm-git/scripts.git
@@ -498,3 +495,6 @@ xprop
 cd .config/i3
 l
 vim config
+vim .config/i3/config
+vim Repos/scripts/dotfiles-backup.sh 
+vim Repos/scripts/scripts-backup.sh 
