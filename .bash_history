@@ -1,6 +1,3 @@
-cd Repos
-cd scripts
-cd ..
 cd dotfiles/
 cp --help
 ll
@@ -498,3 +495,6 @@ eix
 exit
 vim .bashrc
 bash
+v Repos/dotfiles/solus/.config/i3/conf
+v Repos/dotfiles/solus/.config/i3/config
+v .config/i3/config
