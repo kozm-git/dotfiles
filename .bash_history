@@ -1,56 +1,3 @@
-git init
-git branch -M main
-git remote add origin git@github.com:kozm-git/scripts.git
-git push 
-cd .git
-git push -u origin main
-git push -u origin
-rm -rf scripts/
-git clone git@github.com:kozm-git/scripts.git
-cd ~/.ssh
-rm *
-ll
-clear
-cd ..
-ssh-keygen -t rsa -b 2048 -C "kennedyonipa@gmail.com"
-vim .ssh
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-cd Rpos
-ll
-clear
-git clone git@github.com:kozm-git/scripts.git
-ll
-vim .gtkrc-2.0 
-clear
-git clone git@github.com:kozm-git/scripts.git
-cd REpos
-cd dotfiles/
-cd .config
-ll
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-cd Rpos
-clear
-git clone git@github.com:kozm-git/scripts.git
-vim .gtkrc-2.0 
-clear
-git clone git@github.com:kozm-git/scripts.git
-cd REpos
-cd Repos/dotfiles/
-mv .config/ .configs
-mv .configs/ .config
-cd .config
-mkdir i3
-git rm
-git rm file
-git commit -m "deleted file"
-git push
-cd 
 cd Repos
 cd scripts
 cd ..
@@ -498,3 +445,56 @@ vim config
 vim .config/i3/config
 vim Repos/scripts/dotfiles-backup.sh 
 vim Repos/scripts/scripts-backup.sh 
+vim .config
+pacman -Ss twitter
+vim .config
+htop
+clear
+sudo pacman -S ncdu
+ncdu
+cd /
+sudo ncdu
+sudo ncdu
+pacman -Ss mega
+sudo pacman -S megasync-bin
+sudo pacman -Rns megasync-bin 
+cl Downloads
+ll
+cl installer
+pacman -U megasync-x86_64.pkg.tar.zst 
+pacman -Ss megasync
+clear
+exit
+pacman -Ss chrome
+pacman -Ss remote
+:q
+clear
+exit
+pacman -Q megasync
+sudo pacman -Rns megasync
+clear
+exit
+cd /
+sudo ncdu
+ssh 
+ssh 
+ssh mc@192.168.1.9:22
+ufw allow ssh
+sudo ufw allow ssh
+ssh mc@192.168.1.9
+ssh mc@192.168.1.9:808
+ssh mc@192.168.1.9:8080
+ssh -W mc@192.168.1.9:8080
+systemctl status openssh
+systemctl status opensshd
+systemctl status ssh
+systemctl status sshd
+ssh mc@192.168.1.9
+cd /personal/
+ll
+v .bashrc
+clear
+eix
+exit
+vim .bashrc
+bash
