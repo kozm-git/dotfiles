@@ -371,7 +371,8 @@ for_window [class="Spotify"] focus
 exec --no-startup-id clipmenud
 
 # backup dotfiles 
-exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh read' 
+exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh' 
+#exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh' 
 
 # TRAY APPLICATIONS
 
