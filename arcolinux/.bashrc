@@ -386,6 +386,7 @@ alias personal='cp -Rf /personal/* ~'
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
+alias v='vim'
 #change directory and list all function
 cl() {
     directory=$1
