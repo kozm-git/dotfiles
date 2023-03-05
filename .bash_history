@@ -1,8 +1,3 @@
-l
-cd ~
-rm -rf Repos
-lkl
-mkdir Repos
 cd Repos
 mkdir scripts
 cd scripts
@@ -498,3 +493,8 @@ vim Repos/scripts/dotfiles-backup.sh
 clear
 vim Repos/scripts/scripts-backup.sh 
 vim .config/i3/config
+yay -Ss xampp
+xprop
+cd .config/i3
+l
+vim config
