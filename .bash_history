@@ -1,6 +1,3 @@
-mv git-access-token.txt Documents/
-cd Doc
-cd Documents/
 l
 cd ~
 rm -rf Repos
@@ -498,3 +495,6 @@ alacritty --help
 vim .config/i3/config
 vim Repos/dotfiles/solus/.config/i3/config 
 vim Repos/scripts/dotfiles-backup.sh 
+clear
+vim Repos/scripts/scripts-backup.sh 
+vim .config/i3/config
