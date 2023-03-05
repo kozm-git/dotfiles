@@ -1,43 +1,3 @@
-vim .bashrc
-bash
-ranger
-clear
-lll
-cd .vim
-whereis .vimr
-whereis .vimrc
-cd Rpeos
-exit
-bash
-ranger
-vim .bashrc
-bash
-ranger
-cd /usr/share/flatpak
-cd triggers/
-cd .
-cd /etc/flatpak
-cd var
-cd li
-cd lib
-cd flatpak/
-cd repo
-cd refs
-cd heads/
-ll
-cd ..
-clear
-vim .joplin/
-cd .joplin/
-ll
-cd Rpeos
-bash
-ranger
-vim .bashrc
-bash
-ranger
-whereis flatpak
-cd .config
 cd Joplin
 cd joplin-desktop/
 cd ..
@@ -498,3 +458,43 @@ cl i3
 cl qutebrowser/
 cl ..
 ranger
+git remote add origin git@github.com:kozm-git/scripts.git
+git push 
+cd .git
+git push -u origin main
+git push -u origin
+rm -rf scripts/
+git clone git@github.com:kozm-git/scripts.git
+cd ~/.ssh
+rm *
+ssh-keygen -t rsa -b 2048 -C "kennedyonipa@gmail.com"
+vim .ssh
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+cd Rpos
+git clone .git
+cd Repos
+git clone git@github.com:kozm-git/dotfiles.git
+cd .bashrc
+vim .bashrc
+mkdir .config
+cd .config
+touch file
+cd dotfiles
+cd dotfiles/
+mv --help
+cd ..
+cd scripts
+ll
+./dotfiles-backup.sh 
+vim dotfiles-backup.sh 
+clear
+exit
+clear
+exit
+cd Repos/dotfiles/
+cd solus
+cd .config
+ll
