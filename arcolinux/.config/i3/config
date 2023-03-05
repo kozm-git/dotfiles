@@ -168,7 +168,7 @@ bindsym $mod+X exec --no-startup-id archlinux-logout
 ################# reload changed configuration     
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; restart  
+bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; exec --no-startup-id alacritty -e bash ~/Repos/scripts/scripts-backup.sh; restart  
 # reload the configuration file
 #bindsym $mod+Shift+c reload
 
