@@ -1,672 +1,500 @@
-git clone https://github.com/kozm-git/scripts.git
-sudo eopkg up
-eopkg ls | grep wc
-eopkg list-installed | grep wc
-eopkg list-installed | wc
-clear
-nautilus
-eopkg list-installed | grep -themes
-eopkg list-installed | grep -theme
-eopkg list-installed | grep theme
-eopkg history
-eopkg list-installed | grep libreoffice
-eopkg --h
-eopkg sr hexchat
-eopkg sr libreoffice
-clear
-eopkg sr libreoffice
-eopkg sr onboard
-onboard
-eopkg sr screenshot
-gnome-screenshot
-ls
-cd downloads
-cd Pictures/
-ls
-lightscreen
-screenfetch
-spectacle
-gnome-screenshot-gui
-clear
-rm *
-ls
-sudo eopkg rmf gnome-screenshot
-sudo eopkg rmf --purge gnome-screenshot
-eopkg sr image-viewer
-eopkg sr gnome
-eopkg sr viewnoir
-eopkg sr eye
-sudo eopkg it flatpak xdg-desktop-portal-gtk
-sudo eopkg it pavucontrol
-gedit solus-gnome-setup
-l;s
-ls
-gedit solus-gnome-setup.sh
-flatpak install
-flatpak install --help
-clear
-eopkg sr pycharm
-eopkg sr pycharm-ce
-eopkg sr git
-gedit solus-gnome-flatpak.sh
-sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/getsolus/3rd-party/master/programming/gitkraken/pspec.xml
-sudo eopkg it gitkraken*.eopkg; sudo rm gitkraken*.eopkg
-clear
-ssh
-sudo eopkg it gscan2pdf
-gscan2pdf 
-sudo eopkg rmfgscan2pdf 
-sudo eopkg rmf --purge gscan2pdf 
-clear
-ls
-cd Downloads
-ls
-cd ..
-git clone https://github.com/kozm-git/scripts.git
-ls
-chmod +x solus-gnome-setup.sh 
-chmod +x solus-gnome-flatpak.shsh 
-chmod +x solus-gnome-flatpak.sh
-sudo eopkg it git
-git clone https://github.com/kozm-git/scripts.git
-ls
-mkdir My_Repo
-ls
-mv My_Repo/ My_Repos
-ls
-mv My_Repos/ Repos
-ls
-mv scripts Repos
-ls
-cd Repos
-ls
-cd scripts
-ls
-cd ..
-rm -rf scripts
-ls
-cd ..
-clear
-ls
-cat solus-gnome-flatpak.sh 
-cat solus-gnome-setup.sh 
-nano solus-gnome-setup.sh
-nano solus-gnome-
-nano solus-gnome-setup.sh 
-eopkg sr teams
-eopkg sr lamp-server
-eopkg sr lamp
-nano solus-gnome-flatpak.sh 
-eopkg sr openjdk
-nano solus-gnome-setup.sh 
-eopkg list-installed | grep office
-nano solus-gnome-setup.sh 
-git clone https://github.com/realmazharhussain/gdm-settings.git
-clear
-ls
-cd gdm-settings
-ls
-./build_and_run.sh 
-vim build_and_run.sh 
-nano build_and_run.sh 
-ls
-cd appimage/
-ls
-./build.sh 
-cd ..
-ls
-sudo ./build_and_run.sh 
-git clone https://github.com/realmazharhussain/gdm-settings/releases/tag/v2.1.git
-clear
-nano solus-gnome-setup.sh 
-cd Repos/ && git clone https://github.com/kozm-git/scripts.git
-ls
-cd scripts
-ls
-chmod +x solus-gnome-flatpak.sh rmfjoplin.sh solus-gnome-setup.sh 
-ls
-scripts=back
-nano scripts-backup.sh 
-./scripts-backup.sh 
-clear
-ls
-nano sshkey.sh 
-cp --help
-ls
-cd Repos
-ls
-git clone https://github.com/kozm-git/dotfiles
-ls
-cd dotfiles
-ls
-ls -al
-cl
-cd ..
-ls
-cd dotfiles/
-ls
-ls -a
-nano .bashrc
-cd ~
-lks
-s
-nano .bashrc
-bash
-cd Rpos
-cd Repos
-ls
-cd scripts
-ls
-nano dotfiles-backup.sh 
-git add .
-ls
-nano solus-gnome-setup.sh 
-cd Repos/scripts/
-ls
-nano startvnc.sh 
-x0vnc-server
-x0vncserver
-cd Repos/scripts/
-nano startvnc.sh 
-nano solus-gnome-setup.sh 
-jobs
-ping
-ping google.com
-ping
-ping google.com
-gnome-terminal
-nautilus
-jobs
-fg && gnome-terminal
-jobs
-nautilus
-fg && gnome-terminal
-nano echo
-chmod +x echo
-./echo
-jobs
-fg && gnome-terminal
-nano solus-gnome-setup
-nano solus-gnome-setup.sh 
-sr libreoffice
-eopkg list-installed | grep libreoffice
-cp --help
-mkdir test
-ls
-cd ..
-touch this
-ls
-cd scripts
-ls
-mv test ~/Repos
-ls
-cd ..
-ls
-mv this test
-ls
-cd test
-ls
-mv this ~/Repos
-ls
-cd ..
-ls
-cp this test
-ls
-cp this test
-ls
-cp this test
-cd test
-ls
-nano this 
-cd ..
-cp this test
-cd test
-ls
-nano this
-rm this
-cd ..
-rm test
-rmdir test
-ls
-rm this
-cl
-clear
-nano
-cd Repos
-ls
-cd ..
-ls
-cat echo
-clear
-rm echo
-ls
-cd Repos
-ls
-cd scripts
-ls
-nano solus-gnome-setup.sh 
-nano scripts-backup.sh 
-cp --help
-clear
-cp ~/solus-gnome-setup.sh ~/solus-gnome-flatpak.sh -t ~/Repos/scripts
-ls
-nano solus-gnome-setup.sh 
-nano scripts-backup.sh 
-git push
-nano scripts-backup.sh 
-./scripts-backup.sh 
-git config user.email "kennedyonipa@gmail.com"
-./scripts-backup.sh 
-ls
-clear
-clipit
-clip
-clipboard
-ls
-clear
-ls
-neofetch
-ls
-clear
-cd Repos
-ls
-cd dotfiles/
-ls
-cd Repos
-ls
-cd dotfiles/
-ls
-cl 
-clear
-cl ..
-cl scripts
-nano dotfiles-backup.sh 
-git config user.email "kennedyonipa@gmail.com"
-clear
-./dotfiles-backup.sh 
-echo "git config user.name "Kozm""
-echo "git config user.name \"Kozm"\"
-echo "git config user.name \"Kozm"\" >> dotfiles-backup.sh scripts-backup.sh 
-nano scripts-backup.sh 
-nano dotfiles-backup.sh 
-nano scripts-backup.sh 
-./scripts-backup.sh 
-nano
-cd Repos/scripts/
-./scripts-backup.sh 
-ls
-cd ..
-cl 
-cd ~
-git clone https://github.com/kozm-git/scripts.git
-cd scripts
-ls
-git add *
-ls
-cd ~/Repos/scripts/
-cp *.sh ~/scripts
-ls
-cd ~/scripts
-ls
-cd ~/Repos
-ls
-cd scripts
-ls
-cd ..
-rm -rf scripts
-ls
-cd ..
-mv ~/scripts ~/Repos
-ls
-cd ~/Repos/scripts
-ls
-git add .
-ls
-git config user.name "Kennedy Onipa"
-nano scripts-backup.sh 
-./scripts-backup.sh 
-git config user.email "kennedyonipa@gmail.com"
-./scripts-backup.sh 
-clear
-ls
-nano git-access-token.txt 
-eopkg history
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup timeshift vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc adb wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect system-devel linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-fg; sudo eopkg rmf libreoffice-common; sudo eopkg it libreoffice-draw openjdk-17 filezilla grsync burp; systemctl poweroff
-burp
-burp --help
-rmf burp
-it -c systemdevel
-it -c system-devel
-cd ~/Scripts
-ls
-cd Repos
-cd ..
-mv git-access-token.txt Repos
-ls
-cd Repos
-cd scripts/
-ls
-nano solus-gnome-setup.sh 
-./scripts-backup.sh 
-clear
-cd Repos
-ls
-nano git-access-token.txt 
-cd ..
-ls
-cat git-access-token.txt 
-sr chrome
-eopkg list-installed | grep chrome-gnome-shell
-cd Repos
-ls
-cd scripts
-ls
-nano solus-gnome-setup.sh 
-./scripts-backup.sh 
-cd ..
-nano git-access-token.txt 
-cd Repos/dotfiles
-ls
-clear
-cd ..
-cd scripts/
-ls
-./scripts-backup.sh 
-dotfiles-backup.sh 
-./dotfiles-backup.sh 
-cd ..
-cd dotfiles/
-git config user.email "kennedyonipa@gmail.com"
-git add .
-ls
-cl ..
-cl scripts/
-./dotfiles-backup.sh 
-cl ..
-cl git-access-token.txt 
-nano git-access-token.txt 
-systemctl --help
-clear
-cd Repos/
-ls
-cd scripts/
-ls
-vim
-nano dotfiles-backup.sh 
-nano solus-gnome-setup.sh 
-cd ~
-clear
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-sudo eopkg install gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers codeblocks thonny meld openssh-server gnome-screenshot
-sudo eopkg install libreoffice-draw burp openjdk-17 filezilla gcolor3 keepassxc etcher cheese clipit gufw vlc android-tools wget deja-dup grsync vim git pavucontrol geary brave geany flameshot peek obs-studio tigervnc htop neofetch yt-dlp ncdu simplenote shotcut kdenlive qbittorrent dropbox discord telegram kdeconnect linux-current-headers linux-lts-headers codeblocks thonny meld openssh-server gnome-screenshot 
-alias
-neofetch
-htop
-ls
-cd Repos
-ls
-cd scripts
-ls
-vim solus-gnome-setup.sh 
-vim .vimrc
-clear
-cd Repos/
-cd scripts
-ls
-vim dotfiles-backup.sh 
-./dotfiles-backup.sh 
-vim dotfiles-backup.sh 
-ls
-cl ,,
-cl ..
-cl dotfiles/
-vim .vimrc 
-virt-manager
-it virt-manager
-cl ..
-vim git-access-token.txt 
-cl Repos/scripts/
-vim dotfiles-backup.sh 
-./dotfiles-backup.sh 
-vim dotfiles-backup.sh 
-cl
-cl ..
-cl ~
-cl .vimdata/
-cl backup/
-cl ..
-cl swap/
-cl undo
-cl ..
-cl undo 
-cl ..
-cl Repos/scripts
-vim dotfiles-backup.sh 
-./dotfiles-backup.sh 
-clear
-cl ..
-killall clipit 
-clear
-clipit --help
-clipit -c
-nautilus-dropbox
-nautilus
-killall solus-sc
-clear
-cd Repos
-ls
-cd scripts
-ls
-./virtmanager-setup.sh 
-./virtmanager-setup.sh mc
-clipit -c
-clipit --help
-clipit --clipboard
-ls
-cd Desktop
-cl 
-cl ..
-cl Downloads
-cl ..
-clear
-xampp
-clear
-xampp
-cd ..opt
-cd opt
-cd /oprt
-lampp
-cd /opt
-cd /
-cd opt
-fstrim
-clkear
-clear
-fstrim
-cl
-cd Repos
-ls
-cd scripts
-ls
-./scripts-backup.sh 
-./dotfiles-backup.sh 
-clear
-l
-ls
-vim fstrim.sh 
-./fstrim.sh 
-vim fstrim.sh 
-clear
-cd ..
-ls
-vim git-access-token.txt 
-clear
-jobs
-pid
-process
-ls
-ls jobs
-ls pid
-ls pi
-clear
-cl
-clear
-cl /var/lib
-cl libvirt/
-cl images
-cl ..
-cl filesystems/
-cl ..
-cl qemu
-cl ..
-killall picom
-killall clipit 
-clear
-eopkg history
-cl Repos
-cl scripts
-vim solus-gnome-setup.sh 
-clear
-./scripts-backup.sh 
-clear
-cl ..
-vim git-access-token.txt 
-cl ..
-vim git-access-token.txt 
-cd Repos
-ls
-cl scripts
-./scripts-backup.sh 
-./dotfiles-backup.sh 
-clear
-cl ..
-vim git-access-token.txt 
-cd Repos
-ls
-cd scripts
-ls
-./screencast.sh 
-it scrcpy
-./solus-gnome-setup.sh 
-vim solus-gnome-setup.sh 
-./scripts-backup.sh 
-./screencast.sh 
-vim screencast.sh 
-./screencast.sh 
-cl
-clear
-grepit nano
-clear
-grepit nano
-ls
-vim grepit.sh 
-cl ~
 vim .bashrc
 bash
-grepit nano
-alias
+ranger
+clear
+lll
+cd .vim
+whereis .vimr
+whereis .vimrc
+cd Rpeos
+exit
+bash
+ranger
+vim .bashrc
+bash
+ranger
+cd /usr/share/flatpak
+cd triggers/
 cd .
+cd /etc/flatpak
+cd var
+cd li
+cd lib
+cd flatpak/
+cd repo
+cd refs
+cd heads/
+ll
 cd ..
-ls
-cd mc
-cd Repos
-cd scripts
-ls
-cl ~
+clear
+vim .joplin/
+cd .joplin/
+ll
+cd Rpeos
+bash
+ranger
 vim .bashrc
-clear
 bash
-cd ~
-bashrc
-bash
-eopkg list-installed | grep chrome-gnome-shell
-cd Scripts
-ls
-cd Repos
-cd script
-cl scripts
-vim grepit.sh
-chmod +x grepit.sh 
-./scripts-backup.sh 
-ls
-./scripts-backup.sh 
-./dotfiles-backup.sh 
+ranger
+whereis flatpak
+cd .config
+cd Joplin
+cd joplin-desktop/
 cd ..
-vim git-access-token.txt 
-rmf vorta
-rmf borg
-eopkg history
-update
-up
+cd .joplin/
+sudo ln -S Joplin.AppImage /usr/bin
+sudo ln -s Joplin.AppImage /usr/bin
+cd /usr/bin
+ll
+rm Joplin.AppImage 
+sudo rm Joplin.AppImage 
 clear
-eopkg list-installed | grep wc -l
-eopkg list-installed | grep wc
+exit
+cd .joplin/
+ll
+./Joplin.AppImage 
+./Joplin.AppImage 
+cd /usr/local/bin
+cd ..
 clear
-rmf gitkraken
-clear
+exi
 exiit
-ncdu
-cd /
-sudo ncdu
-systemd --failed
-systemctl --failed
-journalctl -p 3 -b
+echo $PATH
+cd ~/.joplin/
+ll
+sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
+vim .config/i3/picom.conf 
+cd .ssh
+ll
+vim known_hosts 
 clear
-cd /var
-cd log
-ls
-nautilus
-htop
-cl Reops
-cl Repos
-cl scripts
-vim solus-gnome-setup.sh 
-cl
-cl Desktop
-;s
-vim packages
-mv packages packages.txt
+exit
+vim .bashrc
+bash
+ranger
+whereis flatpak
+cd .config
+cd Joplin
+cd joplin-desktop/
+cd .joplin/
+sudo ln -S Joplin.AppImage /usr/bin
+sudo ln -s Joplin.AppImage /usr/bin
+cd /usr/bin
+rm Joplin.AppImage 
+sudo rm Joplin.AppImage 
+exit
+cd .joplin/
+./Joplin.AppImage 
+./Joplin.AppImage 
+cd /usr/local/bin
+exi
+exiit
+echo $PATH
+cd ~/.joplin/
+sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
+vim .config/i3/picom.conf 
+mv git-access-token.txt ~
+mv git-access-token.txt Documents/
+cd Doc
+cd Documents/
+l
+cd ~
+rm -rf Repos
+lkl
+mkdir Repos
+cd Repos
+mkdir scripts
+cd scripts
+git init
+git branch -M main
+git remote add origin git@github.com:kozm-git/scripts.git
+git push 
+cd .git
+git push -u origin main
+git push -u origin
+rm -rf scripts/
+git clone git@github.com:kozm-git/scripts.git
+cd ~/.ssh
+rm *
+ll
 clear
-meld
-vim Repos/scripts/solus-gnome-setup.sh 
-light6-0
-light80
+cd ..
+ssh-keygen -t rsa -b 2048 -C "kennedyonipa@gmail.com"
+vim .ssh
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+cd Rpos
+ll
 clear
-it firefox
-firefox
-brave-browser --help
-brave-browser --app=https://www.messenger.com/
-man brave-browser 
-brave-browser help
-brave-browser --h
-deja-dup --help
-deja-dup --help-gapplication 
-deja-dup --help-all
-deja-dup --backup
-grsync --help
-rsync
-rsync --help
-ncdu
-flatpak list
-flatpak run com.github.IsmaelMartinez.teams_for_linux 
-sr gnome-shell
-sr -theme
-sr theme
-sr nordic
-sr dracula
-it ant-dracula-gtk-theme
-sr gnome-themes-extra
-it gnome-themes-extra
+git clone git@github.com:kozm-git/scripts.git
+ll
+vim .gtkrc-2.0 
+clear
+git clone git@github.com:kozm-git/scripts.git
+cd REpos
+cd dotfiles/
+cd .config
+ll
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+vim .ssh/id_rsa.pub 
+subl .ssh/id_rsa.pub
+cd Rpos
+clear
+git clone git@github.com:kozm-git/scripts.git
+vim .gtkrc-2.0 
+clear
+git clone git@github.com:kozm-git/scripts.git
+cd REpos
+cd Repos/dotfiles/
+mv .config/ .configs
+mv .configs/ .config
+cd .config
+mkdir i3
+git rm
+git rm file
+git commit -m "deleted file"
+git push
+cd 
+cd Repos
+cd scripts
+cd ..
+cd dotfiles/
+cp --help
+ll
+laksjhdfasdlkfjh
+clear
+exit
+mv .configs/ .config
+mkdir i3
+git rm
+git rm file
+git commit -m "deleted file"
+git push
+cd 
+cd scripts
+cp --help
+laksjhdfasdlkfjh
+exit
+cd Repos
+cd dotfiles/
+mv config solus-config
+mv solus-config config
+cd .config/
+cd ..
+clear
+cp config mint-config -t .config/i3/
+cd .config
+cd i3
+ll
+ranger
+exit
+mv .configs/ .config
+mkdir i3
+git rm
+git rm file
+git commit -m "deleted file"
+cd 
+cd scripts
+cp --help
+laksjhdfasdlkfjh
+exit
+mv config solus-config
+mv solus-config config
+cd .config/
+clear
+cp config mint-config -t .config/i3/
+cd Repos
+cd dotfiles/
+cd .cofig
+mkdir qutebrowser
+cp urls quickmarks -t .config/qutebrowser/
+cp config.py .config/qutebrowser/
+cd i3
+cd qutebrowser
+cd .config
+mkdir picom
+cd ..
+cp picom.conf .config/picom/
+git rm quickmarks
+git rm urls
+git rm picom.conf 
+git mint-config
+git rm mint-config 
+git rm config
+git rm config.py
+ll
+git commit -u
+git push
+killall polybar
+git rm config
+git rm config.py
+git commit -u
+git push
+cd i3
+cd .config
+mv config config-i3blocks
+ll
+mv config-polybar config
+mv config config-polybar
+mv config-i3blocks config
+clear
+cp config mint-config -t .config/i3/
+cd .cofig
+mkdir qutebrowser
+cp urls quickmarks -t .config/qutebrowser/
+cp config.py .config/qutebrowser/
+cd i3
+cd qutebrowser
+mkdir picom
+cp picom.conf .config/picom/
+git rm quickmarks
+git rm urls
+git rm picom.conf 
+git mint-config
+git rm mint-config 
+git rm config
+git rm config.py
+git push
+cd Repos
+mkdir alacritty
+cp ~/.config/alacritty/alacritty.yml 
+cp ~/.config/alacritty/alacritty.yml ~/Repos/dotfiles/.config/alacritty/
+cd alacritty/
 cd .
-cd /
-sudo ncdu
-htop
-joplin
-sr joplin 
-cd Repos/scripts
-ls
-vim solus-gnome-setup.sh 
+cd .config
+git add i3/*
+git commit -u
+cd picom
+mkdir solus
+mkdir arcolinux
+cp .bashrc .gtkrc-2.0 -t solus
+cd solus
+cd ..
+cd dotfiles/
+ll
+cd .vim
+ll
+cd ..
+ll
+vim .viminfo 
+clear
+vim .bashrc 
+bash
+cl
+exit
+mv config solus-config
+mv solus-config config
+cd .config/
+clear
+cp config mint-config -t .config/i3/
+cd .cofig
+mkdir qutebrowser
+cp urls quickmarks -t .config/qutebrowser/
+cp config.py .config/qutebrowser/
+cd qutebrowser
+mkdir picom
+cp picom.conf .config/picom/
+git rm quickmarks
+git rm urls
+git rm picom.conf 
+git mint-config
+git rm mint-config 
+git rm config
+git rm config.py
+killall polybar
+git rm config
+git rm config.py
+mv config config-i3blocks
+mv config-polybar config
+mv config config-polybar
+mv config-i3blocks config
+clear
+cp config mint-config -t .config/i3/
+cd .cofig
+mkdir qutebrowser
+cp urls quickmarks -t .config/qutebrowser/
+cp config.py .config/qutebrowser/
+cd qutebrowser
+mkdir picom
+cp picom.conf .config/picom/
+git rm quickmarks
+git rm urls
+git rm picom.conf 
+git mint-config
+git rm mint-config 
+git rm config
+git rm config.py
+mkdir alacritty
+cp ~/.config/alacritty/alacritty.yml 
+cp ~/.config/alacritty/alacritty.yml ~/Repos/dotfiles/.config/alacritty/
+cd alacritty/
+cd .
+git add i3/*
+cd picom
+mkdir solus
+mkdir arcolinux
+cp .bashrc .gtkrc-2.0 -t solus
+cd Repos
+cd dotfiles/
+git reset
+git restore
+git commit -uu
+git rm .bashrc .gtkrc-2.0 
+git commit -u
+git push
+mv .config solus
+mkdir linux-mint
+cd linux-mint/
+rm linux-mint/
+rmdir linux-mint/
+mkdir mint
+cp mint-config ~/Repos/dotfiles/mint/
+mkdir .config/i3
+mkdir .config/i3/
+mkdir .conif
+mkdir .config
+cd .config
+mkdir i3
+cd mint
+rm .conif
+rmdir .conif
+mv mint-config .config/i3/config
+cd .config/i3
+cd solus
+vim .bashrc 
+less .bashrc 
+cd solus/.config
+rm mint-config 
+cd i3
+vim config
+cd ..
+cl mint
+ll
+mkdir .config/i3
+mkdir .config/i3/
+mkdir .conif
+cd mint
+rm .conif
+rmdir .conif
+mv mint-config .config/i3/config
+cd .config/i3
+cd solus
+vim .bashrc 
+less .bashrc 
+cd solus/.config
+rm mint-config 
+vim config
+cl mint
+cd Repos
+cd dotfiles/
+mkdir .config
+mkdir i3
+cd ..
+cl solus
+cl .config
+mv alacritty ~/Repos/dotfiles/arcolinux/.config/
+cd i3
+cl picom
+cl qute
+cl qutebrowser/
+cl ..
+cd arcolinux/
+cd .config
+mkdir picom
+mkdir polybar
+ll
+clear
+vim .config/i3/picom.conf 
+clear
+vim Repos/scripts/scripts-backup.sh 
+vim Repos/scripts/scripts-backup.sh 
+cd Repos
+cd dotfiles/
+ll
+cd .config/i3
+cd solus
+vim .bashrc 
+less .bashrc 
+cd solus/.config
+rm mint-config 
+cd i3
+vim config
+cd Repos
+cl dotfiles/
+cl .config
+vim config 
+cl dotifles
+cl ..
+cl arcolinux/
+cl .config/
+cd ..
+cl
+cl mint
+cd .config
+ll
+cl i3
+cd .config
+cl i3
+cd Repos
+l
+cl dotfiles/
+cl arcolinux/
+cl .config/
+cl alacritty/
+ll
+rm alacritty.yml 
+ll 
+cl ..
+ll 
+cd Repos/dotfiles
+cl arcolinux/
+cl .config/
+cl picom/
+ll
+cl ..
+rmdir picom
+ll
+cd dotfiles/
+cd .config/i3
+vim .bashrc 
+less .bashrc 
+cd solus/.config
+rm mint-config 
+cd i3
+vim config
+cl dotfiles/
+vim config 
+cl dotifles
+cl mint
+cl dotfiles/
+cl alacritty/
+rm alacritty.yml 
+ll 
+ll 
+cd Repos/dotfiles
+cl picom/
+vim .config
+cd Repos
+cd dotfiles
+cd mint
+l
+cd solus
+cd .config
+cl picom
+mv picom.conf ~/Repos/dotfiles/solus/.config
+rmdir picom
+ll
+cl
+cl arcolinux/
+cl .config/
+rmdir polybar/
+cd ..
+cl solus/
+cl .config
+cl i3
+cl qutebrowser/
+cl ..
+ranger
