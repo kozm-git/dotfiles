@@ -1,7 +1,3 @@
-./Joplin.AppImage 
-cd /usr/local/bin
-exi
-exiit
 echo $PATH
 cd ~/.joplin/
 sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
@@ -498,3 +494,7 @@ vim config
 git add config
 git commit -m "mint-i3 configuration"
 git push
+cd Repos/scripts
+ll
+./dotfiles-backup.sh 
+alacritty --help
