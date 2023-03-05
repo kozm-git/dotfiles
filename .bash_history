@@ -1,6 +1,3 @@
-cd ~/.joplin/
-sudo ln -s ~/.joplin/Joplin.AppImage /usr/bin/joplin
-vim .config/i3/picom.conf 
 mv git-access-token.txt ~
 mv git-access-token.txt Documents/
 cd Doc
@@ -498,3 +495,6 @@ ll
 ./dotfiles-backup.sh 
 alacritty --help
 read
+alacritty --help
+vim .config/i3/config
+vim Repos/dotfiles/solus/.config/i3/config 
