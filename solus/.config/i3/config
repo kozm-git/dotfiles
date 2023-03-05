@@ -1,0 +1,285 @@
+##################################################
+########## MY SOLUS I3-WM CONFIGURATION ##########
+##################################################
+
+################# SET VARIABLES ##################
+set $defaultmod Mod4 
+set $up k
+set $down j
+set $left h
+set $right l
+
+focus_follows_mouse no
+floating_modifier $defaultmod
+
+ # workspaces
+set $ws1 "1I"
+set $ws2 "2ii"
+set $ws3 "3iii"
+set $ws4 "4IV"
+set $ws5 "5V"
+set $ws6 "6vi"
+set $ws7 "7vii"
+set $ws8 "8eight"
+set $ws9 "9nine"
+set $ws10 "10ten"
+
+#set $ws1 "1: "
+#set $ws2 "2: "
+#set $ws3 "3: "
+#set $ws4 "4: "
+#set $ws5 "5: "
+#set $ws6 "6: "
+#set $ws7 "7: "
+#set $ws8 "8: "
+#set $ws9 "9: "
+#set $ws10 "10: "
+
+################### SET FONT #####################
+# DejaVu Sans Mono, Roboto, Noto Sans, Inconsolata
+font pango:Inconsolata 11
+
+########### AUTOLAUNCH SYSTEM UTILITIES ##########
+exec --no-startup-id dex --autostart --environment i3 
+exec --no-startup-id nm-applet
+exec --no-startup-id /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id dunst
+exec --no-startup-id picom
+exec --no-startup-id xrandr --output HDMI-0 --brightness 0.8
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings
+#exec --no-startup-id nvidia-settings --load-config-only
+exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id xrandr -s 1920x1080
+
+########### AUTOLAUNCH APPLICATIONS #############
+ # to system tray
+exec --no-startup-id clipit
+exec --no-startup-id kdeconnect-indicator
+exec --no-startup-id dropbox start
+ # to scratchpad
+exec --no-startup-id simplenote
+exec --no-startup-id planner
+exec_always --no-startup-id geary
+ # to desktop
+#exec --no-startup-id firefox
+#exec --no-startup-id code-oss
+#exec --no-startup-id teams
+#exec --no-startup-id onlyoffice
+#exec --no-startup-id virtualbox
+exec_always --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute bash ~/scripts-backup.sh'
+exec_always --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute bash ~/dotfiles-backup.sh'
+ # to workspaces
+#exec --no-startup-id i3-msg 'workspace $ws8; layout splitv exec gnome-terminal --execute ytfzf -m; exec gnome-terminal --execute cava; workspace $ws1'
+#exec --no-startup-id i3-msg 'workspace $ws10; exec gnome-terminal --execute htop glances; workspace $ws1'
+#exec --no-startup-id i3-msg 'workspace $ws3; exec gnome-terminal --execute ranger; workspace $ws1'
+#exec_always --no-startup-id i3-msg 'workspace $ws5; exec --no-startup-id firefox https://www.messenger.com'
+
+################## KEYBINDINGS ##################
+### programs ### 
+bindsym Mod4+Return exec --no-startup-id i3-sensible-terminal
+bindsym Mod4+Shift+Return exec --no-startup-id gnome-terminal --execute ranger
+bindsym Mod4+Shift+f exec --no-startup-id nemo
+bindsym Mod4+w exec --no-startup-id ~/qute.sh 
+bindsym Mod4+Shift+y exec --no-startup-id firefox --new-window https://www.youtube.com
+bindsym Mod4+y splitv; exec --no-startup-id gnome-terminal --execute cava; exec --no-startup-id gnome-terminal --execute ytfzf
+bindsym Mod4+c exec gcolor3
+bindsym Mod4+Ctrl+v exec pavucontrol
+
+### scratchpad ### 
+bindsym Mod4+p [class="Com.github.alainm23.planner"] scratchpad show; move position center
+bindsym Mod4+n [class="Simplenote"] scratchpad show; move position center
+bindsym Mod4+g [class="Geary"] scratchpad show; move position center
+#bindsym Mod4+m [class="Caprine"] scratchpad show; move position center  
+#bindsym Mod4+Shift+n [class="Nitrogen"] scratchpad show; move position center
+
+### commands ###
+bindsym Mod4+q kill
+bindsym Mod4+Shift+c reload
+bindsym Mod4+Shift+r restart
+bindsym Mod4+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym Mod4+Shift+s exec --no-startup-id i3lock
+bindsym Mod4+minus scratchpad show
+ # statusbar
+bindsym Mod4+b bar mode hide
+bindsym Mod4+Shift+b bar mode dock
+ # gaps
+bindsym Mod4+Shift+plus gaps outer current plus 5 ; gaps inner current plus 5
+bindsym Mod4+Shift+minus gaps outer current minus 5 ; gaps inner current minus 5
+ # screenshot 
+bindsym Print exec scrot -q 100
+bindsym Mod4+Print exec flameshot gui
+ # changing audio source
+bindsym Mod4+F4 exec gnome-terminal --execute bash ~/Backups/scripts/headphone-out.sh
+bindsym Mod4+Shift+F4 exec gnome-terminal --execute bash ~/Backups/scripts/lineout.sh
+ # volume control
+bindsym --whole-window Mod4+button4 exec --no-startup-id amixer -D pulse sset Master 5%+ && paplay /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
+bindsym --whole-window Mod4+button5 exec --no-startup-id amixer -D pulse sset Master 5%- && paplay /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
+bindsym Mod4+F3 exec --no-startup-id amixer -D pulse sset Master 5%+ && paplay /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
+bindsym Mod4+F2 exec --no-startup-id amixer -D pulse sset Master 5%- && paplay /usr/share/sounds/freedesktop/stereo/audio-volume-change.oga
+bindsym Mod4+Shift+F2 exec --no-startup-id amixer -D pulse sset Master toggle-mute  
+ # dmenu 
+bindsym Mod4+Shift+d exec --no-startup-id i3-dmenu-desktop 
+bindsym Mod4+d exec --no-startup-id dmenu_run -nb '#1e1e1e' -sf '#1E1E1E' -sb '#8477A5' -nf '#8477A5' -fn 'roboto-12' -p 'MENU:' 
+#-l 5 = add this to dmenu to get a list
+#bindsym Mod4+d exec "dmenu_run -nf '#C0FFFF' -nb '#0080C0' -sb '#005577' -sf '#C0FFC0' -fn 'monospace-10' -p 'MENU:'"
+
+### window management ###
+bindsym Mod4+f fullscreen toggle
+bindsym Mod4+Shift+space floating toggle
+bindsym Mod4+space focus mode_toggle
+ # change focus using keystrokes
+bindsym Mod4+$left focus left
+bindsym Mod4+$down focus down
+bindsym Mod4+$up focus up
+bindsym Mod4+$right focus right
+ # change focus using cursor 
+bindsym Mod4+Left focus left
+bindsym Mod4+Down focus down
+bindsym Mod4+Up focus up
+bindsym Mod4+Right focus right
+ # move focused window using keystrokes
+bindsym Mod4+Shift+$left move left
+bindsym Mod4+Shift+$down move down
+bindsym Mod4+Shift+$up move up
+bindsym Mod4+Shift+$right move right
+ # move focused window using cursor 
+bindsym Mod4+Shift+Right move right 
+bindsym Mod4+Shift+Left move left
+bindsym Mod4+Shift+Down move down
+bindsym Mod4+Shift+Up move up
+ # split orientation 
+bindsym Mod4+Shift+v split h
+bindsym Mod4+v split v
+ # container layout (stacked, tabbed, toggle split)
+bindsym Mod4+s layout stacking
+bindsym Mod4+Shift+w layout tabbed
+bindsym Mod4+e layout toggle split
+ # focus the parent/child container
+bindsym Mod4+a focus parent
+#bindsym Mod4+d focus child
+ # resizing  
+bindsym Mod4+r mode "resize"
+mode "resize" {
+        bindsym $left       resize shrink width 10 px or 10 ppt
+        bindsym $down       resize grow height 10 px or 10 ppt
+        bindsym $up         resize shrink height 10 px or 10 ppt
+        bindsym $right      resize grow width 10 px or 10 ppt
+        # resize with arrow keys
+        bindsym Left        resize shrink width 10 px or 10 ppt
+        bindsym Down        resize grow height 10 px or 10 ppt
+        bindsym Up          resize shrink height 10 px or 10 ppt
+        bindsym Right       resize grow width 10 px or 10 ppt
+        # back to normal: Enter or Escape or Mod4+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym Mod4+r mode "default"
+}
+
+### workspace management ###
+ # switch to workspace
+bindsym Mod4+1 workspace $ws1
+bindsym Mod4+2 workspace $ws2
+bindsym Mod4+3 workspace $ws3
+bindsym Mod4+4 workspace $ws4
+bindsym Mod4+5 workspace $ws5
+bindsym Mod4+6 workspace $ws6
+bindsym Mod4+7 workspace $ws7
+bindsym Mod4+8 workspace $ws8
+bindsym Mod4+9 workspace $ws9
+bindsym Mod4+0 workspace $ws10
+ # move focused container to workspace
+bindsym Mod4+Shift+1 move container to workspace $ws1
+bindsym Mod4+Shift+2 move container to workspace $ws2
+bindsym Mod4+Shift+3 move container to workspace $ws3
+bindsym Mod4+Shift+4 move container to workspace $ws4
+bindsym Mod4+Shift+5 move container to workspace $ws5
+bindsym Mod4+Shift+6 move container to workspace $ws6
+bindsym Mod4+Shift+7 move container to workspace $ws7
+bindsym Mod4+Shift+8 move container to workspace $ws8
+bindsym Mod4+Shift+9 move container to workspace $ws9
+bindsym Mod4+Shift+0 move container to workspace $ws10
+ # move container
+bindsym Mod4+z move workspace to output left
+bindsym Mod4+x move workspace to output right
+ # traverse workspaces
+bindsym Mod4+Tab workspace next
+bindsym Mod4+Shift+Tab workspace prev
+
+################## WORKSPACES ###########################
+ # assign workspaces using xprop | grep CLASS 
+#assign [class="firefox"] $ws1
+#assign [class="Apache NetBeans IDE 16"] $ws2
+#assign [class="jetbrains-pycharm-ce"] $ws2
+#assign [class="Thonny"] $ws2
+#assign [class="Sublime_text"] $ws2
+#assign [class="Code - OSS"] $ws2
+#assign [class="teams-for-linux"] $ws3
+#assign [class="Gimp"] $ws6
+#assign [class="Shotcut"] $ws6
+#assign [class="DesktopEditors"] $ws7
+#assign [class="Evince"] $ws7
+#assign [class="VirtualBox Manager"] $ws8
+#assign [class="vlc"] $ws10
+
+################# WINDOW RULES ########################
+ # focus
+for_window [urgent="latest"] focus
+ # floating
+for_window [class="kruler"] floating enable
+for_window [class="Tk"] floating enable
+for_window [class="Gcolor3"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Simplescreenrecorder"] floating enable
+ # scratchpad
+for_window [class="Geary"] floating enable
+for_window [class="Geary"] move scratchpad
+for_window [class="Com.github.alainm23.planner"] floating enable
+for_window [class="Com.github.alainm23.planner"] move scratchpad
+for_window [class="Simplenote"] floating enable
+for_window [class="Simplenote"] move scratchpad
+#for_window [class="Caprine"] floating enable
+#for_window [class="Caprine"] move scratchpad
+ # i3-gaps integration 
+for_window [class="^.*"] border pixel 2
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [title="Preferences$"] floating enable
+#popup_during_fullscreen smart ## smart | ignore | leave_fullscreen
+#smart_borders no_gaps
+#smart_gaps on
+gaps inner 10
+gaps outer 0
+
+####################### LOOKS ######################
+bar {
+        position top
+        modifier none
+        strip_workspace_numbers yes
+        #binding_mode_indicator no
+        #font pango:Roboto 11
+        #i3bar_command i3bar --transparency
+        #status_command i3status
+        status_command ~/.config/bumblebee-status/bumblebee-status -m cpu nvidiagpu \
+		memory date time pasink pasource \
+		-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %b %d %Y" \
+		-t moonlight-powerline 
+        colors {
+            background #212337
+
+            focused_workspace #212337 #403C64 #fafafa
+            active_workspace #161821  #161821 #fafafa
+            inactive_workspace #161821 #161821 #4F4F4F
+            urgent_workspace #161821 #161821 #B58900
+        }
+}
+ # colors
+# class                 border  backgr. text    indicator child_border
+client.focused          #404552 #404552 #fafafa #8477A5 #8477A5
+client.focused_inactive #666666 #404552 #eeeeee #666666 #666666
+client.unfocused        #404552 #484b52 #eeeeee #8477A5 #404552
+client.urgent           #8477A5 #8477A5 #ffffff #8477A5 #8477A5
+client.background       #404552
+
+#################### REFERENCES ####################
+# https://wiki.archlinux.org/index.php/XDG_Autostart
