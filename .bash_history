@@ -1,6 +1,3 @@
-cp --help
-ll
-laksjhdfasdlkfjh
 clear
 exit
 mv .configs/ .config
@@ -498,3 +495,6 @@ v Repos/dotfiles/solus/.config/i3/conf
 v Repos/dotfiles/solus/.config/i3/config
 v .config/i3/config
 xrandr --output HDMI-0 --brightness 0.8
+xrandr
+v Repos/dotfiles/solus/.config/i3/config 
+v .config/i3/config
