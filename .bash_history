@@ -1,4 +1,3 @@
-cp picom.conf .config/picom/
 git rm quickmarks
 git rm urls
 git rm picom.conf 
@@ -498,3 +497,4 @@ sudo ufw status
 sudo ufw allow 4000
 sudo ufw status
 xprop
+v .config/i3/config
