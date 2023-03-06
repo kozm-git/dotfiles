@@ -1,7 +1,3 @@
-clear
-exit
-mv .configs/ .config
-mkdir i3
 git rm
 git rm file
 git commit -m "deleted file"
@@ -498,3 +494,7 @@ xrandr --output HDMI-0 --brightness 0.8
 xrandr
 v Repos/dotfiles/solus/.config/i3/config 
 v .config/i3/config
+v .config/i3/config
+pacman -Ss minecraft
+sudo pacman -Sy
+sudo pacman -S minecraft-launcher
