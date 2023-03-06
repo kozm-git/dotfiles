@@ -593,7 +593,7 @@ for_window [title="Your Repositories"] floating disable
 for_window [title="Messenger"] floating disable
 for_window [instance="kdeconnect-app" class="kdeconnect.app"] floating enable
 for_window [instance="kdeconnect-settings" class="kdeconnect-settings"] floating enable
-for_window [instance="crx_beodkchghmjjfhojholjdhdfodleinln" class="Brave-browser"] floating enable
+for_window [instance="crx_beodkchghmjjfhojholjdhdfodleinln" class="Brave-browser"] floating disable 
 
 # for_window [instance="gimp"] floating disable
 for_window [instance="script-fu"] border normal
