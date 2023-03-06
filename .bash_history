@@ -1,5 +1,3 @@
-mv solus-config config
-cd .config/
 clear
 cp config mint-config -t .config/i3/
 cd Repos
@@ -498,3 +496,5 @@ sudo pacman -Rns file-roller
 pacman -Ss archive
 sudo pacman -S xarchiver xarchiver-gtk2
 sudo pacman -S xarchiver 
+v .config/i3/config-polybar 
+v .config/i3/config
