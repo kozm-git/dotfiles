@@ -1,35 +1,3 @@
-git rm file
-git commit -m "deleted file"
-git push
-cd 
-cd scripts
-cp --help
-laksjhdfasdlkfjh
-exit
-cd Repos
-cd dotfiles/
-mv config solus-config
-mv solus-config config
-cd .config/
-cd ..
-clear
-cp config mint-config -t .config/i3/
-cd .config
-cd i3
-ll
-ranger
-exit
-mv .configs/ .config
-mkdir i3
-git rm
-git rm file
-git commit -m "deleted file"
-cd 
-cd scripts
-cp --help
-laksjhdfasdlkfjh
-exit
-mv config solus-config
 mv solus-config config
 cd .config/
 clear
@@ -498,3 +466,35 @@ pacman -Ss minecraft
 sudo pacman -Sy
 sudo pacman -S minecraft-launcher
 v .config/i3/config
+v Repos/scripts/dotfiles-backup.sh 
+v .config/i3/config
+sudo pacman -Rns ristretto
+cd Dropbox/
+ll
+sudo pacman -Syyu
+pacman -Ss filerooller
+pacman -Ss fileroller
+pacman -Ss archive
+pacman -Q fileroller
+pacman -Q archive
+pacman -Q archiver
+pacman -Q gnome
+pacman -Qm gnome
+pacman -Qe gnome
+pacman -Qs gnome
+pacman -Q
+pacman -Q | wc -l
+pacman -Qt
+pacman -Qq
+clear
+exit
+ll
+fileroller
+file-roller
+pacman -Q file-roller
+pacman -Ss file-roller
+pacman -Ss gnome
+sudo pacman -Rns file-roller
+pacman -Ss archive
+sudo pacman -S xarchiver xarchiver-gtk2
+sudo pacman -S xarchiver 
