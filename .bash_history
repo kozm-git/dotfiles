@@ -1,4 +1,3 @@
-clear
 cp config mint-config -t .config/i3/
 cd Repos
 cd dotfiles/
@@ -498,3 +497,4 @@ sudo pacman -S xarchiver xarchiver-gtk2
 sudo pacman -S xarchiver 
 v .config/i3/config-polybar 
 v .config/i3/config
+killall polybar 
