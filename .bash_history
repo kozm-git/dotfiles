@@ -1,5 +1,3 @@
-git rm quickmarks
-git rm urls
 git rm picom.conf 
 git mint-config
 git rm mint-config 
@@ -496,5 +494,7 @@ systemctl status sshd
 sudo ufw status
 sudo ufw allow 4000
 sudo ufw status
+xprop
+v .config/i3/config
 xprop
 v .config/i3/config
