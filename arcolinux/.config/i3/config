@@ -756,11 +756,11 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 
 ################# bar appearance                   
 
-bar {
-    height 23
-    workspace_buttons yes
-	font pango:Noto Sans 12
-	position top
+#bar {
+#    height 23
+#    workspace_buttons yes
+#	font pango:Noto Sans 12
+#	position top
     #position bottom
 
 	# system icons
@@ -810,19 +810,19 @@ bar {
     # i3 bar colors
     # variable border background Text
 
-    colors {
-        background #2F343F
-        statusline #eeeeee
-        separator  #666666
+#    colors {
+#        background #2F343F
+#        statusline #eeeeee
+#        separator  #666666
 
         # colorclass           border  backgr. text
         focused_workspace     #a9a9a9 #5f676a #eeeeee
         active_workspace      #a9a9a9 #5f676a #eeeeee
         inactive_workspace    #a9a9a9 #222222 #a9a9a9
         urgent_workspace      #a9a9a9 #d42121 #FFFFFF
-        }
+#        }
 
-    }
+#    }
     ##STOP THEMING BAR
 
     ##START THEMING WM
