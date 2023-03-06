@@ -1,4 +1,3 @@
-git rm
 git rm file
 git commit -m "deleted file"
 git push
@@ -498,3 +497,4 @@ v .config/i3/config
 pacman -Ss minecraft
 sudo pacman -Sy
 sudo pacman -S minecraft-launcher
+v .config/i3/config
