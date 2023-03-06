@@ -1,15 +1,3 @@
-cp config mint-config -t .config/i3/
-cd Repos
-cd dotfiles/
-cd .cofig
-mkdir qutebrowser
-cp urls quickmarks -t .config/qutebrowser/
-cp config.py .config/qutebrowser/
-cd i3
-cd qutebrowser
-cd .config
-mkdir picom
-cd ..
 cp picom.conf .config/picom/
 git rm quickmarks
 git rm urls
@@ -498,3 +486,15 @@ sudo pacman -S xarchiver
 v .config/i3/config-polybar 
 v .config/i3/config
 killall polybar 
+xprop
+export -p
+ufw status
+sudo ufw status
+export -p
+ssh 
+systemctl start sshd
+systemctl status sshd
+sudo ufw status
+sudo ufw allow 4000
+sudo ufw status
+xprop
