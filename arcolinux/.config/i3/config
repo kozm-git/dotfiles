@@ -1,85 +1,42 @@
-################# Start of all the settings
+#    
+#    ___ ___  ___  ___  _    ____   _ _   _ _  _
+#   / _ | _ \/  _|/ _ \| |   | | \ | | | | | \/ |
+#  / /_|| _|/  / | | | | |   | |  \| | | | |\  / 
+# / ___ |   \  \_| |_| | |___| | |\  | \_/ |/  \
+#/_/  |_| |\_\___|\___/|_____|_|_| \_|\___/|_/\_|
+#
+#      				i3 Configuration
+#				https://github.com/kozm-git/
+#
+#---------------------------------
+# Keys Cheatsheet	         |
+#---------------------------------
+# Mod4 = Super key               |
+# Mod1 = ALT key                 |
+# Control = CTRL key             |
+# Shift = SHIFT key              |
+# Escape = ESCAPE key            |
+# Return = ENTER or RETURN key   |         
+# KP_Enter = Keypad Enter        |
+# Pause = PAUSE key              |
+# Print = PRINT key              |
+# Tab = TAB key                  |
+#---------------------------------
 
-# KEY DEFINITIONS TO REMEMBER
-# $mod = Set below
-# Mod4 = Super key
-# Mod1 = ALT key
-# Control = CTRL key
-# Shift = SHIFT key
-# Escape = ESCAPE key
-# Return = ENTER or RETURN key
-# KP_Enter = Keypad Enter
-# Pause = PAUSE key
-# Print = PRINT key
-# Tab = TAB key
-
-################# Define the $mod variable/key
-
-# Key to rule them all : Super(Windows) or Alt key - see definition above
-# set Super key
+# Keys Variables 
 set $mod Mod4
-
-################# Define the movements keys - variables
-
-# This is setup for qwerty
-# set $right to m if using azerty keyboard
 set $up l
 set $down k
 set $left j
 set $right semicolon 
 
-################# Single and Dual screen
-
-
-# current displays
-#exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto 
+# Display Configuration 
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 
-# setting variables for later use
-# use xrandr and/or arandr to know the names of your monitors
-# use this line to tell which monitor is on the right
-# xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
-# exec --no-startup-id xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
-# exec --no-startup-id xrandr --output DVI-I-0 --right-of HDMI-0 --auto
-# exec --no-startup-id xrandr --output DVI-1 --right-of DVI-0 --auto
-# exec --no-startup-id xrandr --output DVI-D-1 --right-of DVI-I-1 --auto
-# exec --no-startup-id xrandr --output HDMI-2 --right-of HDMI-1 --auto
-
-# Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
-# using names instead of numbers for the workspaces
-# set $ws1 "1: Terminal"
-# set $ws2 "2: Browser"
-# set $ws3 "3: Mail"
-# set $ws4 "4: File Manager"
-
-# switch to workspace
-#bindsym $mod+1 workspace $ws1
-#bindsym $mod+2 workspace $ws2
-#bindsym $mod+3 workspace $ws3
-#bindsym $mod+4 workspace $ws4
-
-# current setup
+# Dual Monitor
 
 set $firstMonitor HDMI-1
 set $secondMonitor HDMI-2
-
-# Other Examples
-
-#set $firstMonitor DP3
-#set $secondMonitor LVDS1
-
-#set $firstMonitor DVI-I-0
-#set $secondMonitor HDMI-0
-
-#set $firstMonitor DVI-0
-#set $secondMonitor DVI-1
-
-#set $firstMonitor DVI-I-1
-#set $secondMonitor DVI-D-1
-
-#set $firstMonitor HDMI-1
-#set $secondMonitor HDMI-2
 
 workspace 1 output $firstMonitor
 workspace 2 output $firstMonitor
