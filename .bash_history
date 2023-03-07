@@ -1,94 +1,3 @@
-git rm picom.conf 
-git mint-config
-git rm mint-config 
-git rm config
-git rm config.py
-ll
-git commit -u
-git push
-killall polybar
-git rm config
-git rm config.py
-git commit -u
-git push
-cd i3
-cd .config
-mv config config-i3blocks
-ll
-mv config-polybar config
-mv config config-polybar
-mv config-i3blocks config
-clear
-cp config mint-config -t .config/i3/
-cd .cofig
-mkdir qutebrowser
-cp urls quickmarks -t .config/qutebrowser/
-cp config.py .config/qutebrowser/
-cd i3
-cd qutebrowser
-mkdir picom
-cp picom.conf .config/picom/
-git rm quickmarks
-git rm urls
-git rm picom.conf 
-git mint-config
-git rm mint-config 
-git rm config
-git rm config.py
-git push
-cd Repos
-mkdir alacritty
-cp ~/.config/alacritty/alacritty.yml 
-cp ~/.config/alacritty/alacritty.yml ~/Repos/dotfiles/.config/alacritty/
-cd alacritty/
-cd .
-cd .config
-git add i3/*
-git commit -u
-cd picom
-mkdir solus
-mkdir arcolinux
-cp .bashrc .gtkrc-2.0 -t solus
-cd solus
-cd ..
-cd dotfiles/
-ll
-cd .vim
-ll
-cd ..
-ll
-vim .viminfo 
-clear
-vim .bashrc 
-bash
-cl
-exit
-mv config solus-config
-mv solus-config config
-cd .config/
-clear
-cp config mint-config -t .config/i3/
-cd .cofig
-mkdir qutebrowser
-cp urls quickmarks -t .config/qutebrowser/
-cp config.py .config/qutebrowser/
-cd qutebrowser
-mkdir picom
-cp picom.conf .config/picom/
-git rm quickmarks
-git rm urls
-git rm picom.conf 
-git mint-config
-git rm mint-config 
-git rm config
-git rm config.py
-killall polybar
-git rm config
-git rm config.py
-mv config config-i3blocks
-mv config-polybar config
-mv config config-polybar
-mv config-i3blocks config
 clear
 cp config mint-config -t .config/i3/
 cd .cofig
@@ -498,3 +407,94 @@ xprop
 v .config/i3/config
 xprop
 v .config/i3/config
+cd /
+sudo ncdu
+xprop
+v .config/i3/config
+cd /
+sudo ncdu
+cd var
+cd /var
+cd lib
+cd pacman 
+ll
+cd .
+cd ..
+cl cache
+cl pacman
+cl pkg
+pacman -Qq > list
+ll
+vim list 
+rm list
+pacman -Qq | wc -l
+sudo tune2fs -l /dev/sda3 | grep created
+sudo tune2fs -l /dev/sdc2 | grep created 
+sudo tune2fs -l /dev/sdc1 | grep created 
+sudo tune2fs -l /dev/sdc | grep created 
+lsblk
+pacman -Q gnome-control-center
+pacman -Q gnome-online-accounts
+pacman -Ss rclone
+pacman -Ss brave
+lsblk
+pacman -Ss syncthing
+pacman -Ss nextclooud
+pacman -Ss nextcloud
+sudo pacman -S nextcloud syncthing
+sudo pacman -S nextcloud-client syncthing
+sudo pacman -S nextcloud
+nextcloud
+nextcloudcmd
+yay -Ss rclone-browser
+rclnoe
+sudo pacman -Ss rclone
+sudo pacman -S rclone
+rclone
+rclone --help
+rclone help flags
+rclone help backends
+rclone help backend ftp
+pacman -Ss synctrazor
+yay -Ss synctrazor
+joplin-cmd
+v .config/i3/config
+pacman -Ss awesome
+v .config/i3/config
+clear
+exit
+v .config/i3/config
+exit
+cd Documents/
+ll
+vim lettering
+v .config/i3/
+cl .config/i3
+v cheatsheet.md 
+vim lettering
+cd Documents/
+subl lettering
+vim .config/i3/config
+ll
+cd ..
+v .config/i3/config
+v Documents/lettering 
+subl Documents/lettering 
+v .config/i3/cheatsheet.md 
+cl .config/i3
+v config.bak
+v config
+v config-keep
+ll
+cl
+clear
+exit
+v .bashrc
+clear
+exit
+v .config/i3/config
+v .config/i3/cnfog
+v .config/i3/config
+subl .config/i3/config
+v .config-keep
+v .config/i3/config-keep 
