@@ -1,42 +1,3 @@
-rm alacritty.yml 
-ll 
-cl ..
-ll 
-cd Repos/dotfiles
-cl arcolinux/
-cl .config/
-cl picom/
-ll
-cl ..
-rmdir picom
-ll
-cd dotfiles/
-cd .config/i3
-vim .bashrc 
-less .bashrc 
-cd solus/.config
-rm mint-config 
-cd i3
-vim config
-cl dotfiles/
-vim config 
-cl dotifles
-cl mint
-cl dotfiles/
-cl alacritty/
-rm alacritty.yml 
-ll 
-ll 
-cd Repos/dotfiles
-cl picom/
-vim .config
-cd Repos
-cd dotfiles
-cd mint
-l
-cd solus
-cd .config
-cl picom
 mv picom.conf ~/Repos/dotfiles/solus/.config
 rmdir picom
 ll
@@ -498,3 +459,42 @@ cd Repos
 ll
 cl scripts
 vim solus-gnome-setup.sh
+cd Repos
+ll
+cl scripts
+vim solus-gnome-setup.sh
+cd g
+cd go
+cd pkg
+cd mod
+cd ..
+rm go
+rm -r go
+sudo rm -rf go
+ls
+rm -r go
+sudo rm -rf go
+cd .nv
+ls
+cd ComputeCache/
+cl
+cl ..
+clear
+exit
+cl 
+cl Downloads/
+cl zipped/
+cl ..
+syncthing
+cl
+cd ..
+ls
+cl Treasure_of_Nadia_-_Linux-v1.0117
+vim launcher.sh 
+vim nw
+./launcher.sh
+./launcher.sh 
+pacman -Q dunst
+v Repos/scripts/dotfiles-backup.sh 
+v .config/i3/config
+subl .config/i3/config
