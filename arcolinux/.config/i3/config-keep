@@ -1,24 +1,46 @@
  
-# ARCHIVE / DUMP CONFIGURATION BLOCKS & LINES 
+# ARCHIVE / DUMP CONFIGURATION BLOCKS & LINES  
  
 # This file is for dump/unused configurations 
 # from arcolinux-i3 dotfile 
 
-#------------------------------------------------------------------
-# Display Configuration
+#----------------------------Display Configuration
 
-# single monitor setup 
+## single monitor setup 
 exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto
+
+## dual monitor setup
+#----variables------
+set $firstMonitor HDMI-1
+set $secondMonitor HDMI-2
+
+#----workspaces------
+workspace 1 output $firstMonitor
+workspace 2 output $firstMonitor
+workspace 3 output $firstMonitor
+workspace 4 output $firstMonitor
+workspace 5 output $firstMonitor
+workspace 6 output $secondMonitor
+workspace 7 output $secondMonitor
+workspace 8 output $secondMonitor
+workspace 9 output $secondMonitor
+workspace 10 output $secondMonitor 
  
-# multi monitor setup
+## multi monitor setup
 xrandr --output DVI --right-of DVI-I-1 --auto # declaring which monitor is on the right
-#------------------------------------------------------------------
-# Workspace Variable Setting Examples 
+
+#----------------------------Workspace Names
  
-# words
+## words
 set $ws1 "1: Terminal"
 set $ws2 "2: Browser"
 set $ws3 "3: Mail"
 set $ws4 "4: File Manager"
 
-#
+#----------------------------Keybindings
+
+## xlunch
+bindsym mod1+F5 exec --no-startup-id xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv
+
+## reload/update config
+bindsym $mod+Shift+c reload
