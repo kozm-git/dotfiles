@@ -1,76 +1,3 @@
-clear
-cp config mint-config -t .config/i3/
-cd .cofig
-mkdir qutebrowser
-cp urls quickmarks -t .config/qutebrowser/
-cp config.py .config/qutebrowser/
-cd qutebrowser
-mkdir picom
-cp picom.conf .config/picom/
-git rm quickmarks
-git rm urls
-git rm picom.conf 
-git mint-config
-git rm mint-config 
-git rm config
-git rm config.py
-mkdir alacritty
-cp ~/.config/alacritty/alacritty.yml 
-cp ~/.config/alacritty/alacritty.yml ~/Repos/dotfiles/.config/alacritty/
-cd alacritty/
-cd .
-git add i3/*
-cd picom
-mkdir solus
-mkdir arcolinux
-cp .bashrc .gtkrc-2.0 -t solus
-cd Repos
-cd dotfiles/
-git reset
-git restore
-git commit -uu
-git rm .bashrc .gtkrc-2.0 
-git commit -u
-git push
-mv .config solus
-mkdir linux-mint
-cd linux-mint/
-rm linux-mint/
-rmdir linux-mint/
-mkdir mint
-cp mint-config ~/Repos/dotfiles/mint/
-mkdir .config/i3
-mkdir .config/i3/
-mkdir .conif
-mkdir .config
-cd .config
-mkdir i3
-cd mint
-rm .conif
-rmdir .conif
-mv mint-config .config/i3/config
-cd .config/i3
-cd solus
-vim .bashrc 
-less .bashrc 
-cd solus/.config
-rm mint-config 
-cd i3
-vim config
-cd ..
-cl mint
-ll
-mkdir .config/i3
-mkdir .config/i3/
-mkdir .conif
-cd mint
-rm .conif
-rmdir .conif
-mv mint-config .config/i3/config
-cd .config/i3
-cd solus
-vim .bashrc 
-less .bashrc 
 cd solus/.config
 rm mint-config 
 vim config
@@ -498,3 +425,76 @@ v .config/i3/config
 subl .config/i3/config
 v .config-keep
 v .config/i3/config-keep 
+v .config/i3/config
+pacman -Ss weechat
+pacman -Ss mpd
+pacman -Ss gitlab 
+pacman -Ss blender
+pacman -Ss sketchup
+pacman -Ss sketch
+pacman -Ss sweethome
+sudo pacman -Ss sweethome3d
+sudo pacman -S sweethome3d
+sudo pacman -Syu
+xkill
+clear
+exit
+killall sweethome3d
+jobs
+htop
+pacman -Ss pomodoro
+pacman -Ss timers
+pacman -Ss timer
+pacman -Ss pomo
+yay -S pomo
+yay -Rns pomo
+yay -Ss pomo
+alais
+v .bashhrc
+v .bashrc
+bash
+pacman -Ss pom
+pacman -Ss 
+pacman -Q
+pacman -S
+pacman -Ss
+;q
+:q
+clear
+exit
+sudo pacman -Rns sweethome3d 
+sudo pacman -Rns sweethome3d
+pacman -Rns sweethome3d
+sudo pacman -Rns sweethome3d
+arch091427!
+sudo pacman -Rns sweethome3d
+v .bashrc
+clear
+bash
+pacman -Rns sweethome3d
+yay -S pomo
+pacman -Rns jre11-openjdk-headless jre11-openjdk 
+v /var/lib/yay
+v /var/log/pacman.log 
+sudo pacman -Rns sweethome3x
+sudo pacman -Rns sweethome3d
+pacman -Ss yay 
+clear
+exit
+yay -Ss pomo
+yay -S pomo
+yay -Rns pomo
+yay -Rns pomo go
+pacman -Ss git
+pacman -Ss peek
+pacman -Q linux
+pacman -Qe linux-lts
+pacman -Ss borg
+pacman -Ss vorta
+pacman -Ss webcamoid
+pacman -Ss burp
+sudo pacman -S borg
+borg
+pacman -Rns borg
+pacman -Ss discord
+xprop
