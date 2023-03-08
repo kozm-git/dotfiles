@@ -771,7 +771,7 @@ bar {
     # variable border background Text
 
     colors {
-        background #1D2024
+        background #2F343F
         statusline #eeeeee
         separator  #666666
 
