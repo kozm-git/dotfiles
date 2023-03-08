@@ -1,4 +1,3 @@
-cl
 cl arcolinux/
 cl .config/
 rmdir polybar/
@@ -498,3 +497,4 @@ subl .config/i3/config
 xlunch
 pacman -Ss xlunch
 v .config/i3/config
+v .config/i3/config-keep
