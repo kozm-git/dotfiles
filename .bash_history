@@ -1,33 +1,3 @@
-cd solus
-vim .bashrc 
-less .bashrc 
-cd solus/.config
-rm mint-config 
-cd i3
-vim config
-cd Repos
-cl dotfiles/
-cl .config
-vim config 
-cl dotifles
-cl ..
-cl arcolinux/
-cl .config/
-cd ..
-cl
-cl mint
-cd .config
-ll
-cl i3
-cd .config
-cl i3
-cd Repos
-l
-cl dotfiles/
-cl arcolinux/
-cl .config/
-cl alacritty/
-ll
 rm alacritty.yml 
 ll 
 cl ..
@@ -498,3 +468,33 @@ pacman -Q git
 pacman -Qe git
 pacman -Qs git
 gpick
+v .config/i3/config
+pacman -Ss neomutt
+pacman -Ss gmail
+pacman -Ss email
+pacman -Ss mail
+sudo pacman -S notmuch
+cl
+./Milfy_City_Xmas.sh 
+sud o./Milfy_City_Xmas.sh 
+sudo./Milfy_City_Xmas.sh 
+sudo ./Milfy_City_Xmas.sh 
+cl
+bash Milfy_City_Xmas 
+cl
+./Milfy_City_Xmas.sh 
+clear
+exit
+sudo systemctl enable fstrim.timer
+sudo systemctl start fstrim.timer
+sudo systemctl status fstrim.timer
+sudo systemctl list-timers --all
+ssh mc@192.168.1.6
+ssh mc@192.168.1.9
+ssh mc@192.168.1.9:~/Documents/debloat-solus.sh ~/Repos/scripts
+scp mc@192.168.1.9:~/Documents/debloat-solus.sh ~/Repos/scripts
+ls
+cd Repos
+ll
+cl scripts
+vim solus-gnome-setup.sh
