@@ -1,6 +1,3 @@
-mv picom.conf ~/Repos/dotfiles/solus/.config
-rmdir picom
-ll
 cl
 cl arcolinux/
 cl .config/
@@ -498,3 +495,6 @@ pacman -Q dunst
 v Repos/scripts/dotfiles-backup.sh 
 v .config/i3/config
 subl .config/i3/config
+xlunch
+pacman -Ss xlunch
+v .config/i3/config
