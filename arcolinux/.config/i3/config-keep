@@ -1,0 +1,24 @@
+ 
+# ARCHIVE / DUMP CONFIGURATION BLOCKS & LINES 
+ 
+# This file is for dump/unused configurations 
+# from arcolinux-i3 dotfile 
+
+#------------------------------------------------------------------
+# Display Configuration
+
+# single monitor setup 
+exec --no-startup-id xrandr --output DP0 --right-of HDMI-0 --auto
+ 
+# multi monitor setup
+xrandr --output DVI --right-of DVI-I-1 --auto # declaring which monitor is on the right
+#------------------------------------------------------------------
+# Workspace Variable Setting Examples 
+ 
+# words
+set $ws1 "1: Terminal"
+set $ws2 "2: Browser"
+set $ws3 "3: Mail"
+set $ws4 "4: File Manager"
+
+#
