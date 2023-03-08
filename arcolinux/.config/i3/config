@@ -1,13 +1,14 @@
 #    
-#    ___ ___  ___  ___  _    ____   _ _   _ _  _
-#   / _ | _ \/  _|/ _ \| |   | | \ | | | | | \/ |
-#  / /_|| _|/  / | | | | |   | |  \| | | | |\  / 
-# / ___ |   \  \_| |_| | |___| | |\  | \_/ |/  \
-#/_/  |_| |\_\___|\___/|_____|_|_| \_|\___/|_/\_|
+#     ___ ___  ___  ___  _    ____   _ _   _ _  _
+#    / _ | _ \/  _|/ _ \| |   | | \ | | | | | \/ |
+#   / /_|| _|/  / | | | | |   | |  \| | | | |\  / 
+#  / ___ |   \  \_| |_| | |___| | |\  | \_/ |/  \
+# /_/  |_| |\_\___|\___/|_____|_|_| \_|\___/|_/\_|
 #
 #      				i3 Configuration
 #				https://github.com/kozm-git/
 #
+#==================================================
 #---------------------------------
 # Keys Cheatsheet	         |
 #---------------------------------
@@ -29,7 +30,7 @@ set $up l
 set $down k
 set $left j
 set $right semicolon 
-
+#--------------------------------
 # Display Configuration 
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 
@@ -551,6 +552,7 @@ for_window [title="Messenger"] floating disable
 for_window [title="SketchUp for Web - SketchUp"] floating disable
 for_window [instance="kdeconnect-app" class="kdeconnect.app"] floating enable 
 for_window [instance="kdeconnect-settings" class="kdeconnect-settings"] floating enable
+for_window [class="kruler"] floating enable
 
 # for_window [instance="gimp"] floating disable
 for_window [instance="script-fu"] border normal
