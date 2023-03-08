@@ -1,4 +1,3 @@
-cd .config/i3
 cd solus
 vim .bashrc 
 less .bashrc 
@@ -498,3 +497,4 @@ pacman -Q *git
 pacman -Q git
 pacman -Qe git
 pacman -Qs git
+gpick
