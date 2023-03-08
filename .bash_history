@@ -1,33 +1,3 @@
-cd solus/.config
-rm mint-config 
-vim config
-cl mint
-cd Repos
-cd dotfiles/
-mkdir .config
-mkdir i3
-cd ..
-cl solus
-cl .config
-mv alacritty ~/Repos/dotfiles/arcolinux/.config/
-cd i3
-cl picom
-cl qute
-cl qutebrowser/
-cl ..
-cd arcolinux/
-cd .config
-mkdir picom
-mkdir polybar
-ll
-clear
-vim .config/i3/picom.conf 
-clear
-vim Repos/scripts/scripts-backup.sh 
-vim Repos/scripts/scripts-backup.sh 
-cd Repos
-cd dotfiles/
-ll
 cd .config/i3
 cd solus
 vim .bashrc 
@@ -498,3 +468,33 @@ borg
 pacman -Rns borg
 pacman -Ss discord
 xprop
+v .config/i3/config
+pacman -Ss screenruler
+yay -Ss screenruler
+yay -Ss kruler
+pacman -Ss kruler
+sudo pacman -S kruler
+pacman -Ss shutter
+pacman -Ss teams
+pacman -Ss edge
+pacman -Ss microsoft-edge
+yay -Ss edge
+pacman -Ss onlyoffice
+pacman -Ss eclipse
+yay -Ss eclipse
+pacman -Ss gitahead
+pacman -Ss trillium notes
+pacman -Ss multitail
+pacman -S multitail
+multitail
+pacman -Ss dopewars
+pacman -Ss nethack
+pacman -Ss nethack-console
+
+pacman -Ss bastet
+yay -Ss bastet 
+yay -Ss freesweep
+pacman -Q *git
+pacman -Q git
+pacman -Qe git
+pacman -Qs git
