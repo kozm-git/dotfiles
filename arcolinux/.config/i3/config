@@ -34,22 +34,6 @@ set $right semicolon
 # Display Configuration 
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 
-# Dual Monitor
-
-set $firstMonitor HDMI-1
-set $secondMonitor HDMI-2
-
-workspace 1 output $firstMonitor
-workspace 2 output $firstMonitor
-workspace 3 output $firstMonitor
-workspace 4 output $firstMonitor
-workspace 5 output $firstMonitor
-workspace 6 output $secondMonitor
-workspace 7 output $secondMonitor
-workspace 8 output $secondMonitor
-workspace 9 output $secondMonitor
-workspace 10 output $secondMonitor
-
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
