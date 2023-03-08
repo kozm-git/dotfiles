@@ -25,6 +25,7 @@
 #---------------------------------
 
 #------------------------------Keys Variables 
+
 set $mod Mod4
 set $up l
 set $down k
@@ -32,10 +33,12 @@ set $left j
 set $right semicolon 
 
 #-----------------------------Display 
+
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 
 #-----------------------------Workspaces
-# workspace switching
+
+## workspace switching
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
@@ -47,7 +50,7 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-# moving containers to specific workspaces
+## moving containers to specific workspaces
 bindsym $mod+Shift+1 move container to workspace 1; workspace 1
 bindsym $mod+Shift+2 move container to workspace 2; workspace 2
 bindsym $mod+Shift+3 move container to workspace 3; workspace 3
@@ -60,35 +63,19 @@ bindsym $mod+Shift+9 move container to workspace 9; workspace 9
 bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 
 #----------------------------Keybindings
-# launchers (dmenu, clipmenu, rofi, xfce4-appfinder, )
+
+## launchers (dmenu, clipmenu, rofi, xfce4-appfinder, rofi)
 bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-
-# clipmenu
 bindsym $mod+c exec --no-startup-id clipmenu -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-
-# start rofi
 bindsym mod1+F1 exec --no-startup-id ~/.config/i3/launcher/launcher.sh
-
-# start xfce4-appfinder
 bindsym mod1+F2 exec --no-startup-id xfce4-appfinder --collapsed
-
-# start xfce-appfinder
 bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
-
-# start xlunch app launcher
-bindsym mod1+F5 exec --no-startup-id xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv
-
-# start rofi full
 bindsym $mod+F11 exec --no-startup-id "rofi -font 'Noto Sans 13' -theme-str 'window {width: 100%;height: 100%;}' -show drun"
-
-# start rofi small
 #bindsym $mod+F12 exec --no-startup-id rofi -show drun -font "Noto Sans 13"
 bindsym $mod+R exec --no-startup-id rofi -show drun -font "Noto Sans 13"
 
-################# how to exit, logoff, suspend, ...
-
-# Backup exit
-# Press ctrl+alt+x - check toolbar for next choices
+## logout displays 
+#--------bar-variation-------
 bindsym control+mod1+X mode "$mode_system"
 
 set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
@@ -105,29 +92,21 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
-# ArcoLinux Logout
+#------archlinux-logout----- 
 bindsym $mod+Shift+e exec --no-startup-id archlinux-logout
 bindsym $mod+X exec --no-startup-id archlinux-logout
 
-################# reload changed configuration     
-
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+## restart wm
 bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; exec --no-startup-id alacritty -e bash ~/Repos/scripts/scripts-backup.sh; restart  
-# reload the configuration file
-#bindsym $mod+Shift+c reload
 
-################# Stopping an application          
-
-# kill focused window
+## kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+q kill
 
-################# Moving around in i3              
-
-# Use Mouse+$mod to drag floating windows to their wanted position
+## super+mouse to move floating windows
 floating_modifier $mod
 
-# toggle tiling / floating
+## toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # change focus
