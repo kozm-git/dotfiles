@@ -1,5 +1,3 @@
-vim .config/i3/config
-yay -Ss xampp
 xprop
 cd .config/i3
 l
@@ -498,3 +496,5 @@ v .config/i3/config
 ./Deliverance.sh 
 clear
 eixt
+ipa 
+ip a
