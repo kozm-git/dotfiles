@@ -1,57 +1,3 @@
-sudo ncdu
-ssh 
-ssh 
-ssh mc@192.168.1.9:22
-ufw allow ssh
-sudo ufw allow ssh
-ssh mc@192.168.1.9
-ssh mc@192.168.1.9:808
-ssh mc@192.168.1.9:8080
-ssh -W mc@192.168.1.9:8080
-systemctl status openssh
-systemctl status opensshd
-systemctl status ssh
-systemctl status sshd
-ssh mc@192.168.1.9
-cd /personal/
-ll
-v .bashrc
-clear
-eix
-exit
-vim .bashrc
-bash
-v Repos/dotfiles/solus/.config/i3/conf
-v Repos/dotfiles/solus/.config/i3/config
-v .config/i3/config
-xrandr --output HDMI-0 --brightness 0.8
-xrandr
-v Repos/dotfiles/solus/.config/i3/config 
-v .config/i3/config
-v .config/i3/config
-pacman -Ss minecraft
-sudo pacman -Sy
-sudo pacman -S minecraft-launcher
-v .config/i3/config
-v Repos/scripts/dotfiles-backup.sh 
-v .config/i3/config
-sudo pacman -Rns ristretto
-cd Dropbox/
-ll
-sudo pacman -Syyu
-pacman -Ss filerooller
-pacman -Ss fileroller
-pacman -Ss archive
-pacman -Q fileroller
-pacman -Q archive
-pacman -Q archiver
-pacman -Q gnome
-pacman -Qm gnome
-pacman -Qe gnome
-pacman -Qs gnome
-pacman -Q
-pacman -Q | wc -l
-pacman -Qt
 pacman -Qq
 clear
 exit
@@ -498,3 +444,57 @@ v .config/i3/system
 v .config/i3/system-overview 
 clear
 exit
+figlet
+sudo pacman -S figlet
+figlet mc
+cd /usr/share/figlet
+ls
+lc
+cl fonts
+clear
+exit
+cl Documents/
+v lettering 
+clear
+exit
+man figlet
+cl /usr/share/figlet/fonts/
+v .config/i3/config
+v .config/i3/config
+v .config/i3/system-overview 
+lc
+cl fonts
+exit
+cl Documents/
+v lettering 
+exit
+figlet -f slant mc
+figlet -f Arch
+figlet Arch
+Arco
+figlet Arco
+figlet Arco-i3
+figlet -f slant Arco-i3
+figlet -f slant MKOG
+figlet -f slant mkog
+figlet -f slant mc-archpc
+clear
+figlet -f slant Arcolinux
+Kennedy
+figlet -f slant Kennedy
+figlet -f slant 
+figlet -f slant Mc Kennedy
+figlet -f slant KOzm
+figlet -f slant Kozm
+figlet -f slant Kozm-arch
+figlet -f slant Kozm arch
+figlet -f slant Kozm Arch
+figlet -f slant My Archpc
+My Arch
+figlet -f slant My Arch
+v .config/i3/system-overview 
+swallow
+clear
+exit
+xprop
+v .config/i3/config
