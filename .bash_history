@@ -1,15 +1,3 @@
-pacman -Qq
-clear
-exit
-ll
-fileroller
-file-roller
-pacman -Q file-roller
-pacman -Ss file-roller
-pacman -Ss gnome
-sudo pacman -Rns file-roller
-pacman -Ss archive
-sudo pacman -S xarchiver xarchiver-gtk2
 sudo pacman -S xarchiver 
 v .config/i3/config-polybar 
 v .config/i3/config
@@ -498,3 +486,15 @@ clear
 exit
 xprop
 v .config/i3/config
+v .config/i3/i3-st
+v .config/i3/i3-stat
+v .config/i3/i3status.conf 
+v .config/i3/system-overview 
+v .config/i3/config
+clear
+exit
+pacman -Ss swallow
+yay -Ss swallow
+yay -S i3-swallow-git 
+man swallow
+swallow --help
