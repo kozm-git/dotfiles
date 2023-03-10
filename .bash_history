@@ -1,7 +1,3 @@
-cl installer
-pacman -U megasync-x86_64.pkg.tar.zst 
-pacman -Ss megasync
-clear
 exit
 pacman -Ss chrome
 pacman -Ss remote
@@ -497,4 +493,8 @@ cl proc
 cl /proc
 v uptime
 clar
+exit
+v .config/i3/i3status.conf 
+v .config/i3/config
+clear
 exit
