@@ -1,4 +1,3 @@
-touch file
 cd dotfiles
 mv --help
 cd scripts
@@ -498,3 +497,4 @@ vim config
 clear
 eixt
 v .config/i3/config
+gvim
