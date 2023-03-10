@@ -1,7 +1,3 @@
-ll
-vim config
-git add config
-git commit -m "mint-i3 configuration"
 git push
 cd Repos/scripts
 ll
@@ -498,3 +494,7 @@ cl ..
 xprop
 clear
 exit
+
+v Repos/scripts/dotfiles-backup.sh 
+clear
+exiit
