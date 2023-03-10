@@ -168,76 +168,36 @@ bindsym Mod1+Ctrl+Left workspace prev
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 ## autotiling
 exec_always --no-startup-id autotiling
-## ArcoLinux Welcome App
+## arcolinux welcome app
 #exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 ## backup dotfiles 
 exec_always --no-startup-id exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh
 exec_always --no-startup-id exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh 
+## num lock activated
+exec_always --no-startup-id numlockx on
+exec --no-startup-id xfce4-power-manager &
+exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 #----------User--------------
-
-# clipmenud
+## clipmenud
 exec --no-startup-id clipmenud
-
-
-# TRAY APPLICATIONS
-
-# applications that are not installed will not start
-# you may see a wheel - hashtag out things you do not want/need
-
-# Authentication dialog
+##--> background   
+## Authentication dialog
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-
-# Updater
+## Updater
 exec --no-startup-id pamac-tray
-
-# bluetooth
-# exec --no-startup-id blueberry-tray
-
-# network
+## network
 exec --no-startup-id nm-applet
-
-# num lock activated
-exec_always --no-startup-id numlockx on
-
-# dropbox
-# exec --no-startup-id dropbox start
-
-# insync
-# exec --no-startup-id insync start
-
-# volume
-# exec --no-startup-id pasystray
+## dropbox
+exec --no-startup-id dropbox start
+## volume
 exec --no-startup-id volumeicon
-
-# variety
-# exec --no-startup-id variety
-
-# clipman
-# exec --no-startup-id xfce4-clipman
-
-# Conky
+## conky
 exec --no-startup-id conky -c ~/.config/i3/system-overview
-
-# nitrogen
+## nitrogen
 exec --no-startup-id nitrogen --restore
-
-# feh sets default wallpaper
-#exec --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-#exec --no-startup-id feh --bg-fill /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg &
-# for other Arch Linux based distros
-# exec --no-startup-id feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
-
-# Polybar
+## polybar
 #exec_always --no-startup-id ~/.config/polybar/launch.sh &
-
-################# system applications       
-
-exec --no-startup-id xfce4-power-manager &
-# ommitted next line to get super key to bring up the menu in xfce and avoid error then in i3
-# IF xfsettingsd is activated you can not change themes
-# exec --no-startup-id xfsettingsd &
-exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 ################# applications keyboard shortcuts  
 
