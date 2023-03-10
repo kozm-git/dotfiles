@@ -1,29 +1,3 @@
-cl .config
-cd i3
-cl
-cd ..
-cd scripts/
-ll
-./dotfiles-backup.sh 
-clear
-vim dotfiles-backup.sh 
-cd Repos/scripts/
-cd dotfiles/
-cl .config
-cl
-cd scripts/
-./dotfiles-backup.sh 
-vim dotfiles-backup.sh 
-cd Repos/dotfiles
-git rm *
-cd ..
-git rm -r mint
-git commit -u
-clear
-mkdir mint
-cd mint
-mkdir .config
-cd .config/
 mkdir i3
 cd i3
 l
@@ -498,3 +472,29 @@ cl .config
 cl i3
 cl config
 vim config
+v .bashrc
+clear
+exit
+vim .config/i3/config
+clear
+exi
+eixt
+v .config/i3/config
+subl  .config/i3/config
+v .config/mimeapps.list 
+clear
+exit
+sudo pacman -S gvim
+vim
+clear
+exit
+v .config/i3/config
+v .config/i3/config-keep 
+clear
+exit
+v .config/mimeapps.list 
+clear
+eixt
+cl Repos
+cl scripts
+cl ..
