@@ -1,4 +1,3 @@
-cd .config
 touch file
 cd dotfiles
 mv --help
@@ -498,3 +497,4 @@ vim i3status.conf
 vim config
 clear
 eixt
+v .config/i3/config
