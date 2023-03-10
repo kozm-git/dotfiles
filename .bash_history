@@ -1,11 +1,3 @@
-cd dotfiles
-mv --help
-cd scripts
-exit
-vim Repos/scripts/dotfiles-backup.sh 
-cd Repos/scripts/
-cd dotfiles/
-cd mint
 cl .config
 cd i3
 cl
@@ -498,3 +490,11 @@ clear
 eixt
 v .config/i3/config
 gvim
+subl /etc/skel/.config/i3/config
+cd /etc/skel
+ls
+cl
+cl .config
+cl i3
+cl config
+vim config
