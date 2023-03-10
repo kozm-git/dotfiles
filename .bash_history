@@ -1,4 +1,3 @@
-exit
 pacman -Q megasync
 sudo pacman -Rns megasync
 clear
@@ -498,3 +497,4 @@ v Repos/scripts/scripts-backup.sh
 v Repos/scripts/dotfiles-backup.sh 
 clear
 exit
+v .config/i3/system-overview 
