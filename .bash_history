@@ -1,6 +1,3 @@
-sudo pacman -S xarchiver 
-v .config/i3/config-polybar 
-v .config/i3/config
 killall polybar 
 xprop
 export -p
@@ -498,3 +495,6 @@ yay -Ss swallow
 yay -S i3-swallow-git 
 man swallow
 swallow --help
+ck
+cl
+swallow ./Intertwined.sh
