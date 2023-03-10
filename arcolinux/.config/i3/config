@@ -75,7 +75,7 @@ bindsym $mod+X exec --no-startup-id archlinux-logout
 
 #-----------commands-------------
 ## restart wm
-bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; exec --no-startup-id alacritty -e bash ~/Repos/scripts/scripts-backup.sh; restart  
+bindsym $mod+Shift+r restart  
 
 #-----------window management-------
 ## kill focused window
@@ -159,85 +159,26 @@ bindsym $mod+Tab workspace back_and_forth
 bindsym Mod1+Ctrl+Right workspace next
 bindsym Mod1+Ctrl+Left workspace prev
 
-#===============================================================
-#         W O R K S P A C E   A S S I G N M E N T 
-#===============================================================
+#=================================================================
+#          A U T O L A U N C H   A T    S T A R T U P 
+#=================================================================
 
-# Assign application to start on a specific workspace
-# you can find the class with the program xprop
-
-# Example - make browser start on workspace 3
-# assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 3
-# assign [class="Chromium|Google-chrome"]                    → 3
-
-# Workspace 2 text editor related
-# assign [class="sublime-text|sublime_text|Sublime_text|subl|Subl|subl3|Subl3"]       → 2
-# assign [class="Xed|xed|Brackets|Atom|Code|Geany"]                                   → 2
-
-# Workspace 3 Inkscape
-# assign [class="Inkscape"]                                                           → 3
-
-# Workspace 4 Gimp
-# assign [class="Gimp"]                                                               → 4
-
-# Workspace 5 Images and meld
-# assign [class="ristretto|Ristretto|shotwell|Shotwell|Xviewer|Nitrogen"]             → 5
-# assign [class="feh|gthumb|Gthumb|eog|Eog|Pinta|pixeluvo|Pixeluvo"]                  → 5
-# assign [class="Meld"]                                                               → 5
-
-# Workspace 6 all video related software
-# assign [class="Vlc|vlc"]                                                            → 6
-
-# Workspace 7 virtual machines and settings
-# assign [class="Vmplayer|VirtualBox"]						    → 7
-
-# Workspace 8 file managers
-# assign [class="Nemo|Thunar|Caja|nautilus|Nautilus"]                                 → 8
-
-# Workspace 9 email clients
-# assign [class="Geary|Evolution"]                                                    → 9
-
-# Workspace 10 music related
-# assign [class="Spotify|spotify"]                                                    → 10
-# fix for spotify not moving to workspace 10
-# for_window [class="Spotify"] move to workspace 10
-
-################# autostart - execute applications at boot time
-
-
+#-------System---------------
+## setup display
 exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
-# USER APPLICATIONS TO START AT BOOT
-
-# ArcoLinux Welcome App
-# exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-
-# Autotiling
+## autotiling
 exec_always --no-startup-id autotiling
+## ArcoLinux Welcome App
+#exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+## backup dotfiles 
+exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; sleep 1; workspace 1'
+exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh; sleep 1; workspace 1' 
 
-# Browser
-# exec --no-startup-id vivaldi-stable
-for_window [class="Vivaldi-stable"] focus
-
-# Text-editor
-# exec --no-startup-id geany
-# exec --no-startup-id atom
-
-# File manager
-# exec --no-startup-id thunar
-
-# Mail clients
-# exec --no-startup-id evolution
-
-# Music
-# exec --no-startup-id spotify
-for_window [class="Spotify"] focus
+#----------User--------------
 
 # clipmenud
 exec --no-startup-id clipmenud
 
-# backup dotfiles 
-#exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh' 
-#exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh' 
 
 # TRAY APPLICATIONS
 
