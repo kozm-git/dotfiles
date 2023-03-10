@@ -75,7 +75,8 @@ bindsym $mod+X exec --no-startup-id archlinux-logout
 
 #-----------commands-------------
 ## restart wm
-bindsym $mod+Shift+r restart  
+bindsym $mod+Shift+mod1+r restart
+bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; exec --no-startup-id alacritty -e bash ~/Repos/scripts/scripts-backup.sh; restart  
 
 #-----------window management-------
 ## kill focused window
@@ -170,9 +171,6 @@ exec_always --no-startup-id xrandr --output HDMI-0 --brightness 0.8
 exec_always --no-startup-id autotiling
 ## arcolinux welcome app
 #exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
-## backup dotfiles 
-exec_always --no-startup-id exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh
-exec_always --no-startup-id exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh 
 ## num lock activated
 exec_always --no-startup-id numlockx on
 exec --no-startup-id xfce4-power-manager &
@@ -585,7 +583,7 @@ bar {
         separator  #666666
 
         # colorclass           border  backgr. text
-        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        focused_workspace     #E38B31 #5f676a #eeeeee
         active_workspace      #a9a9a9 #5f676a #eeeeee
         inactive_workspace    #a9a9a9 #222222 #a9a9a9
         urgent_workspace      #a9a9a9 #d42121 #FFFFFF
