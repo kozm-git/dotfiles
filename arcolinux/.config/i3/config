@@ -124,10 +124,10 @@ bindsym $mod+a focus parent
 ## focus the child container
 # bindsym $mod+d focus child
 ## resizing
-bindsym $mod+Mod1+Ctrl+$right resize shrink width 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+$left resize shrink width 1 px or 1 ppt
 bindsym $mod+Mod1+Ctrl+$up resize grow height 1 px or 1 ppt
 bindsym $mod+Mod1+Ctrl+$down resize shrink height 1 px or 1 ppt
-bindsym $mod+Mod1+Ctrl+$left resize grow width 1 px or 1 ppt
+bindsym $mod+Mod1+Ctrl+$right resize grow width 1 px or 1 ppt
 
 #------workspace management-----
 bindsym $mod+1 workspace 1
