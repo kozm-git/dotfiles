@@ -1,6 +1,3 @@
-mkdir i3
-cd i3
-l
 ll
 vim config
 git add config
@@ -498,3 +495,6 @@ eixt
 cl Repos
 cl scripts
 cl ..
+xprop
+clear
+exit
