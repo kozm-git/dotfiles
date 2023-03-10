@@ -1,4 +1,3 @@
-pacman -Q megasync
 sudo pacman -Rns megasync
 clear
 exit
@@ -498,3 +497,4 @@ v Repos/scripts/dotfiles-backup.sh
 clear
 exit
 v .config/i3/system-overview 
+conky
