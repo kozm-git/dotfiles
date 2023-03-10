@@ -584,8 +584,8 @@ bar {
 
         # colorclass           border  backgr. text
         focused_workspace     #E38B31 #1d2024 #eeeeee
-        active_workspace      #2f343f #5f676a #eeeeee
-        inactive_workspace    #a9a9a9 #222222 #a9a9a9
+        active_workspace      #2f343f #2f343f #eeeeee
+        inactive_workspace    #2f343f #2f343f #a9a9a9
         urgent_workspace      #a9a9a9 #d42121 #FFFFFF
         }
 
