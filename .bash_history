@@ -1,4 +1,3 @@
-exit
 pacman -Ss chrome
 pacman -Ss remote
 :q
@@ -498,3 +497,4 @@ v .config/i3/i3status.conf
 v .config/i3/config
 clear
 exit
+v .config/i3/system-overview 
