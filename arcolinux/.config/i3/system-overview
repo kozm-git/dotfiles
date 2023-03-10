@@ -35,9 +35,8 @@ conky.config = {
 	--gap_x = -1910,
 	gap_x = 20,									-- pixels between right or left border
 	gap_y = 10,									-- pixels between bottom or left border
-	minimum_height = 300,						-- minimum height of window
-	maximum_height = 600,
-	minimum_width = 250,						-- minimum height of window
+	minimum_height = 600,						-- minimum height of window
+	minimum_width = 280,						-- minimum height of window
 	maximum_width = 280,						-- maximum height of window
 
 	--Graphical
@@ -115,6 +114,7 @@ ${color1}Host:${alignr}${color2}${nodename}${color}
 ${color1}Kernel:${color2}${alignr}$kernel${color}
 ${color1}Uptime:${color2}${alignr}${uptime}${color}
 ${color1}UTC:${color2}${alignr}${utime %H:%M}${color}
+${color1}PHT:${color2}${alignr}${time %H:%M}${color}
 
 ${color1}${goto 60}Used${alignr}Size${color}
 ${color1}Root${goto 60}${color2}${fs_used /}${alignr}${fs_size /}${color}
@@ -131,7 +131,7 @@ ${else}${cpu cpu0}${endif}${endif}%${alignr}${freq_g}${color}
 
 ${color1}${alignc}S H O R T C U T    K E Y S${color}
 ${color1}${hr}${color}
-${color1}[S]+[Shift]+D${alignr}${color2}Main Menu${color}
+${color1}[Alt]+F1${alignr}${color2}Main Menu${color}
 ${color1}[Alt]+F2${alignr}${color2}Alt Menu${color}
 ${color1}[Alt]+F3${alignr}${color2}Alt Menu${color}
 ${color1}${hr}${color}
@@ -151,4 +151,11 @@ ${color1}[S]+[Shift]+Q${alignr}${color2}Stop application${color}
 ${color1}[S]+x${alignr}${color2}Exit${color}
 ${color1}${hr}${color}
 ${color1}${execi 6000 lsb_release -d | grep 'Descr'|awk {'print $2 " " $3" " $4" " $5'}}${alignr}${execi 6000 lsb_release -a | grep 'Release'|awk {'print $2""$3""$4""$5'}}${color}
+
+${color1}${alignc}B I B L E   V E R S E${color}
+${color1}${hr}${color}
+${color1}The earth is the Lord’s, and everything in it, the 
+world, and all who live in it. . . .
+
+—  Psalm 24:1${color}
 ]];
