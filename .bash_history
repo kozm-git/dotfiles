@@ -1,19 +1,3 @@
-xprop
-cd .config/i3
-l
-vim config
-vim .config/i3/config
-vim Repos/scripts/dotfiles-backup.sh 
-vim Repos/scripts/scripts-backup.sh 
-vim .config
-pacman -Ss twitter
-vim .config
-htop
-clear
-sudo pacman -S ncdu
-ncdu
-cd /
-sudo ncdu
 sudo ncdu
 pacman -Ss mega
 sudo pacman -S megasync-bin
@@ -498,3 +482,19 @@ clear
 eixt
 ipa 
 ip a
+eixt
+ipa 
+ip a
+cd /sys
+l;s
+cd devices
+cl 
+cd platform/
+cd coretemp.0/
+cl hwmon
+cl hwmon2
+cl ..
+cd ..
+cl
+clear
+exit
