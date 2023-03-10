@@ -171,8 +171,8 @@ exec_always --no-startup-id autotiling
 ## ArcoLinux Welcome App
 #exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 ## backup dotfiles 
-exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; sleep 1; workspace 1'
-exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh; sleep 1; workspace 1' 
+exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; workspace 1'
+exec_always --no-startup-id i3-msg 'workspace 10; exec alacritty -e bash ~/Repos/scripts/scripts-backup.sh; workspace 1' 
 
 #----------User--------------
 
