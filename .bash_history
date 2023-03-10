@@ -1,56 +1,3 @@
-cl arcolinux/
-cl .config/
-rmdir polybar/
-cd ..
-cl solus/
-cl .config
-cl i3
-cl qutebrowser/
-cl ..
-ranger
-git remote add origin git@github.com:kozm-git/scripts.git
-git push 
-cd .git
-git push -u origin main
-git push -u origin
-rm -rf scripts/
-git clone git@github.com:kozm-git/scripts.git
-cd ~/.ssh
-rm *
-ssh-keygen -t rsa -b 2048 -C "kennedyonipa@gmail.com"
-vim .ssh
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-vim .ssh/id_rsa.pub 
-subl .ssh/id_rsa.pub
-cd Rpos
-git clone .git
-cd Repos
-git clone git@github.com:kozm-git/dotfiles.git
-cd .bashrc
-vim .bashrc
-mkdir .config
-cd .config
-touch file
-cd dotfiles
-cd dotfiles/
-mv --help
-cd ..
-cd scripts
-ll
-./dotfiles-backup.sh 
-vim dotfiles-backup.sh 
-clear
-exit
-clear
-exit
-cd Repos/dotfiles/
-cd solus
-cd .config
-ll
-cd .bashrc
-vim .bashrc
-mkdir .config
 cd .config
 touch file
 cd dotfiles
@@ -498,3 +445,56 @@ xlunch
 pacman -Ss xlunch
 v .config/i3/config
 v .config/i3/config-keep
+cl .config/i3
+v config.bak
+v config-keep 
+clear
+pacman -Ss backup
+pacman -Ss simple-backu[
+pacman -Ss simple-backup
+yay -Ss simple-backup
+clear
+exit
+sudo pacman -Syu
+yay
+clear
+exit
+cd Lust\ Theory\ Season\ 2/
+ls
+./LustTheory2.sh
+htop
+nomachine
+n
+nx
+inxi -G
+clear
+exi
+xkill
+exi
+xkill
+cd /etc/x11/xinit
+vim xinitrc.d
+vim xinitrc
+cd xinitrc.d/
+ls ..
+cd ..
+ls
+clear
+exit
+cl
+vim .xinitrc 
+cl .config/i3
+cl ..
+cd KADOKAWA/
+ls
+cl RPGMV/
+clear
+exit
+cl /etc/xdg/i3status
+cl /etc/xdg
+cl ..
+cl .config/i3/
+vim i3status.conf 
+vim config
+clear
+eixt
