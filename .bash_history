@@ -1,7 +1,3 @@
-pacman -Ss chrome
-pacman -Ss remote
-:q
-clear
 exit
 pacman -Q megasync
 sudo pacman -Rns megasync
@@ -498,3 +494,7 @@ v .config/i3/config
 clear
 exit
 v .config/i3/system-overview 
+v Repos/scripts/scripts-backup.sh 
+v Repos/scripts/dotfiles-backup.sh 
+clear
+exit
