@@ -1,7 +1,3 @@
-sudo pacman -Rns megasync
-clear
-exit
-cd /
 sudo ncdu
 ssh 
 ssh 
@@ -498,3 +494,7 @@ clear
 exit
 v .config/i3/system-overview 
 conky
+v .config/i3/system
+v .config/i3/system-overview 
+clear
+exit
