@@ -1,9 +1,3 @@
-sudo ncdu
-pacman -Ss mega
-sudo pacman -S megasync-bin
-sudo pacman -Rns megasync-bin 
-cl Downloads
-ll
 cl installer
 pacman -U megasync-x86_64.pkg.tar.zst 
 pacman -Ss megasync
@@ -497,4 +491,10 @@ cl ..
 cd ..
 cl
 clear
+exit
+v .config/i3/i3status.conf 
+cl proc
+cl /proc
+v uptime
+clar
 exit
