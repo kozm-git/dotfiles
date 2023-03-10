@@ -1,15 +1,3 @@
-git push
-cd Repos/scripts
-ll
-./dotfiles-backup.sh 
-alacritty --help
-read
-alacritty --help
-vim .config/i3/config
-vim Repos/dotfiles/solus/.config/i3/config 
-vim Repos/scripts/dotfiles-backup.sh 
-clear
-vim Repos/scripts/scripts-backup.sh 
 vim .config/i3/config
 yay -Ss xampp
 xprop
@@ -498,3 +486,15 @@ exit
 v Repos/scripts/dotfiles-backup.sh 
 clear
 exiit
+pacman -Q bluetoooth
+pacman -Q bluetooth
+pacman -Q blueberry
+sudo pacman -Rns blueberry
+v .config/i3/config-keep
+clar
+clear
+exit
+v .config/i3/config
+./Deliverance.sh 
+clear
+eixt
