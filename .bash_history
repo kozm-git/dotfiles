@@ -1,79 +1,3 @@
-clear
-exit
-v .bashrc
-clear
-exit
-v .config/i3/config
-v .config/i3/cnfog
-v .config/i3/config
-subl .config/i3/config
-v .config-keep
-v .config/i3/config-keep 
-v .config/i3/config
-pacman -Ss weechat
-pacman -Ss mpd
-pacman -Ss gitlab 
-pacman -Ss blender
-pacman -Ss sketchup
-pacman -Ss sketch
-pacman -Ss sweethome
-sudo pacman -Ss sweethome3d
-sudo pacman -S sweethome3d
-sudo pacman -Syu
-xkill
-clear
-exit
-killall sweethome3d
-jobs
-htop
-pacman -Ss pomodoro
-pacman -Ss timers
-pacman -Ss timer
-pacman -Ss pomo
-yay -S pomo
-yay -Rns pomo
-yay -Ss pomo
-alais
-v .bashhrc
-v .bashrc
-bash
-pacman -Ss pom
-pacman -Ss 
-pacman -Q
-pacman -S
-pacman -Ss
-;q
-:q
-clear
-exit
-sudo pacman -Rns sweethome3d 
-sudo pacman -Rns sweethome3d
-pacman -Rns sweethome3d
-sudo pacman -Rns sweethome3d
-arch091427!
-sudo pacman -Rns sweethome3d
-v .bashrc
-clear
-bash
-pacman -Rns sweethome3d
-yay -S pomo
-pacman -Rns jre11-openjdk-headless jre11-openjdk 
-v /var/lib/yay
-v /var/log/pacman.log 
-sudo pacman -Rns sweethome3x
-sudo pacman -Rns sweethome3d
-pacman -Ss yay 
-clear
-exit
-yay -Ss pomo
-yay -S pomo
-yay -Rns pomo
-yay -Rns pomo go
-pacman -Ss git
-pacman -Ss peek
-pacman -Q linux
-pacman -Qe linux-lts
-pacman -Ss borg
 pacman -Ss vorta
 pacman -Ss webcamoid
 pacman -Ss burp
@@ -498,3 +422,79 @@ v .config/i3/config
 sudo pacman -Rns nvim
 sudo pacman -Rns neovim
 pacman -Ss clipmenu
+dmenu --help
+v .config/i3/config
+figlet -f slant arch
+figlet -f slant archlinux
+figlet -f slant arcolinux
+figlet -f slant ArcoLinux
+figlet -f slant arcolinux
+figlet -f slant ArcoLinux
+clear
+exit
+nvim .config/i3/system-overview 
+v .config/i3/system-overview 
+figlet ARCOLINUX
+CLEAR
+cls
+clear
+v .config/i3/config
+sudo pacman -Rns xpdf
+v .config/mimeapps.list 
+clear
+exit
+v .config/i3/config
+v .config/i3/config
+sudo pacman -S rename
+rename
+cls
+v .config/i3/config
+sudo pacman -Rns xpdf
+v .config/mimeapps.list 
+v .config/i3/config
+v .config/i3/config
+sudo pacman -S rename
+sudo pacman -S gprename
+sudo pacman -Ss rename
+sudo pacman -S renameutils
+sudo pacman -S pipe-rename
+pipe-rename
+sudo pacman -Rns pipe-rename
+rename
+cl Archives
+rename -a 's/^FRESHMEN/freshmen/'
+rename -a 's/^FRESHMEN/freshmen/'*
+rename -a 's/^FRESHMEN/freshmen/' *
+cl
+rename 's/^FRESHMEN/freshmen/' *FRESHMEN
+rename -n 's/^FRESHMEN/freshmen/' *FRESHMEN
+rename 's/^FRESHMEN/freshmen/' *
+ls
+rename -f 's/^FRESHMEN/freshmen/' *
+rename -help
+rename --help
+man rename
+clear
+exit
+sudo pacman -S perl-rename
+rename
+rename --help
+clear
+exit
+man rename
+clear
+exit
+rename -f 's/^FRESHMEN/freshmen/' *
+cl
+cd Repos
+cd ..
+cd Archive/
+rename -a 's/^FRESHMEN/freshmen/' *
+cl 
+rename -a 's/^FRESHMEN/freshmen/' 
+rename -a 's/^FRESHMEN/freshmen/'
+rename -a 's/^FRESHMEN/freshmen/' */
+ls
+rename -a 's/^FRESHMEN/freshmen/' *FRESHMEN
+rename -a 's/^FRESHMEN/freshmen/' *.png
+sudo pacman -S gprename
