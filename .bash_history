@@ -1,23 +1,3 @@
-cd var
-cd /var
-cd lib
-cd pacman 
-ll
-cd .
-cd ..
-cl cache
-cl pacman
-cl pkg
-pacman -Qq > list
-ll
-vim list 
-rm list
-pacman -Qq | wc -l
-sudo tune2fs -l /dev/sda3 | grep created
-sudo tune2fs -l /dev/sdc2 | grep created 
-sudo tune2fs -l /dev/sdc1 | grep created 
-sudo tune2fs -l /dev/sdc | grep created 
-lsblk
 pacman -Q gnome-control-center
 pacman -Q gnome-online-accounts
 pacman -Ss rclone
@@ -498,3 +478,23 @@ exit
 yay -S tty-clock
 tty-clock
 htop
+tty-clock --help
+tty-clock -C 1
+tty-clock -C 2
+tty-clock -C 3
+tty-clock -C 4
+ranger
+nvim .config/i3/config
+v .config/i3/config
+clear
+exiit
+exit
+tty-clock -C 3
+swallow ./LustTheory2.
+swallow ./LustTheory2.sh
+v .config
+clear
+exit
+v .config/i3/picom.conf 
+clear
+exit
