@@ -1,9 +1,3 @@
-v .config/i3/config
-pacman -Ss awesome
-v .config/i3/config
-clear
-exit
-v .config/i3/config
 exit
 cd Documents/
 ll
@@ -496,5 +490,11 @@ awk
 exit
 ps
 ps axch
+clear
+exit
+./Intertwined
+./Intertwined.sh
+swallow ./Intertwined.sh
+v .config/i3/config
 clear
 exit
