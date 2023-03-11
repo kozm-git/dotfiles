@@ -105,9 +105,9 @@ conky.config = {
 
 	--Lua
 
-
 };
 conky.text = [[
+${color1}${alignc}/_/   |_/_/   \___/\____/_____/_/_/  /_/\__,_/_/|_|${color}
 ${color1}${alignc}S Y S T E M    I N F O${color}
 ${color1}${hr}${color}
 ${color1}Host:${alignr}${color2}${nodename}${color}
