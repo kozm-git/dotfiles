@@ -1,24 +1,3 @@
-lsblk
-pacman -Ss syncthing
-pacman -Ss nextclooud
-pacman -Ss nextcloud
-sudo pacman -S nextcloud syncthing
-sudo pacman -S nextcloud-client syncthing
-sudo pacman -S nextcloud
-nextcloud
-nextcloudcmd
-yay -Ss rclone-browser
-rclnoe
-sudo pacman -Ss rclone
-sudo pacman -S rclone
-rclone
-rclone --help
-rclone help flags
-rclone help backends
-rclone help backend ftp
-pacman -Ss synctrazor
-yay -Ss synctrazor
-joplin-cmd
 v .config/i3/config
 pacman -Ss awesome
 v .config/i3/config
@@ -498,3 +477,24 @@ xev
 xev -event keyboard
 xev -event keypresses
 xev -event keyboard
+exit
+sudo pacman -S rofi-emoji
+rofi -modi emoji -show emoji -emoji-format '{emoji}'
+rofi -modi emoji -show emoji
+v .config/i3/config
+clear
+exit
+xev --help
+lm_sensors
+lm
+sensor
+sensors
+clear
+exit
+nvidia-smi
+awk
+exit
+ps
+ps axch
+clear
+exit
