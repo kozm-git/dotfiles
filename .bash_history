@@ -1,11 +1,3 @@
-sudo ufw status
-xprop
-v .config/i3/config
-xprop
-v .config/i3/config
-cd /
-sudo ncdu
-xprop
 v .config/i3/config
 cd /
 sudo ncdu
@@ -498,3 +490,11 @@ vim
 nv
 nvim
 clear
+flameshot-gui
+flameshot -h
+flameshot gui
+nvim .config/i3/config
+cleaer
+v .config/i3/config
+clear
+exit
