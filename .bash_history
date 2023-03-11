@@ -1,6 +1,3 @@
-v .config/i3/config
-cd /
-sudo ncdu
 cd var
 cd /var
 cd lib
@@ -498,3 +495,6 @@ cleaer
 v .config/i3/config
 clear
 exit
+yay -S tty-clock
+tty-clock
+htop
