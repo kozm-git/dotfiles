@@ -1,14 +1,3 @@
-killall polybar 
-xprop
-export -p
-ufw status
-sudo ufw status
-export -p
-ssh 
-systemctl start sshd
-systemctl status sshd
-sudo ufw status
-sudo ufw allow 4000
 sudo ufw status
 xprop
 v .config/i3/config
@@ -498,3 +487,14 @@ swallow --help
 ck
 cl
 swallow ./Intertwined.sh
+v .config/i3/system-overview 
+v .config/i3/i3status.conf 
+v .config/i3/config
+sudo pacman -S neovim
+pacman -Ss neovim
+sudo pacman -S neovim
+neovim
+vim
+nv
+nvim
+clear
