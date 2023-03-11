@@ -44,7 +44,7 @@ font pango:Noto Mono Regular 13
 
 #---------------------run launchers------------------------
 ## dmenu
-bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -p 'MENU:'-sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -p 'MENU:' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 ## clipmenu
 bindsym $mod+c exec --no-startup-id clipmenu -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -p 'clipmenu:' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 ## xfce4-appfinder
