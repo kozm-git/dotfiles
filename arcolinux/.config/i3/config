@@ -54,6 +54,7 @@ bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
 bindsym mod1+F1 exec --no-startup-id ~/.config/i3/launcher/launcher.sh
 bindsym $mod+F11 exec --no-startup-id "rofi -font 'Noto Sans 13' -theme-str 'window {width: 100%;height: 100%;}' -show drun"
 bindsym $mod+R exec --no-startup-id rofi -show drun -font "Noto Sans 13"
+bindsym $mod+period exec --no-startup-id rofi -modi emoji -show emoji -kb-custom-1 Ctrl+C
 
 #--------------------logout menus------------------------ 
 set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
