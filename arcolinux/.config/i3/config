@@ -82,7 +82,7 @@ bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotf
 
 #-------------------window management-------------------
 ## xkill
-bindsym --release $mod+Escape exec xkill
+bindsym --release $mod+Escape exec --no-startup-id xkill
 ## kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+q kill
