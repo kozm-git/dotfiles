@@ -219,8 +219,6 @@ bindsym control+mod1+g exec --no-startup-id chromium;focus
 bindsym $mod+m exec --no-startup-id brave --app=https://messenger.com;focus
 ## github
 bindsym $mod+g exec --no-startup-id brave --app=https://github.com/kozm-git?tab=repositories;focus
-## yuotube
-bindsym $mod+y exec --no-startup-id brave --app=https://youtube.com
 
 #=================================================================
 #          A U T O L A U N C H   A T    S T A R T U P 
