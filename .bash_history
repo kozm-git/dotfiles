@@ -1,26 +1,3 @@
-exit
-cd Documents/
-ll
-vim lettering
-v .config/i3/
-cl .config/i3
-v cheatsheet.md 
-vim lettering
-cd Documents/
-subl lettering
-vim .config/i3/config
-ll
-cd ..
-v .config/i3/config
-v Documents/lettering 
-subl Documents/lettering 
-v .config/i3/cheatsheet.md 
-cl .config/i3
-v config.bak
-v config
-v config-keep
-ll
-cl
 clear
 exit
 v .bashrc
@@ -498,3 +475,26 @@ swallow ./Intertwined.sh
 v .config/i3/config
 clear
 exit
+sudo pacman -S qutebrowser
+v .config/i3/config
+clear
+ls
+pacman -Ss oddysey
+v .config/mimeapps.list 
+clear
+eixt
+exit
+v .config/mimeapps.list 
+pacman -Ss simplenote
+yay -S simplenote
+yay -Ss simplenote
+htop
+cl /usr/bin
+ls *jo
+ls *joplin
+clear
+exit
+v .config/i3/config
+sudo pacman -Rns nvim
+sudo pacman -Rns neovim
+pacman -Ss clipmenu
