@@ -1,7 +1,3 @@
-pacman -Q gnome-control-center
-pacman -Q gnome-online-accounts
-pacman -Ss rclone
-pacman -Ss brave
 lsblk
 pacman -Ss syncthing
 pacman -Ss nextclooud
@@ -498,3 +494,7 @@ exit
 v .config/i3/picom.conf 
 clear
 exit
+xev
+xev -event keyboard
+xev -event keypresses
+xev -event keyboard
