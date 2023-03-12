@@ -250,7 +250,7 @@ exec --no-startup-id dropbox start
 ## volume
 exec --no-startup-id volumeicon
 ## conky
-exec --no-startup-id conky -c ~/.config/i3/system-overview
+exec_always --no-startup-id conky -c ~/.config/i3/system-overview
 ## nitrogen
 exec --no-startup-id nitrogen --restore
 ## polybar
