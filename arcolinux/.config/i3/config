@@ -172,7 +172,7 @@ bindsym control+mod1+e exec --no-startup-id archlinux-tweak-tool
 bindsym control+mod1+k exec --no-startup-id archlinux-logout
 bindsym control+mod1+l exec --no-startup-id archlinux-logout
 ## conky
-bindsym $mod+Shift+c exec --no-startup-id ~/.config/i3/system-overview 
+bindsym $mod+Shift+c exec --no-startup-id killall conky; conky -c ~/.config/i3/system-overview 
 #bindsym $mod+Shift+c exec --no-startup-id conky-toggle
 bindsym $mod+control+c exec --no-startup-id killall conky
 bindsym control+mod1+Next exec --no-startup-id conky-rotate -n
