@@ -1,5 +1,3 @@
-pacman -Ss discord
-xprop
 v .config/i3/config
 pacman -Ss screenruler
 yay -Ss screenruler
@@ -498,3 +496,5 @@ v .config/i3/config
 cleae
 conky 
 v .config/i3/config
+cd .config/i3
+ls
