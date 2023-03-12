@@ -1,4 +1,3 @@
-sudo pacman -S borg
 borg
 pacman -Rns borg
 pacman -Ss discord
@@ -498,3 +497,4 @@ sudo pacman -S gprename
 killall conky 
 start conky
 v .config/i3/config
+cleae
