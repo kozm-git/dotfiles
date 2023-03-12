@@ -1,4 +1,3 @@
-pacman -Ss vorta
 pacman -Ss webcamoid
 pacman -Ss burp
 sudo pacman -S borg
@@ -498,3 +497,4 @@ ls
 rename -a 's/^FRESHMEN/freshmen/' *FRESHMEN
 rename -a 's/^FRESHMEN/freshmen/' *.png
 sudo pacman -S gprename
+killall conky 
