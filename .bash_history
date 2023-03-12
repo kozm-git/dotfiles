@@ -1,7 +1,3 @@
-v .config/i3/config
-pacman -Ss screenruler
-yay -Ss screenruler
-yay -Ss kruler
 pacman -Ss kruler
 sudo pacman -S kruler
 pacman -Ss shutter
@@ -498,3 +494,7 @@ conky
 v .config/i3/config
 cd .config/i3
 ls
+:wq
+v .config/i3/config
+clear
+exit
