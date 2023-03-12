@@ -1,5 +1,3 @@
-borg
-pacman -Rns borg
 pacman -Ss discord
 xprop
 v .config/i3/config
@@ -498,3 +496,5 @@ killall conky
 start conky
 v .config/i3/config
 cleae
+conky 
+v .config/i3/config
