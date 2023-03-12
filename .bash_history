@@ -1,5 +1,3 @@
-pacman -Ss webcamoid
-pacman -Ss burp
 sudo pacman -S borg
 borg
 pacman -Rns borg
@@ -498,3 +496,5 @@ rename -a 's/^FRESHMEN/freshmen/' *FRESHMEN
 rename -a 's/^FRESHMEN/freshmen/' *.png
 sudo pacman -S gprename
 killall conky 
+start conky
+v .config/i3/config
