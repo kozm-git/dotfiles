@@ -1,16 +1,3 @@
-cl proc
-cl /proc
-v uptime
-clar
-exit
-v .config/i3/i3status.conf 
-v .config/i3/config
-clear
-exit
-v .config/i3/system-overview 
-v Repos/scripts/scripts-backup.sh 
-v Repos/scripts/dotfiles-backup.sh 
-clear
 exit
 v .config/i3/system-overview 
 conky
@@ -498,3 +485,16 @@ clear
 exit
 adb devices
 swallow scrcpy
+swallow ./Ripples.sh
+v .config/i3/config
+cd Repos/scripts
+ls
+vim rclone-sync.sh
+cl
+chmod +x rclone-sync.sh 
+./scripts-backup.sh 
+clear
+exit
+vim Repos/scripts/rclone-sync.sh 
+clear
+exit
