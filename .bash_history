@@ -1,51 +1,3 @@
-pacman -Ss kruler
-sudo pacman -S kruler
-pacman -Ss shutter
-pacman -Ss teams
-pacman -Ss edge
-pacman -Ss microsoft-edge
-yay -Ss edge
-pacman -Ss onlyoffice
-pacman -Ss eclipse
-yay -Ss eclipse
-pacman -Ss gitahead
-pacman -Ss trillium notes
-pacman -Ss multitail
-pacman -S multitail
-multitail
-pacman -Ss dopewars
-pacman -Ss nethack
-pacman -Ss nethack-console
-
-pacman -Ss bastet
-yay -Ss bastet 
-yay -Ss freesweep
-pacman -Q *git
-pacman -Q git
-pacman -Qe git
-pacman -Qs git
-gpick
-v .config/i3/config
-pacman -Ss neomutt
-pacman -Ss gmail
-pacman -Ss email
-pacman -Ss mail
-sudo pacman -S notmuch
-cl
-./Milfy_City_Xmas.sh 
-sud o./Milfy_City_Xmas.sh 
-sudo./Milfy_City_Xmas.sh 
-sudo ./Milfy_City_Xmas.sh 
-cl
-bash Milfy_City_Xmas 
-cl
-./Milfy_City_Xmas.sh 
-clear
-exit
-sudo systemctl enable fstrim.timer
-sudo systemctl start fstrim.timer
-sudo systemctl status fstrim.timer
-sudo systemctl list-timers --all
 ssh mc@192.168.1.6
 ssh mc@192.168.1.9
 ssh mc@192.168.1.9:~/Documents/debloat-solus.sh ~/Repos/scripts
@@ -496,5 +448,53 @@ cd .config/i3
 ls
 :wq
 v .config/i3/config
+clear
+exit
+ranger
+cl 
+clear
+exit
+v .config/alacritty/alacritty.yml
+clear
+exit
+sudo pacman -Ss nextcloud
+yya
+yay
+v .config/i3/system-overview 
+v .config/i3/i3status.conf 
+rclone
+clear
+exit
+rclone authorize "onedrive"
+cd .config/i3
+:wq
+v .config/i3/config
+ranger
+v .config/alacritty/alacritty.yml
+sudo pacman -Ss nextcloud
+yya
+yay
+v .config/i3/system-overview 
+v .config/i3/i3status.conf 
+rclone
+mkdir Gdrive
+mv Gdrive GDrive
+chmod 777 Gdrive
+chmod 777 GDrive
+chmod 775 GDrive/
+cl
+chmod 775 Programming/
+rclone mount main: ~/GDrive
+mv GDrive GDrive_Main
+rclone --daemon mount main: ~/GDrive_Main/
+rclone mount --daemon main: ~/GDrive_Main/
+rclone config
+mkdir GDrive_Secondary
+chmod 775 GDrive_Secondary/
+mkdir GDrive_MTC && chmod 775 GDrive_MTC
+mkdir GDrive_TUP && chmod 775 GDrive_TUP
+mkdir OneDrive_TUP && chmod 775 OneDrive_TUP
+cl 
+ls
 clear
 exit
