@@ -1,5 +1,3 @@
-eixt
-v .config/i3/config
 subl  .config/i3/config
 v .config/mimeapps.list 
 clear
@@ -498,3 +496,5 @@ sudo ufw allow 21
 ls
 sudo ufw status verbose
 v .config/i3/config
+clear
+exit
