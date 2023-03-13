@@ -1,9 +1,3 @@
-subl  .config/i3/config
-v .config/mimeapps.list 
-clear
-exit
-sudo pacman -S gvim
-vim
 clear
 exit
 v .config/i3/config
@@ -498,3 +492,9 @@ sudo ufw status verbose
 v .config/i3/config
 clear
 exit
+xprop
+v .config/i3/config
+clear
+exit
+adb devices
+scrcpy
