@@ -1,27 +1,3 @@
-clear
-exit
-v .config/i3/config
-v .config/i3/config-keep 
-clear
-exit
-v .config/mimeapps.list 
-clear
-eixt
-cl Repos
-cl scripts
-cl ..
-xprop
-clear
-exit
-
-v Repos/scripts/dotfiles-backup.sh 
-clear
-exiit
-pacman -Q bluetoooth
-pacman -Q bluetooth
-pacman -Q blueberry
-sudo pacman -Rns blueberry
-v .config/i3/config-keep
 clar
 clear
 exit
@@ -498,3 +474,27 @@ clear
 exit
 adb devices
 scrcpy
+v .config/i3/config
+clear
+exit
+cl .bin
+clear
+exit
+rclone listremotes
+rclone ls main:
+clear
+exit
+rclone ls main:
+rclone listremotes
+rclone ls tup:
+rclone lsd] tup:
+rclone config
+rclone lsd tup
+rclone lsd tup:
+clear
+exit
+v .config/i3/config
+rclone --help
+rclone help sync
+man rsync
+man rclone
