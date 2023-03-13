@@ -1,55 +1,3 @@
-ssh mc@192.168.1.6
-ssh mc@192.168.1.9
-ssh mc@192.168.1.9:~/Documents/debloat-solus.sh ~/Repos/scripts
-scp mc@192.168.1.9:~/Documents/debloat-solus.sh ~/Repos/scripts
-ls
-cd Repos
-ll
-cl scripts
-vim solus-gnome-setup.sh
-cd Repos
-ll
-cl scripts
-vim solus-gnome-setup.sh
-cd g
-cd go
-cd pkg
-cd mod
-cd ..
-rm go
-rm -r go
-sudo rm -rf go
-ls
-rm -r go
-sudo rm -rf go
-cd .nv
-ls
-cd ComputeCache/
-cl
-cl ..
-clear
-exit
-cl 
-cl Downloads/
-cl zipped/
-cl ..
-syncthing
-cl
-cd ..
-ls
-cl Treasure_of_Nadia_-_Linux-v1.0117
-vim launcher.sh 
-vim nw
-./launcher.sh
-./launcher.sh 
-pacman -Q dunst
-v Repos/scripts/dotfiles-backup.sh 
-v .config/i3/config
-subl .config/i3/config
-xlunch
-pacman -Ss xlunch
-v .config/i3/config
-v .config/i3/config-keep
 cl .config/i3
 v config.bak
 v config-keep 
@@ -496,5 +444,57 @@ mkdir GDrive_TUP && chmod 775 GDrive_TUP
 mkdir OneDrive_TUP && chmod 775 OneDrive_TUP
 cl 
 ls
+clear
+exit
+v .config/i3/config
+htop
+clear
+exit
+mkdir OneDrive_Main
+chmod 775 OneDrive_
+chmod 775 OneDrive_Main
+ls
+cl
+clea
+rclone config
+rclone mount --daemon tup: GDrive_TUP/
+clear
+exit
+rclone config
+rclone --help
+rclone mount --daemon od-main: OneDrive_Main/
+clear
+exit
+rclone authorize "onedrive" "eyJkcml2ZV9pZCI6ImIhN2RISEVKRE1QMFNiLWtvSHBiYmQtemJFdWlwYlJVcFBpM29ncWpFcUpuNXFhZDZFWWN1S1JZaWdQYWN4Rk1hYiIsImRyaXZlX3R5cGUiOiJidXNpbmVzcyJ9"
+v .config/i3/config
+clear
+exit
+sudo pacman -S catfish
+v .config/i3/config
+clear
+exit
+sudo ufw status
+clear
+exit
+v .config/i3/config
+sudo ufw status
+sudo 
+app list
+ufw app list
+sudo ufw app list
+sudo ufw allow 1714:1764/udp
+sudo ufw allow 1714:1764/tcp
+sudo ufw reload
+sudo ufw status verbose
+clear
+exit
+cd Sync
+ls
+touch file
+htop
+v .config/i3/config
+clear
+exit
+v .config/i3/config
 clear
 exit
