@@ -1,66 +1,3 @@
-pacman -Ss simple-backup
-yay -Ss simple-backup
-clear
-exit
-sudo pacman -Syu
-yay
-clear
-exit
-cd Lust\ Theory\ Season\ 2/
-ls
-./LustTheory2.sh
-htop
-nomachine
-n
-nx
-inxi -G
-clear
-exi
-xkill
-exi
-xkill
-cd /etc/x11/xinit
-vim xinitrc.d
-vim xinitrc
-cd xinitrc.d/
-ls ..
-cd ..
-ls
-clear
-exit
-cl
-vim .xinitrc 
-cl .config/i3
-cl ..
-cd KADOKAWA/
-ls
-cl RPGMV/
-clear
-exit
-cl /etc/xdg/i3status
-cl /etc/xdg
-cl ..
-cl .config/i3/
-vim i3status.conf 
-vim config
-clear
-eixt
-v .config/i3/config
-gvim
-subl /etc/skel/.config/i3/config
-cd /etc/skel
-ls
-cl
-cl .config
-cl i3
-cl config
-vim config
-v .bashrc
-clear
-exit
-vim .config/i3/config
-clear
-exi
 eixt
 v .config/i3/config
 subl  .config/i3/config
@@ -498,3 +435,66 @@ df -h
 clear
 exit
 rclone
+sudo pacman -Syu
+htop
+sudo pacman -S geary
+sudo pacman -Rns geary
+cl GDrive_Main
+cl chromebook/
+cd /
+sudo ncdu
+clear
+exit
+v .config/i3/config
+clear
+exit
+v .config/i3/config
+rsync --help
+:q
+thunderbird --help
+thunderbird --daemon
+clear
+exit
+thunderbird --daemno
+thunderbird --daemon
+thunderbird --help
+man thunderbird
+clear
+exit
+pacman -Ss drive
+cron
+pacman -Ss cron
+cronie
+cronie --help
+crontab
+crontab --help
+crond
+crond --help
+crond -h
+man cron
+clear
+exit
+pacman -Ss luckybackup
+pacman -Ss lucky
+pacman -Ss backup
+clear
+exiit
+exit
+rclone config
+exit
+lsb_release
+lsb_release -drc
+clear
+exit
+yay -S luckybackup
+sudo pacman -Rns grsync
+ssh
+clear
+exit
+ftp
+pacman -Ss ftp
+ip a
+sudo ufw allow 21
+ls
+sudo ufw status verbose
+v .config/i3/config
