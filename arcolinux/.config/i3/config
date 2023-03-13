@@ -238,6 +238,13 @@ exec --no-startup-id xfce4-power-manager &
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 #--------------------------User-----------------------------------
+## rclone
+exec --no-startup-id rclone mount --daemon main: ~/GDrive_Main/
+exec --no-startup-id rclone mount --daemon tup: ~/GDrive_TUP/
+exec --no-startup-id rclone mount --daemon mtc: ~/GDrive_MTC/
+exec --no-startup-id rclone mount --daemon secondary: ~/GDrive_Secondary/
+exec --no-startup-id rclone mount --daemon od-tup: ~/OneDrive_TUP/
+
 ## clipmenud
 exec --no-startup-id clipmenud
 ## Authentication dialog
