@@ -1,9 +1,3 @@
-cl .config/i3
-v config.bak
-v config-keep 
-clear
-pacman -Ss backup
-pacman -Ss simple-backu[
 pacman -Ss simple-backup
 yay -Ss simple-backup
 clear
@@ -498,3 +492,9 @@ exit
 v .config/i3/config
 clear
 exit
+v .config/i3/config
+cl
+df -h
+clear
+exit
+rclone
