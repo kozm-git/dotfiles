@@ -347,6 +347,7 @@ for_window [title="SketchUp for Web - SketchUp"] floating disable
 for_window [instance="kdeconnect-app" class="kdeconnect.app"] floating enable 
 for_window [instance="kdeconnect-settings" class="kdeconnect-settings"] floating enable
 for_window [class="kruler"] floating enable
+for_window [class="scrcpy"] floating enable
 
 # for_window [instance="gimp"] floating disable
 for_window [instance="script-fu"] border normal
