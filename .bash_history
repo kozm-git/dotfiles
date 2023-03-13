@@ -1,19 +1,3 @@
-clar
-clear
-exit
-v .config/i3/config
-./Deliverance.sh 
-clear
-eixt
-ipa 
-ip a
-eixt
-ipa 
-ip a
-cd /sys
-l;s
-cd devices
-cl 
 cd platform/
 cd coretemp.0/
 cl hwmon
@@ -498,3 +482,19 @@ rclone --help
 rclone help sync
 man rsync
 man rclone
+man rclone
+cd .avns/
+ls
+cl 
+cl Intertwined-0.10-pc/
+swallow ./Intertwined.sh
+adb devices
+swallow scrcpy
+v .config/i3/config
+rclone --help
+rclone sync -P ~/Archive/ tup:
+rclone --help
+rclone help
+rclone rmdir tup:/1st Year
+rclone rmdir tup:/"1st Year"
+rmdir --help
