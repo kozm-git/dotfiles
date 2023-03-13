@@ -1,13 +1,3 @@
-cd platform/
-cd coretemp.0/
-cl hwmon
-cl hwmon2
-cl ..
-cd ..
-cl
-clear
-exit
-v .config/i3/i3status.conf 
 cl proc
 cl /proc
 v uptime
@@ -498,3 +488,13 @@ rclone help
 rclone rmdir tup:/1st Year
 rclone rmdir tup:/"1st Year"
 rmdir --help
+cl GDrive_TUP/freshmen-01_Computer-Programming-Lab_01/
+pacman -Ss nextcloud
+rclone
+rclone backends
+rclone help backend
+rclone help backends
+clear
+exit
+adb devices
+swallow scrcpy
