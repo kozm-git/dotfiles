@@ -1,9 +1,3 @@
-clear
-exit
-xev --help
-lm_sensors
-lm
-sensor
 sensors
 clear
 exit
@@ -498,3 +492,9 @@ scrcpy
 swallow scrcpy
 xev --help
 xev -event keyboard
+vim .config/i3/config
+vim .config
+vim .config/i3/config
+vim Repos/scripts/screencast.sh 
+clear
+exit
