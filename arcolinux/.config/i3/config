@@ -244,7 +244,7 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 #exec_always --no-startup-id rclone mount --daemon od-main: ~/OneDrive_Main/
 
 ## nextcloud
-exec --no-startup-id nextcloud
+#exec --no-startup-id nextcloud
 
 ## kdeconnect
 exec --no-startup-id kdeconnect-indicator
