@@ -1,35 +1,3 @@
-exit
-v .config/i3/system-overview 
-conky
-v .config/i3/system
-v .config/i3/system-overview 
-clear
-exit
-figlet
-sudo pacman -S figlet
-figlet mc
-cd /usr/share/figlet
-ls
-lc
-cl fonts
-clear
-exit
-cl Documents/
-v lettering 
-clear
-exit
-man figlet
-cl /usr/share/figlet/fonts/
-v .config/i3/config
-v .config/i3/config
-v .config/i3/system-overview 
-lc
-cl fonts
-exit
-cl Documents/
-v lettering 
-exit
-figlet -f slant mc
 figlet -f Arch
 figlet Arch
 Arco
@@ -498,3 +466,35 @@ exit
 vim Repos/scripts/rclone-sync.sh 
 clear
 exit
+rclone listremotes
+rclone lsd 
+rclone lsd od-tup:
+rclone ls od-tup:Videos
+killall syncthing
+reload syncthing
+syncthing --help
+syncthing cli
+cd run
+cd /run
+ls
+cl mount
+cl ..
+cl media
+lc
+cl
+mc 
+cl mc
+cl Game\ Drive/
+cl .avns/
+cl My_cute_roommate-1.6.1ex-win/
+cd ..
+cl Ripples-0.4.6-pc/
+swallow Ripples.sh
+swallow ./Ripples.sh
+v .config/i3/config
+clear
+exit
+pacman -Ss evolution
+sudo pacman -S evolution evolution-on
+clear
+ext
