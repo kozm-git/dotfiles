@@ -217,6 +217,8 @@ bindsym control+mod1+f exec --no-startup-id firefox;focus
 bindsym $mod+m exec --no-startup-id brave --app=https://messenger.com;focus
 ## github
 bindsym $mod+g exec --no-startup-id brave --app=https://github.com/kozm-git?tab=repositories;focus
+## scrcpy
+bindsym $mod+Home exec --no-startup-id ~/Repos/scripts/screencast.sh
 
 #=================================================================
 #          A U T O L A U N C H   A T    S T A R T U P 
