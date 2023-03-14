@@ -1,54 +1,3 @@
-v .config/i3/system-overview 
-v .config/i3/i3status.conf 
-v .config/i3/config
-sudo pacman -S neovim
-pacman -Ss neovim
-sudo pacman -S neovim
-neovim
-vim
-nv
-nvim
-clear
-flameshot-gui
-flameshot -h
-flameshot gui
-nvim .config/i3/config
-cleaer
-v .config/i3/config
-clear
-exit
-yay -S tty-clock
-tty-clock
-htop
-tty-clock --help
-tty-clock -C 1
-tty-clock -C 2
-tty-clock -C 3
-tty-clock -C 4
-ranger
-nvim .config/i3/config
-v .config/i3/config
-clear
-exiit
-exit
-tty-clock -C 3
-swallow ./LustTheory2.
-swallow ./LustTheory2.sh
-v .config
-clear
-exit
-v .config/i3/picom.conf 
-clear
-exit
-xev
-xev -event keyboard
-xev -event keypresses
-xev -event keyboard
-exit
-sudo pacman -S rofi-emoji
-rofi -modi emoji -show emoji -emoji-format '{emoji}'
-rofi -modi emoji -show emoji
-v .config/i3/config
 clear
 exit
 xev --help
@@ -498,3 +447,54 @@ yay -Syu
 yay -S packettracer
 clear
 exit
+v .config/i3/config
+debtap -help
+debtap --help
+clear
+exit
+yay -Ss cisco
+sudo pacman -Syu
+exit
+yay -Syu
+exit
+v .config/i3/config
+pacman -Ss packettracer
+yay -S packettracer
+sudo pacman -S debtap
+sudo debtap -u
+cd Downloads/zipped/
+cd installers
+debtap Packet_Tracer821_amd64_signed_ab5472da4e.deb 
+sudo pacman -U packettracer-8.2.1-1-x86_64.pkg.tar.zst
+clear
+cl
+rm -rf packet_tracer821_amd64_signed_ab5472da4e-working-directory/
+sudo rm -rf packet_tracer821_amd64_signed_ab5472da4e-working-directory/
+sudo rm *
+ls
+cd ..
+sudo pacman -Rns debtap
+htop
+pacman -Ss lookingglass
+pacman -Ss looking
+yay -Ss looking
+yay -Ss glass
+xkill
+xprop
+sudo pacman -Rns nextcloud
+xprop
+cd Dropbox/
+cl
+mv 2021-11-25_I_sing_praises_mysolo.m4a ~/Recordings/my-collection/
+cl ~/Recordings/my-collection/
+clear
+exit
+cd Repos
+cl scripts/
+vim screencast.sh 
+./screencast.sh 
+adb devices
+scrcpy
+swallow scrcpy
+xev --help
+xev -event keyboard
