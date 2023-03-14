@@ -27,6 +27,7 @@
 #===========================================================
 #               	V A R I A B L E S 
 #===========================================================
+#                         /variables
 
 ##-----------------------keys------------------------------
 set $mod Mod4
@@ -41,6 +42,7 @@ font pango:Noto Mono Regular 13
 #==========================================================
 #                     K E Y B I N D I N G S                                      
 #==========================================================
+#                        /keybindings
 
 #---------------------run launchers------------------------
 ## dmenu
@@ -201,21 +203,16 @@ bindsym control+mod1+a exec --no-startup-id xfce4-appfinder
 ## pamac-manager
 bindsym control+mod1+p exec --no-startup-id pamac-manager
 ## screenshots                      
+#bindsym shift+Print exec --no-startup-id shutter
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 bindsym Print exec --no-startup-id scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 bindsym Control+Print exec --no-startup-id xfce4-screenshooter
 bindsym Control+Shift+Print exec --no-startup-id gnome-screenshot -i
 bindsym $mod+Control+Print exec --no-startup-id flameshot gui
-#bindsym shift+Print exec --no-startup-id shutter
-
-
 ## browser 
 bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
 bindsym $mod+w exec --no-startup-id brave;focus 
 bindsym control+mod1+f exec --no-startup-id firefox;focus
-bindsym control+mod1+v exec --no-startup-id vivaldi-stable;focus
-bindsym control+mod1+g exec --no-startup-id chromium;focus
-
 ## messenger
 bindsym $mod+m exec --no-startup-id brave --app=https://messenger.com;focus
 ## github
@@ -246,64 +243,52 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 #exec_always --no-startup-id rclone mount --daemon od-tup: ~/OneDrive_TUP/
 #exec_always --no-startup-id rclone mount --daemon od-main: ~/OneDrive_Main/
 
+## nextcloud
+exec --no-startup-id nextcloud
+
 ## kdeconnect
 exec --no-startup-id kdeconnect-indicator
 
 ## clipmenud
 exec --no-startup-id clipmenud
+
 ## Authentication dialog
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 ## Updater
 exec --no-startup-id pamac-tray
+
 ## network
 exec --no-startup-id nm-applet
+
 ## dropbox
 exec --no-startup-id dropbox start
+
 ## volume
 exec --no-startup-id volumeicon
+
 ## conky
 exec --no-startup-id conky -c ~/.config/i3/system-overview
+
 ## nitrogen
 exec --no-startup-id nitrogen --restore
+
 ## polybar
 #exec_always --no-startup-id ~/.config/polybar/launch.sh &
 
-
-# Text Editor
-# bindsym $mod+F2 exec --no-startup-id geany;focus
-bindsym $mod+F2 exec --no-startup-id atom;focus
-
-# Basic Draw Tool
-bindsym $mod+F3 exec --no-startup-id inkscape;focus
-
-# Advanced Draw Tool
-bindsym $mod+F4 exec --no-startup-id gimp;focus
-
-# document comparison
-bindsym $mod+F5 exec --no-startup-id meld;focus
+## wallpapers
 bindsym control+mod1+i exec --no-startup-id nitrogen;focus
-
-# video player
-bindsym $mod+F6 exec --no-startup-id vlc;focus
-
-# virtual machine
-bindsym $mod+F7 exec --no-startup-id virtualbox;focus
-
-# file management
+## file management
 for_window [class="Thunar"] focus
 bindsym $mod+F8 exec --no-startup-id thunar;focus
 bindsym $mod+Shift+Return exec --no-startup-id thunar;focus
 bindsym $mod+Shift+KP_Enter exec --no-startup-id thunar;focus
 bindsym control+mod1+b exec --no-startup-id thunar;focus
-
-# mail application
-bindsym $mod+F9 exec --no-startup-id evolution;focus
+## mail application
+#bindsym $mod+F9 exec --no-startup-id evolution;focus
+bindsym $mod+F9 exec --no-startup-id thunderbird;focus
 # bindsym $mod+F9 exec --no-startup-id geary;focus
 # bindsym control+mod1+e exec --no-startup-id geary;focus
-
-# music
-bindsym $mod+F10 exec --no-startup-id spotify;focus
-bindsym control+mod1+s exec --no-startup-id spotify;focus
 
 ################# floating or tiled rules         
 
