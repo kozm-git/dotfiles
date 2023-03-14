@@ -1,47 +1,3 @@
-figlet -f Arch
-figlet Arch
-Arco
-figlet Arco
-figlet Arco-i3
-figlet -f slant Arco-i3
-figlet -f slant MKOG
-figlet -f slant mkog
-figlet -f slant mc-archpc
-clear
-figlet -f slant Arcolinux
-Kennedy
-figlet -f slant Kennedy
-figlet -f slant 
-figlet -f slant Mc Kennedy
-figlet -f slant KOzm
-figlet -f slant Kozm
-figlet -f slant Kozm-arch
-figlet -f slant Kozm arch
-figlet -f slant Kozm Arch
-figlet -f slant My Archpc
-My Arch
-figlet -f slant My Arch
-v .config/i3/system-overview 
-swallow
-clear
-exit
-xprop
-v .config/i3/config
-v .config/i3/i3-st
-v .config/i3/i3-stat
-v .config/i3/i3status.conf 
-v .config/i3/system-overview 
-v .config/i3/config
-clear
-exit
-pacman -Ss swallow
-yay -Ss swallow
-yay -S i3-swallow-git 
-man swallow
-swallow --help
-ck
-cl
-swallow ./Intertwined.sh
 v .config/i3/system-overview 
 v .config/i3/i3status.conf 
 v .config/i3/config
@@ -498,3 +454,47 @@ pacman -Ss evolution
 sudo pacman -S evolution evolution-on
 clear
 ext
+v .config/i3/config
+pacman -Ss packet
+pacman -Ss packet
+cd IDriveForLinux/
+ls
+cd scripts/
+cl Idrivelib/
+cl cronsetup/
+cl archlinux/
+cl gte-0.8/
+cd .
+cd ..
+clear
+pacman -Ss evolution
+sudo pacman -S evolution evolution-on
+ext
+v .config/i3/config
+pacman -Ss packet
+cd cd Downloads
+cd Do
+cl Downloads/
+cl zipped/
+unzip IDriveForLinux.zip 
+mv IDriveForLinux ~
+cd ~
+cl IDriveForLinux/
+cl scripts
+chmod a+x *.pl
+ls
+less readme.txt 
+clear
+exit
+cl Downloads/installers
+clear
+exit
+yay -Ss debtap
+yay -Ss cisco
+sudo pacman -Syu
+clear
+exit
+yay -Syu
+yay -S packettracer
+clear
+exit
