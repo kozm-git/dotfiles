@@ -1,8 +1,3 @@
-clear
-exiit
-exit
-rclone config
-exit
 lsb_release
 lsb_release -drc
 clear
@@ -498,3 +493,8 @@ clear
 exit
 crontab -e
 pacman -Ss selinux
+crontab -e
+clear
+eixt
+exit
+crontab -l
