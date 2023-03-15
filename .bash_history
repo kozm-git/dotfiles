@@ -1,5 +1,3 @@
-exit
-v .config/i3/config
 rclone --help
 rclone help sync
 man rsync
@@ -498,3 +496,5 @@ clea
 htop
 clear
 exit
+rclone sync ~/Archive od-tup:Archive
+crontab -l
