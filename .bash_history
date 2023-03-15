@@ -1,5 +1,3 @@
-cronie
-cronie --help
 crontab
 crontab --help
 crond
@@ -498,3 +496,5 @@ exit
 crontab -e
 history
 crontab -l
+pacman -Ss gimp
+sudo pacman -S gimp
