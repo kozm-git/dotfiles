@@ -1,9 +1,3 @@
-exit
-rclone
-sudo pacman -Syu
-htop
-sudo pacman -S geary
-sudo pacman -Rns geary
 cl GDrive_Main
 cl chromebook/
 cd /
@@ -498,3 +492,9 @@ cd Archive/
 touch "working"
 touch itisworking
 ls
+rclone lsd od-tup:
+rclone lsd od-tup:Archive
+crontab -3
+crontab -e
+clear
+exit
