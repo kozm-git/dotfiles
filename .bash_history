@@ -1,4 +1,3 @@
-pacman -Ss backup
 clear
 exiit
 exit
@@ -498,3 +497,4 @@ sudo semanage fcontext -a -t svirt_image_t "~/KVM(/.*)?"
 clear
 exit
 crontab -e
+pacman -Ss selinux
