@@ -238,11 +238,6 @@ exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd &
 #--------------------------User-----------------------------------
 ## rclone
 #exec_always --no-startup-id rclone mount --daemon main: ~/GDrive_Main/
-#exec_always --no-startup-id rclone mount --daemon tup: ~/GDrive_TUP/
-#exec_always --no-startup-id rclone mount --daemon mtc: ~/GDrive_MTC/
-#exec_always --no-startup-id rclone mount --daemon secondary: ~/GDrive_Secondary/
-#exec_always --no-startup-id rclone mount --daemon od-tup: ~/OneDrive_TUP/
-#exec_always --no-startup-id rclone mount --daemon od-main: ~/OneDrive_Main/
 
 ## nextcloud
 #exec --no-startup-id nextcloud
