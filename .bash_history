@@ -1,4 +1,3 @@
-thunderbird --daemno
 thunderbird --daemon
 thunderbird --help
 man thunderbird
@@ -498,3 +497,4 @@ clear
 exit
 v .config/i3/config
 ps
+htop
