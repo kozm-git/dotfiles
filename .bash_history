@@ -1,6 +1,3 @@
-ls
-touch file
-htop
 v .config/i3/config
 clear
 exit
@@ -498,3 +495,6 @@ crontab -e
 v .config/i3/config
 clear
 exit
+rclone listremotes
+rclone lsd main"
+rclone lsd main:
