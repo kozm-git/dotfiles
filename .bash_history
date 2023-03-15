@@ -1,11 +1,3 @@
-exit
-rclone listremotes
-rclone ls main:
-clear
-exit
-rclone ls main:
-rclone listremotes
-rclone ls tup:
 rclone lsd] tup:
 rclone config
 rclone lsd tup
@@ -498,3 +490,11 @@ exit
 crontab -e
 cleaer
 crontab -l
+rclone sync --daemon ~/Archive od-tup:Archive
+;q
+cd Repos
+cd scripts/
+ls
+v rclone-sync.sh 
+clear
+exit
