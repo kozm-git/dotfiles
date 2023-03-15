@@ -1,8 +1,3 @@
-cl 
-cl Intertwined-0.10-pc/
-swallow ./Intertwined.sh
-adb devices
-swallow scrcpy
 v .config/i3/config
 rclone --help
 rclone sync -P ~/Archive/ tup:
@@ -498,3 +493,8 @@ cd Archive
 ls
 touch hourlybackupworks.txt
 cl
+cron
+crontab
+crontab -l
+crontab -e
+clea
