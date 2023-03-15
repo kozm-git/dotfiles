@@ -1,4 +1,3 @@
-cron
 pacman -Ss cron
 cronie
 cronie --help
@@ -498,3 +497,4 @@ crontab -e
 clear
 exit
 crontab -e
+history
