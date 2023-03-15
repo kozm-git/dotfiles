@@ -1,4 +1,3 @@
-pacman -Ss drive
 cron
 pacman -Ss cron
 cronie
@@ -498,3 +497,4 @@ crontab -l
 crontab -e
 clear
 exit
+crontab -e
