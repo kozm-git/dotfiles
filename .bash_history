@@ -1,6 +1,3 @@
-rclone lsd tup
-rclone lsd tup:
-clear
 exit
 v .config/i3/config
 rclone --help
@@ -498,3 +495,6 @@ clear
 exit
 crontab -e
 clea
+htop
+clear
+exit
