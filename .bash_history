@@ -1,218 +1,3 @@
-sensors
-clear
-exit
-nvidia-smi
-awk
-exit
-ps
-ps axch
-clear
-exit
-./Intertwined
-./Intertwined.sh
-swallow ./Intertwined.sh
-v .config/i3/config
-clear
-exit
-sudo pacman -S qutebrowser
-v .config/i3/config
-clear
-ls
-pacman -Ss oddysey
-v .config/mimeapps.list 
-clear
-eixt
-exit
-v .config/mimeapps.list 
-pacman -Ss simplenote
-yay -S simplenote
-yay -Ss simplenote
-htop
-cl /usr/bin
-ls *jo
-ls *joplin
-clear
-exit
-v .config/i3/config
-sudo pacman -Rns nvim
-sudo pacman -Rns neovim
-pacman -Ss clipmenu
-dmenu --help
-v .config/i3/config
-figlet -f slant arch
-figlet -f slant archlinux
-figlet -f slant arcolinux
-figlet -f slant ArcoLinux
-figlet -f slant arcolinux
-figlet -f slant ArcoLinux
-clear
-exit
-nvim .config/i3/system-overview 
-v .config/i3/system-overview 
-figlet ARCOLINUX
-CLEAR
-cls
-clear
-v .config/i3/config
-sudo pacman -Rns xpdf
-v .config/mimeapps.list 
-clear
-exit
-v .config/i3/config
-v .config/i3/config
-sudo pacman -S rename
-rename
-cls
-v .config/i3/config
-sudo pacman -Rns xpdf
-v .config/mimeapps.list 
-v .config/i3/config
-v .config/i3/config
-sudo pacman -S rename
-sudo pacman -S gprename
-sudo pacman -Ss rename
-sudo pacman -S renameutils
-sudo pacman -S pipe-rename
-pipe-rename
-sudo pacman -Rns pipe-rename
-rename
-cl Archives
-rename -a 's/^FRESHMEN/freshmen/'
-rename -a 's/^FRESHMEN/freshmen/'*
-rename -a 's/^FRESHMEN/freshmen/' *
-cl
-rename 's/^FRESHMEN/freshmen/' *FRESHMEN
-rename -n 's/^FRESHMEN/freshmen/' *FRESHMEN
-rename 's/^FRESHMEN/freshmen/' *
-ls
-rename -f 's/^FRESHMEN/freshmen/' *
-rename -help
-rename --help
-man rename
-clear
-exit
-sudo pacman -S perl-rename
-rename
-rename --help
-clear
-exit
-man rename
-clear
-exit
-rename -f 's/^FRESHMEN/freshmen/' *
-cl
-cd Repos
-cd ..
-cd Archive/
-rename -a 's/^FRESHMEN/freshmen/' *
-cl 
-rename -a 's/^FRESHMEN/freshmen/' 
-rename -a 's/^FRESHMEN/freshmen/'
-rename -a 's/^FRESHMEN/freshmen/' */
-ls
-rename -a 's/^FRESHMEN/freshmen/' *FRESHMEN
-rename -a 's/^FRESHMEN/freshmen/' *.png
-sudo pacman -S gprename
-killall conky 
-start conky
-v .config/i3/config
-cleae
-conky 
-v .config/i3/config
-cd .config/i3
-ls
-:wq
-v .config/i3/config
-clear
-exit
-ranger
-cl 
-clear
-exit
-v .config/alacritty/alacritty.yml
-clear
-exit
-sudo pacman -Ss nextcloud
-yya
-yay
-v .config/i3/system-overview 
-v .config/i3/i3status.conf 
-rclone
-clear
-exit
-rclone authorize "onedrive"
-cd .config/i3
-:wq
-v .config/i3/config
-ranger
-v .config/alacritty/alacritty.yml
-sudo pacman -Ss nextcloud
-yya
-yay
-v .config/i3/system-overview 
-v .config/i3/i3status.conf 
-rclone
-mkdir Gdrive
-mv Gdrive GDrive
-chmod 777 Gdrive
-chmod 777 GDrive
-chmod 775 GDrive/
-cl
-chmod 775 Programming/
-rclone mount main: ~/GDrive
-mv GDrive GDrive_Main
-rclone --daemon mount main: ~/GDrive_Main/
-rclone mount --daemon main: ~/GDrive_Main/
-rclone config
-mkdir GDrive_Secondary
-chmod 775 GDrive_Secondary/
-mkdir GDrive_MTC && chmod 775 GDrive_MTC
-mkdir GDrive_TUP && chmod 775 GDrive_TUP
-mkdir OneDrive_TUP && chmod 775 OneDrive_TUP
-cl 
-ls
-clear
-exit
-v .config/i3/config
-htop
-clear
-exit
-mkdir OneDrive_Main
-chmod 775 OneDrive_
-chmod 775 OneDrive_Main
-ls
-cl
-clea
-rclone config
-rclone mount --daemon tup: GDrive_TUP/
-clear
-exit
-rclone config
-rclone --help
-rclone mount --daemon od-main: OneDrive_Main/
-clear
-exit
-rclone authorize "onedrive" "eyJkcml2ZV9pZCI6ImIhN2RISEVKRE1QMFNiLWtvSHBiYmQtemJFdWlwYlJVcFBpM29ncWpFcUpuNXFhZDZFWWN1S1JZaWdQYWN4Rk1hYiIsImRyaXZlX3R5cGUiOiJidXNpbmVzcyJ9"
-v .config/i3/config
-clear
-exit
-sudo pacman -S catfish
-v .config/i3/config
-clear
-exit
-sudo ufw status
-clear
-exit
-v .config/i3/config
-sudo ufw status
-sudo 
-app list
-ufw app list
-sudo ufw app list
-sudo ufw allow 1714:1764/udp
-sudo ufw allow 1714:1764/tcp
-sudo ufw reload
-sudo ufw status verbose
 clear
 exit
 cd Sync
@@ -498,3 +283,218 @@ vim .config/i3/config
 vim Repos/scripts/screencast.sh 
 clear
 exit
+v .config/i3/i3status.conf 
+clear
+exit
+pacman -Ss bottles
+yay -Ss bottles
+pacman -Ss wine
+LC_ALL=C lscpu | grep Virtualization
+clear
+exit
+cl Repos/scripts/
+v virtmanager-setup.sh 
+clear
+exit
+flatpak
+flatpak --help
+flatpak list
+flatpak remotes
+flatpak update
+flatpak install flathub com.usebottles.bottles
+export | grep gtk
+flatpak install flathub com.usebottles.bottles
+export | grep gtk
+vim .gtkrc-2.0 
+cd .config
+ls
+vim Trolltech.conf 
+cd gtk-2.0/
+vim gtkfilechooser.ini 
+cl ..
+cd gtk-3.0/
+cl
+vim settings.ini 
+clear
+exit
+exit
+cd /etc
+cd gtk-2.0/
+l
+ls
+cd ..
+cl gtk-3.0/
+vim im-multipress.conf 
+swallow ./Ripples.
+swallow ./Ripples.sh
+vim /etc/gtk-3.0/settings.ini
+vim ~/.config/gtk-3.0/settings.ini
+clear
+exit
+pacman -Ss virtualbox
+sudo pacman -S virtualbox
+sudo pacman -S virtualbox-host-modules-arch
+clear
+exit
+cl /sbin
+vboxconfig
+sudo ./vboxconfig
+sudo pacman -Rns virtualbox
+clear
+exii
+cl
+less readme.txt 
+less readme.txt 
+cl .config
+cd /etc/default
+cd ..
+cd /usr/share/xsessions/
+ls
+vim /etc/sddm.conf
+clear
+exit
+v /etc/sddm.conf.d/kde_settings.conf 
+sudo v /etc/sddm.conf.d/kde_settings.conf 
+sudo vim /etc/sddm.conf.d/kde_settings.conf 
+sudo vim /etc/sddm.conf
+sudo vim /etc/sddm.conf.d/kde_settings.conf 
+clear
+exit
+vim .config/user-dirs.locale 
+vim .config/user-dirs.dirs
+clear
+exit
+v .config/user-dirs.dirs
+mkdir ~/Dropbox/Templates
+cl ~/Dropbox
+v ~/.config/user-dirs.dir
+v ~/.config/user-dirs.dirs
+clear
+exit
+clear
+exit
+rclone list-remotes
+rclone listremotes
+rclone lsd od-tup:Documents
+rclone lsd od-tup:Documents/Others
+rclone lsd od-tup:Documents/SchoolArchive/Arhi
+rclone lsd od-tup:Documents/SchoolArchive
+cd ..
+cd~
+cd ~
+rclone --help
+rclone mkdir Archive od-tup:
+rclone mkdir --help
+rclone help mkdir
+rclone mkdir od-tup:Archvie
+rclone mkdir od-tup:Archive
+rclone lsd od-tup
+rclone lsd od-tup:
+rclone rmdir od-tup:Archvie
+rclone sync -P ~/Archive od-tup:Archive
+clear
+exit
+rclone help
+rclone -t
+rclone move od-tup:Documents/Others/gomez-resignation.docx ~/Dropbox/Letters
+rclone move od-tup:Documents/Others/store-sched.xlsx ~/Dropbox/Letters
+rclone move od-tup:Documents/Others/ ~/Dropbox/Letters
+rclone rmdir od-tup:Documents/Others
+crontab -l
+crontab -e
+crontab -l
+su
+date
+cl Repos/scirpts
+cd ..
+sudo crontab -u -e
+sudo crontab -u root -e
+claer
+exit
+cd ..
+sudo crontab -u -e
+sudo crontab -u root -e
+claer
+crontab -e
+cl
+ls
+date
+clear
+exit
+crontab
+crontab -l
+cl
+ls
+date
+dated
+clea
+clear
+exit
+dated
+clea
+exit
+crontab
+crontab -e
+date date
+date
+clear
+exiit
+date
+echo "helo" > hello
+crontab -h
+crontab -l
+crontab -e
+clear
+exit
+crontab -l
+crontab -help
+crontab --help
+crontab -h
+curl wttr.in
+cl
+curl wttr.in
+v Repos/scritps
+v Repos/scripts/weather.sh
+clear
+chmod +x Repos/scripts/weather.sh 
+cl Repos/scripts
+./weather.sh 
+clear
+exit
+crontab 
+crontab -e
+sudo systemctl enable crond
+sudo systemctl enable cron
+sudo systemctl enable crontab
+cd /tmp
+ls
+cd /tmp
+ls
+systemctl status crond
+systemctl status cron
+pacman -Ss cron
+systemctl enable cronie
+systemctl start cronie
+systemctl status cronie
+crontab -e
+echo "ha" >> what.txt
+cl
+ls
+rm what.txt
+pacman -Ss anacron
+cat /etc/anacrontab 
+cat /etc/anacrontab 
+systemctl disable cronie
+systemctl enable cronie
+systemctl status cronie.service 
+crontab -u root -e
+sudo crontab -u root -e
+crontab -u root -e
+crontab
+crontab -l
+crontab -u root -l
+sudo crontab -u root -e
+sudo crontab -u root -r
+sudo crontab -u root -l
+sudo crontab -e
+crontab -e
