@@ -1,4 +1,3 @@
-clear
 exit
 cd Sync
 ls
@@ -498,3 +497,4 @@ sudo crontab -u root -r
 sudo crontab -u root -l
 sudo crontab -e
 crontab -e
+v .config/i3/config
