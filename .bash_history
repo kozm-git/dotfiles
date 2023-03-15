@@ -1,4 +1,3 @@
-rmdir --help
 cl GDrive_TUP/freshmen-01_Computer-Programming-Lab_01/
 pacman -Ss nextcloud
 rclone
@@ -498,3 +497,4 @@ crontab -3
 crontab -e
 clear
 exit
+crontab -l
