@@ -1,4 +1,3 @@
-clear
 exit
 v .config/i3/config
 clear
@@ -498,3 +497,4 @@ rclone listremotes
 rclone lsd main"
 rclone lsd main:
 htop
+v .config/user-dirs.dirs
