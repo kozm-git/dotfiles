@@ -1,6 +1,3 @@
-crontab
-crontab --help
-crond
 crond --help
 crond -h
 man cron
@@ -498,3 +495,6 @@ history
 crontab -l
 pacman -Ss gimp
 sudo pacman -S gimp
+[200~cat /etc/selinux~
+cat /etc/selinux
+cl /etc/selinux
