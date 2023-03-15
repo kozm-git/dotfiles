@@ -1,4 +1,3 @@
-exit
 thunderbird --daemno
 thunderbird --daemon
 thunderbird --help
@@ -498,3 +497,4 @@ crontab -e
 clear
 exit
 v .config/i3/config
+ps
