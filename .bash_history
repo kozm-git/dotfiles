@@ -1,19 +1,3 @@
-lsb_release
-lsb_release -drc
-clear
-exit
-yay -S luckybackup
-sudo pacman -Rns grsync
-ssh
-clear
-exit
-ftp
-pacman -Ss ftp
-ip a
-sudo ufw allow 21
-ls
-sudo ufw status verbose
-v .config/i3/config
 clear
 exit
 xprop
@@ -498,3 +482,19 @@ clear
 eixt
 exit
 crontab -l
+crontab -e
+pacman -Ss selinux
+crontab -e
+eixt
+crontab -l
+rclone listremotes
+rclone lsd od-tup:
+rclone ocnfig
+rclone config
+rclone ls od-tup:
+rclone --help
+rclone ls od-main:
+rclone ls tup:
+rclone ls main:
+clear
+exit
