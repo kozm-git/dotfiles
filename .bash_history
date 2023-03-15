@@ -1,5 +1,3 @@
-exit
-cl .bin
 clear
 exit
 rclone listremotes
@@ -498,3 +496,5 @@ rclone ls od-tup:Archive
 rclone sync -P ~/Archive od-tup:Archive
 clear
 exit
+crontab -e
+cleaer
