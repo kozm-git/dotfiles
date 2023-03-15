@@ -1,8 +1,3 @@
-thunderbird --daemon
-thunderbird --help
-man thunderbird
-clear
-exit
 pacman -Ss drive
 cron
 pacman -Ss cron
@@ -498,3 +493,8 @@ exit
 v .config/i3/config
 ps
 htop
+cronrab -l
+crontab -l
+crontab -e
+clear
+exit
