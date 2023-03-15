@@ -80,8 +80,7 @@ bindsym $mod+X exec --no-startup-id archlinux-logout
 
 #--------------------commands---------------------------
 ## restart wm
-bindsym $mod+Ctrl+Shift+r restart
-bindsym $mod+Shift+r exec --no-startup-id alacritty -e bash ~/Repos/scripts/dotfiles-backup.sh; exec --no-startup-id alacritty -e bash ~/Repos/scripts/scripts-backup.sh; restart  
+bindsym $mod+Shift+r restart
 
 #-------------------window management-------------------
 ## xkill
