@@ -1,11 +1,3 @@
-clear
-exit
-xprop
-v .config/i3/config
-clear
-exit
-adb devices
-scrcpy
 v .config/i3/config
 clear
 exit
@@ -498,3 +490,11 @@ rclone ls tup:
 rclone ls main:
 clear
 exit
+rclone sync -P ~/Archive tup:
+clear
+exit
+rclone config
+rclone lsd od-tup:
+rclone lsd od-tup:Archive
+rclone ls od-tup:Archive
+rclone sync -P ~/Archive od-tup:Archive
