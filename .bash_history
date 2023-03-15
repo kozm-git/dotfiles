@@ -1,9 +1,3 @@
-crond --help
-crond -h
-man cron
-clear
-exit
-pacman -Ss luckybackup
 pacman -Ss lucky
 pacman -Ss backup
 clear
@@ -498,3 +492,9 @@ sudo pacman -S gimp
 [200~cat /etc/selinux~
 cat /etc/selinux
 cl /etc/selinux
+mkdir KVM
+ls
+chmod 777 KVM
+sudo semanage fcontext -a -t svirt_image_t "~/KVM(/.*)?"
+clear
+exit
