@@ -1,5 +1,3 @@
-v .config/i3/config
-clear
 exit
 cl .bin
 clear
@@ -498,3 +496,5 @@ rclone lsd od-tup:
 rclone lsd od-tup:Archive
 rclone ls od-tup:Archive
 rclone sync -P ~/Archive od-tup:Archive
+clear
+exit
