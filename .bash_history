@@ -1,4 +1,3 @@
-pacman -Ss lucky
 pacman -Ss backup
 clear
 exiit
@@ -498,3 +497,4 @@ chmod 777 KVM
 sudo semanage fcontext -a -t svirt_image_t "~/KVM(/.*)?"
 clear
 exit
+crontab -e
