@@ -1,4 +1,3 @@
-clear
 exit
 rclone listremotes
 rclone ls main:
@@ -498,3 +497,4 @@ clear
 exit
 crontab -e
 cleaer
+crontab -l
