@@ -1,5 +1,3 @@
-rclone lsd] tup:
-rclone config
 rclone lsd tup
 rclone lsd tup:
 clear
@@ -498,3 +496,5 @@ ls
 v rclone-sync.sh 
 clear
 exit
+crontab -e
+clea
