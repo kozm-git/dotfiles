@@ -1,7 +1,3 @@
-man rclone
-man rclone
-cd .avns/
-ls
 cl 
 cl Intertwined-0.10-pc/
 swallow ./Intertwined.sh
@@ -498,3 +494,7 @@ crontab -l
 crontab -e
 clear
 exit
+cd Archive
+ls
+touch hourlybackupworks.txt
+cl
