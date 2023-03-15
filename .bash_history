@@ -1,7 +1,3 @@
-cl GDrive_Main
-cl chromebook/
-cd /
-sudo ncdu
 clear
 exit
 v .config/i3/config
@@ -498,3 +494,7 @@ crontab -3
 crontab -e
 clear
 exit
+crontab -e
+clear
+exit
+crontab -l
