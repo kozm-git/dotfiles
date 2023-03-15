@@ -1,7 +1,3 @@
-:q
-thunderbird --help
-thunderbird --daemon
-clear
 exit
 thunderbird --daemno
 thunderbird --daemon
@@ -498,3 +494,7 @@ cd Archive
 rm itisworking working
 ls
 cd ..
+crontab -e
+clear
+exit
+v .config/i3/config
