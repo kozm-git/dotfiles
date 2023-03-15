@@ -1,12 +1,4 @@
 exit
-v .config/i3/config
-clear
-exit
-v .config/i3/config
-cl
-df -h
-clear
-exit
 rclone
 sudo pacman -Syu
 htop
@@ -498,3 +490,11 @@ rclone lsd main"
 rclone lsd main:
 htop
 v .config/user-dirs.dirs
+rclone listremotes
+rclone lsd tup:
+rclone listremotes
+rclone lsd tup:
+cd Archive/
+touch "working"
+touch itisworking
+ls
