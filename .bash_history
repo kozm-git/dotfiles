@@ -1,10 +1,3 @@
-v .config/i3/config
-rclone --help
-rclone sync -P ~/Archive/ tup:
-rclone --help
-rclone help
-rclone rmdir tup:/1st Year
-rclone rmdir tup:/"1st Year"
 rmdir --help
 cl GDrive_TUP/freshmen-01_Computer-Programming-Lab_01/
 pacman -Ss nextcloud
@@ -498,3 +491,10 @@ crontab
 crontab -l
 crontab -e
 clea
+htop
+clear
+exit
+crontab -3
+crontab -e
+clear
+exit
