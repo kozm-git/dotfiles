@@ -1,6 +1,3 @@
-rclone --help
-rclone help sync
-man rsync
 man rclone
 man rclone
 cd .avns/
@@ -498,3 +495,6 @@ clear
 exit
 rclone sync ~/Archive od-tup:Archive
 crontab -l
+crontab -e
+clear
+exit
