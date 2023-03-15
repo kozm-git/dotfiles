@@ -1,10 +1,3 @@
-clear
-exit
-v .config/i3/config
-clear
-exit
-v .config/i3/config
-rsync --help
 :q
 thunderbird --help
 thunderbird --daemon
@@ -498,3 +491,10 @@ crontab -e
 clear
 exit
 crontab -l
+crontab -l
+rclone --help
+rclone lsd tup:
+cd Archive
+rm itisworking working
+ls
+cd ..
