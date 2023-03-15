@@ -1,4 +1,3 @@
-v .config/i3/config
 clear
 exit
 v .config/i3/config
@@ -498,3 +497,4 @@ exit
 rclone listremotes
 rclone lsd main"
 rclone lsd main:
+htop
